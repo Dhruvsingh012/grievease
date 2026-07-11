@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- GrievEase v3.0 - Student Login -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GrievEase | Student Login</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif; min-height: 100vh;
+      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 55%, #3b82f6 100%);
+      display: flex; align-items: center; justify-content: center; padding: 1rem;
+    }
+    .page-wrapper {
+      display: grid; grid-template-columns: 1fr 1fr;
+      width: 100%; max-width: 900px; border-radius: 24px;
+      overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.4);
+    }
+    .left-panel {
+      background: linear-gradient(160deg, #1e3a8a, #2563eb);
+      padding: 3rem 2.5rem; display: flex; flex-direction: column; justify-content: space-between; color: #fff;
+    }
+    .left-panel .brand    { font-size: 1.5rem; font-weight: 800; }
+    .left-panel .tagline  { font-size: .82rem; opacity: .65; margin-top: 4px; }
+    .left-panel .hero-h2  { font-size: 1.6rem; font-weight: 700; line-height: 1.3; margin-bottom: 1rem; }
+    .left-panel .hero-p   { font-size: .88rem; opacity: .75; line-height: 1.7; }
+    .feat-list { margin-top: 1.75rem; display: flex; flex-direction: column; gap: .65rem; }
+    .feat-item { display: flex; align-items: center; gap: .75rem; font-size: .84rem; opacity: .85; }
+    .feat-icon { width: 32px; height: 32px; background: rgba(255,255,255,.15); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .right-panel { background: #fff; padding: 3rem 2.5rem; }
+    .back-link { display: inline-flex; align-items: center; gap: 6px; color: #2563eb; font-size: .82rem; font-weight: 600; text-decoration: none; margin-bottom: 2rem; }
+    .back-link:hover { text-decoration: underline; }
+    .role-badge { display: inline-flex; align-items: center; gap: 6px; background: #dbeafe; color: #1d4ed8; padding: 5px 14px; border-radius: 999px; font-size: .78rem; font-weight: 700; margin-bottom: 1.5rem; }
+    .login-title    { font-size: 1.6rem; font-weight: 800; color: #0f172a; margin-bottom: .4rem; }
+    .login-subtitle { color: #64748b; font-size: .88rem; margin-bottom: 2rem; }
+    .form-group { margin-bottom: 1.25rem; }
+    .form-group label { display: block; font-size: .82rem; font-weight: 600; color: #374151; margin-bottom: .4rem; }
+    .form-group input {
+      width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb;
+      border-radius: 10px; font-size: .9rem; font-family: inherit;
+      transition: border-color .2s, box-shadow .2s; outline: none; color: #0f172a;
+    }
+    .form-group input:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,.12); }
+    .info-box { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 11px 16px; font-size: .82rem; color: #1e40af; margin-bottom: 1.5rem; }
+    .submit-btn {
+      width: 100%; padding: 14px; border: none; border-radius: 12px;
+      background: linear-gradient(135deg, #2563eb, #1e3a8a);
+      color: #fff; font-size: .95rem; font-weight: 700;
+      cursor: pointer; transition: transform .15s, box-shadow .15s;
+    }
+    .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(37,99,235,.35); }
+    .divider { display: flex; align-items: center; gap: .75rem; margin: 1.25rem 0; color: #94a3b8; font-size: .8rem; }
+    .divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: #e5e7eb; }
+    .guest-btn {
+      width: 100%; padding: 12px; border: 2px solid #e5e7eb; border-radius: 12px;
+      background: #fff; color: #475569; font-size: .88rem; font-weight: 600;
+      cursor: pointer; transition: border-color .15s, background .15s;
+    }
+    .guest-btn:hover { border-color: #2563eb; background: #eff6ff; color: #1d4ed8; }
+    .login-footer { text-align: center; margin-top: 1.5rem; font-size: .82rem; color: #94a3b8; }
+    .login-footer a { color: #2563eb; font-weight: 600; text-decoration: none; }
+    .login-footer a:hover { text-decoration: underline; }
+    #studentLoginError { display: none; background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 10px 14px; font-size: .83rem; color: #dc2626; margin-bottom: 1rem; }
+    @media (max-width: 640px) {
+      .page-wrapper { grid-template-columns: 1fr; }
+      .left-panel { padding: 2rem; }
+      .right-panel { padding: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="left-panel">
+      <div>
+        <div class="brand">🎓 GrievEase</div>
+        <div class="tagline">University Grievance Management</div>
+      </div>
+      <div>
+        <h2 class="hero-h2">Your Voice Matters.</h2>
+        <p class="hero-p">Submit grievances, track progress in real time, and experience transparent AI-powered resolution. Every complaint is routed automatically to the right department.</p>
+        <div class="feat-list">
+          <div class="feat-item"><span class="feat-icon">🤖</span> AI auto-predicts category and priority</div>
+          <div class="feat-item"><span class="feat-icon">⚡</span> Auto-assigned to department staff</div>
+          <div class="feat-item"><span class="feat-icon">⏱</span> SLA tracking with live countdown</div>
+          <div class="feat-item"><span class="feat-icon">🔔</span> Real-time notifications on updates</div>
+        </div>
+      </div>
+      <div style="font-size:.75rem;opacity:.45;margin-top:2rem;">GrievEase v3.0 · Student Portal</div>
+    </div>
+
+    <div class="right-panel">
+      <a href="index.html" class="back-link">← Back to Home</a>
+      <span class="role-badge">👨‍🎓 Student Portal</span>
+      <h1 class="login-title">Student Login</h1>
+      <p class="login-subtitle">Enter your details to access your grievance dashboard. New students are registered automatically.</p>
+
+      <div class="info-box">ℹ️ No password needed — login with your name, email, and admission number.</div>
+      <div id="studentLoginError">❌ Login failed. Please check your details and try again.</div>
+
+      <form id="studentLoginForm">
+        <div class="form-group">
+          <label for="studentName">Full Name</label>
+          <input type="text" id="studentName" placeholder="e.g. Aarav Sharma" required autocomplete="name"/>
+        </div>
+        <div class="form-group">
+          <label for="studentEmail">University Email</label>
+          <input type="email" id="studentEmail" placeholder="student@university.edu" required autocomplete="email"/>
+        </div>
+        <div class="form-group">
+          <label for="studentAdmission">Admission Number</label>
+          <input type="text" id="studentAdmission" placeholder="e.g. 2024CS001" required autocomplete="off"/>
+        </div>
+        <button type="submit" class="submit-btn" id="studentLoginBtn">Login to Student Portal</button>
+      </form>
+
+      <div class="divider">or</div>
+      <button class="guest-btn" id="guestAccess">👤 Continue as Guest (Demo Mode)</button>
+
+      <div class="login-footer">
+        Staff? <a href="staff-login.html">Staff Login</a>
+        &nbsp;·&nbsp;
+        Admin? <a href="admin-login.html">Admin Login</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

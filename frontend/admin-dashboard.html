@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<!-- GrievEase v3.0 - Admin Dashboard -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GrievEase | Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="admin-dashboard">
+
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <span class="brand-logo">GrievEase</span>
+      <p class="subtitle">Admin Panel</p>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="#adminOverview"     class="nav-link active" data-section="adminOverview">📊 Dashboard</a>
+      <a href="#complaintsSection" class="nav-link" data-section="complaintsSection">📋 Complaints</a>
+      <a href="#staffSection"      class="nav-link" data-section="staffSection">👥 Staff</a>
+      <a href="#departmentsSection"class="nav-link" data-section="departmentsSection">🏢 Departments</a>
+      <a href="#reportsSection"    class="nav-link" data-section="reportsSection">📈 Analytics</a>
+      <a href="#auditSection"      class="nav-link" data-section="auditSection">🔒 Audit Log</a>
+    </nav>
+    <button id="adminLogout" class="btn ghost full">Logout</button>
+  </aside>
+
+  <main class="admin-main">
+
+    <!-- HEADER -->
+    <header class="admin-header" id="adminOverview">
+      <div>
+        <p class="eyebrow">Administrator Dashboard</p>
+        <h1>GrievEase Control Center</h1>
+        <p class="subtitle">Enterprise University Grievance Management System v3.0</p>
+      </div>
+      <div class="admin-actions">
+        <div class="notif-bell">
+          <button class="btn ghost small" onclick="openNotifications()">🔔 <span class="badge-count" id="adminNotifCount" hidden>0</span></button>
+        </div>
+        <button id="runEscalation"  class="btn secondary small">⚡ Run Escalation</button>
+        <button id="exportCsv"      class="btn secondary small">📥 Export CSV</button>
+        <button id="backupDb"       class="btn tertiary small">💾 Backup DB</button>
+        <button id="loadSampleData" class="btn tertiary small">🧪 Sample Data</button>
+        <button id="darkModeToggle" class="btn ghost small" title="Toggle Dark Mode">🌙</button>
+        <button id="clearAllComplaints" class="btn ghost small">🗑 Clear All</button>
+      </div>
+    </header>
+
+    <!-- STATS CARDS -->
+    <section class="card-grid stats-grid">
+      <article class="card metric-card blue">
+        <span class="label">Total Complaints</span>
+        <span class="metric" id="totalComplaintsAdmin">0</span>
+      </article>
+      <article class="card metric-card yellow">
+        <span class="label">Pending</span>
+        <span class="metric" id="pendingComplaintsAdmin">0</span>
+      </article>
+      <article class="card metric-card purple">
+        <span class="label">In Progress</span>
+        <span class="metric" id="inProgressComplaintsAdmin">0</span>
+      </article>
+      <article class="card metric-card green">
+        <span class="label">Resolved</span>
+        <span class="metric" id="resolvedComplaintsAdmin">0</span>
+      </article>
+      <article class="card metric-card red">
+        <span class="label">Escalated</span>
+        <span class="metric" id="escalatedComplaintsAdmin">0</span>
+      </article>
+      <article class="card metric-card dark">
+        <span class="label">Closed</span>
+        <span class="metric" id="closedComplaintsAdmin">0</span>
+      </article>
+    </section>
+
+    <!-- ANALYTICS CHARTS -->
+    <section class="card" id="reportsSection">
+      <div class="card-header">
+        <div>
+          <h2>Analytics &amp; Reports</h2>
+          <p class="subtitle">Category distribution, status trends, department performance, staff metrics.</p>
+        </div>
+        <div class="card-actions">
+          <button class="btn tertiary small" onclick="loadAnalytics()">Refresh</button>
+          <a id="downloadAnalytics" class="btn ghost small" href="/api/admin/reports/analytics/json" download>Export JSON</a>
+        </div>
+      </div>
+      <div id="analyticsKpis" class="kpi-row"></div>
+      <div class="chart-row" id="chartRow">
+        <div class="chart-card">
+          <h4>Category Distribution</h4>
+          <canvas id="categoryChart"></canvas>
+        </div>
+        <div class="chart-card">
+          <h4>Status Distribution</h4>
+          <canvas id="statusChart"></canvas>
+        </div>
+        <div class="chart-card">
+          <h4>Priority Breakdown</h4>
+          <canvas id="priorityChart"></canvas>
+        </div>
+        <div class="chart-card wide">
+          <h4>Monthly Complaint Trends</h4>
+          <canvas id="monthlyChart"></canvas>
+        </div>
+        <div class="chart-card wide">
+          <h4>Department Performance</h4>
+          <canvas id="deptChart"></canvas>
+        </div>
+        <div class="chart-card wide">
+          <h4>Staff Performance</h4>
+          <canvas id="staffPerfChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPLAINTS TABLE -->
+    <section class="card" id="complaintsSection">
+      <div class="card-header">
+        <div>
+          <h2>Complaint Queue</h2>
+          <p class="subtitle">Filter, bulk update, assign staff, view timelines.</p>
+        </div>
+        <div class="card-actions">
+          <button id="refreshAdminComplaints" class="btn tertiary small">Refresh</button>
+        </div>
+      </div>
+
+      <!-- FILTERS -->
+      <div class="filter-bar">
+        <select id="filterStatus" onchange="filterComplaints()">
+          <option value="">All Status</option>
+          <option>Pending</option>
+          <option>Assigned</option>
+          <option>In Progress</option>
+          <option>Escalated</option>
+          <option>Resolved</option>
+          <option>Closed</option>
+        </select>
+        <select id="filterCategory" onchange="filterComplaints()">
+          <option value="">All Categories</option>
+          <option>Academic</option><option>Administration</option>
+          <option>Examination</option><option>Fees</option>
+          <option>Hostel</option><option>IT Support</option>
+          <option>Infrastructure</option><option>Library</option>
+          <option>Security</option><option>Transport</option>
+        </select>
+        <select id="filterPriority" onchange="filterComplaints()">
+          <option value="">All Priorities</option>
+          <option>Critical</option><option>High</option>
+          <option>Medium</option><option>Low</option>
+        </select>
+        <input type="text" id="filterSearch" placeholder="Search ID / student / title…" oninput="filterComplaints()"/>
+        <button class="btn ghost small" onclick="clearFilters()">Clear</button>
+      </div>
+
+      <!-- BULK BAR -->
+      <div id="bulkBar" class="bulk-bar hidden">
+        <span id="bulkCount">0 selected</span>
+        <select id="bulkStatus">
+          <option value="">Select status…</option>
+          <option>Assigned</option><option>In Progress</option>
+          <option>Resolved</option><option>Closed</option>
+        </select>
+        <button class="btn primary small" onclick="doBulkUpdate()">Apply</button>
+        <button class="btn ghost small" onclick="clearSelection()">Deselect All</button>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="data-table" id="adminComplaintsTable">
+          <thead>
+            <tr>
+              <th class="checkbox-col"><input type="checkbox" id="selectAll" onchange="toggleSelectAll(this)"/></th>
+              <th>ID</th>
+              <th>Student</th>
+              <th>Title</th>
+              <th>Category</th>
+              <th>Priority</th>
+              <th>Status</th>
+              <th>Assigned To</th>
+              <th>SLA</th>
+              <th>Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="11" class="empty">No complaints yet. Load sample data or wait for submissions.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- STAFF MANAGEMENT -->
+    <section class="card" id="staffSection">
+      <div class="card-header">
+        <div>
+          <h2>Staff Management</h2>
+          <p class="subtitle">Add, view and manage department staff members.</p>
+        </div>
+        <button class="btn primary small" onclick="openAddStaffModal()">+ Add Staff</button>
+      </div>
+      <div class="table-wrapper">
+        <table class="data-table" id="staffTable">
+          <thead>
+            <tr>
+              <th>ID</th><th>Name</th><th>Email</th>
+              <th>Department</th><th>Designation</th>
+              <th>Phone</th><th>Status</th><th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="8" class="empty">Loading staff…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- DEPARTMENTS -->
+    <section class="card" id="departmentsSection">
+      <div class="card-header">
+        <div>
+          <h2>Department Management</h2>
+          <p class="subtitle">Manage department heads and category assignments.</p>
+        </div>
+      </div>
+      <div class="dept-grid" id="deptGrid">
+        <p class="empty">Loading departments…</p>
+      </div>
+    </section>
+
+    <!-- AUDIT LOG -->
+    <section class="card" id="auditSection">
+      <div class="card-header">
+        <div>
+          <h2>Audit Log</h2>
+          <p class="subtitle">Full audit trail of all system actions.</p>
+        </div>
+        <button class="btn tertiary small" onclick="loadAuditLog()">Refresh</button>
+      </div>
+      <div class="table-wrapper">
+        <table class="data-table" id="auditTable">
+          <thead>
+            <tr>
+              <th>Time</th><th>Action</th><th>Performed By</th>
+              <th>Role</th><th>Target</th><th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="6" class="empty">Loading audit log…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- COMPLAINT DETAIL MODAL -->
+  <div id="adminComplaintModal" class="modal-overlay hidden">
+    <div class="modal large">
+      <div class="modal-header">
+        <h3>Complaint Detail</h3>
+        <button class="modal-close" onclick="closeAdminModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="detail-grid" id="adminComplaintDetail"></div>
+
+        <div class="timeline-section">
+          <h4>Timeline</h4>
+          <div id="adminTimeline" class="timeline"></div>
+        </div>
+
+        <div class="comments-section">
+          <h4>Comments</h4>
+          <div id="adminComments" class="comments-list"></div>
+          <div class="comment-form">
+            <textarea id="adminCommentText" rows="2" placeholder="Add a comment…"></textarea>
+            <label class="checkbox-label">
+              <input type="checkbox" id="adminCommentInternal" checked/> Internal note
+            </label>
+            <button class="btn secondary small" onclick="submitAdminComment()">Post</button>
+          </div>
+        </div>
+
+        <div class="update-form">
+          <h4>Update Complaint</h4>
+          <input type="hidden" id="adminUpdateComplaintId"/>
+          <div class="form-row">
+            <label>
+              <span>Status</span>
+              <select id="adminUpdateStatus">
+                <option>Pending</option><option>Assigned</option>
+                <option>In Progress</option><option>Escalated</option>
+                <option>Resolved</option><option>Closed</option>
+              </select>
+            </label>
+            <label>
+              <span>Priority</span>
+              <select id="adminUpdatePriority">
+                <option>Low</option><option>Medium</option>
+                <option>High</option><option>Critical</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            <span>Assign To Staff</span>
+            <select id="adminAssignStaff">
+              <option value="">— Select staff —</option>
+            </select>
+          </label>
+          <label>
+            <span>Remarks (visible to student)</span>
+            <textarea id="adminUpdateRemarks" rows="2"></textarea>
+          </label>
+          <label>
+            <span>Internal Notes (staff/admin only)</span>
+            <textarea id="adminUpdateNotes" rows="2"></textarea>
+          </label>
+          <div class="modal-actions">
+            <button class="btn ghost" onclick="closeAdminModal()">Cancel</button>
+            <button class="btn primary" onclick="submitAdminUpdate()">Save Changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ADD STAFF MODAL -->
+  <div id="addStaffModal" class="modal-overlay hidden">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Add New Staff</h3>
+        <button class="modal-close" onclick="closeAddStaffModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <label><span>Full Name</span><input type="text" id="newStaffName" placeholder="Dr. John Smith"/></label>
+        <label><span>Email</span><input type="email" id="newStaffEmail" placeholder="john@university.edu"/></label>
+        <label><span>Password</span><input type="password" id="newStaffPassword" placeholder="Min 6 characters"/></label>
+        <label>
+          <span>Department</span>
+          <select id="newStaffDepartment">
+            <option>Academic Administration</option>
+            <option>Administration Office</option>
+            <option>Examination Cell</option>
+            <option>Accounts Department</option>
+            <option>Hostel Management</option>
+            <option>IT Team</option>
+            <option>Maintenance Team</option>
+            <option>Library</option>
+            <option>Security Office</option>
+            <option>Transport Management</option>
+          </select>
+        </label>
+        <label><span>Designation</span><input type="text" id="newStaffDesignation" placeholder="e.g. Academic Coordinator"/></label>
+        <label><span>Phone</span><input type="text" id="newStaffPhone" placeholder="+91 9876543210"/></label>
+        <div class="modal-actions">
+          <button class="btn ghost" onclick="closeAddStaffModal()">Cancel</button>
+          <button class="btn primary" onclick="submitAddStaff()">Add Staff</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTIFICATION PANEL -->
+  <div id="notifPanel" class="notif-panel hidden">
+    <div class="notif-header">
+      <h4>Notifications</h4>
+      <button class="btn ghost small" onclick="markAllRead()">Mark all read</button>
+      <button class="btn ghost small" onclick="closeNotifications()">✕</button>
+    </div>
+    <div id="notifList" class="notif-list"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<!-- GrievEase v3.0 - Staff Dashboard -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GrievEase | Staff Portal</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    /* Staff-specific purple sidebar override */
+    .sidebar { background: linear-gradient(180deg,#1e1b4b 0%,#4c1d95 60%,#7c3aed 100%) !important; }
+    .sidebar .brand-logo { color:#fff; }
+    .sidebar-nav .nav-link.active { background:rgba(167,139,250,.2); border-left-color:#a78bfa; }
+    .sidebar-nav .nav-link:hover  { background:rgba(167,139,250,.12); }
+    .sidebar #staffLogout { background:rgba(167,139,250,.15); color:rgba(255,255,255,.85); border-color:rgba(167,139,250,.3); }
+    .sidebar #staffLogout:hover { background:rgba(167,139,250,.3); color:#fff; }
+
+    /* Stats cards purple accent */
+    .stat-card-wrap { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:16px; margin-bottom:24px; }
+    .stat-card {
+      background:#fff; border-radius:14px; padding:20px 18px;
+      border:1px solid #e9d5ff; border-top:4px solid;
+      box-shadow:0 2px 8px rgba(124,58,237,.08);
+      transition:box-shadow .2s,transform .15s;
+    }
+    .stat-card:hover { box-shadow:0 6px 20px rgba(124,58,237,.15); transform:translateY(-2px); }
+    .stat-card .s-num { font-size:2.2rem; font-weight:800; line-height:1; }
+    .stat-card .s-label { font-size:.78rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em; color:#64748b; margin-top:6px; }
+    .stat-card.c-all    { border-top-color:#7c3aed; } .stat-card.c-all .s-num    { color:#7c3aed; }
+    .stat-card.c-pend   { border-top-color:#f59e0b; } .stat-card.c-pend .s-num   { color:#d97706; }
+    .stat-card.c-prog   { border-top-color:#3b82f6; } .stat-card.c-prog .s-num   { color:#2563eb; }
+    .stat-card.c-res    { border-top-color:#22c55e; } .stat-card.c-res .s-num    { color:#16a34a; }
+    .stat-card.c-esc    { border-top-color:#ef4444; } .stat-card.c-esc .s-num    { color:#dc2626; }
+
+    /* Table improvements */
+    .complaints-table-wrap { overflow-x:auto; }
+    .s-table { width:100%; border-collapse:collapse; font-size:.84rem; }
+    .s-table thead tr { background:linear-gradient(135deg,#4c1d95,#7c3aed); }
+    .s-table th { color:#fff; font-weight:600; padding:12px 14px; text-align:left; font-size:.75rem; text-transform:uppercase; letter-spacing:.05em; white-space:nowrap; }
+    .s-table td { padding:13px 14px; border-bottom:1px solid #f1f5f9; vertical-align:middle; }
+    .s-table tbody tr { transition:background .1s; border-left:3px solid transparent; }
+    .s-table tbody tr:hover { background:#faf5ff; }
+    .s-table tbody tr.row-Pending    { border-left-color:#f59e0b; }
+    .s-table tbody tr.row-Assigned   { border-left-color:#8b5cf6; }
+    .s-table tbody tr.row-InProgress { border-left-color:#3b82f6; }
+    .s-table tbody tr.row-Escalated  { border-left-color:#ef4444; background:#fff5f5; }
+    .s-table tbody tr.row-Resolved   { border-left-color:#22c55e; background:#f0fdf4; }
+    .s-table .td-id  { font-family:monospace; font-size:.75rem; color:#7c3aed; font-weight:700; }
+    .s-table .td-title { max-width:200px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-weight:500; }
+    .empty-row td { text-align:center; padding:3.5rem; color:#94a3b8; }
+    .empty-row td::before { content:"📭"; display:block; font-size:2rem; margin-bottom:.5rem; }
+
+    /* Card */
+    .s-card { background:#fff; border-radius:16px; border:1px solid #ede9fe; box-shadow:0 2px 12px rgba(124,58,237,.07); padding:1.5rem; margin-bottom:1.5rem; }
+    .s-card-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem; flex-wrap:wrap; gap:.75rem; }
+    .s-card-header h2 { font-size:1.05rem; font-weight:700; color:#1e1b4b; }
+    .s-card-header .subtitle { font-size:.82rem; color:#64748b; margin-top:2px; }
+
+    /* Header */
+    .s-main-header { padding:1.75rem 0 1rem; border-bottom:1px solid #ede9fe; margin-bottom:1.5rem; display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem; }
+    .s-main-header .dept-pill { display:inline-flex; align-items:center; gap:6px; background:#ede9fe; color:#7c3aed; padding:5px 14px; border-radius:999px; font-size:.8rem; font-weight:700; margin-top:6px; }
+
+    /* Modal */
+    .modal-overlay { position:fixed; inset:0; background:rgba(0,0,0,.55); display:flex; align-items:center; justify-content:center; z-index:1000; padding:1rem; }
+    .modal-overlay.hidden { display:none; }
+    .s-modal { background:#fff; border-radius:20px; width:100%; max-width:780px; max-height:92vh; overflow-y:auto; box-shadow:0 25px 60px rgba(0,0,0,.25); }
+    .s-modal-header { background:linear-gradient(135deg,#4c1d95,#7c3aed); padding:1.25rem 1.5rem; display:flex; justify-content:space-between; align-items:center; position:sticky; top:0; z-index:1; border-radius:20px 20px 0 0; }
+    .s-modal-header h3 { color:#fff; font-size:1.05rem; font-weight:700; }
+    .s-modal-close { background:rgba(255,255,255,.15); border:none; color:#fff; width:32px; height:32px; border-radius:8px; cursor:pointer; font-size:1rem; display:flex; align-items:center; justify-content:center; transition:background .15s; }
+    .s-modal-close:hover { background:rgba(255,255,255,.3); }
+    .s-modal-body { padding:1.5rem; display:flex; flex-direction:column; gap:1.25rem; }
+
+    /* Detail grid */
+    .detail-g { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; background:linear-gradient(135deg,#faf5ff,#f5f3ff); border-radius:12px; padding:1.25rem; border:1px solid #ede9fe; }
+    .detail-g .drow { display:flex; flex-direction:column; gap:2px; }
+    .detail-g .drow.full { grid-column:1/-1; }
+    .detail-g .dlabel { font-size:.7rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:#8b5cf6; }
+    .detail-g .dval   { font-size:.875rem; font-weight:500; color:#1e1b4b; }
+
+    /* Timeline */
+    .tl-section h4 { font-size:.9rem; font-weight:700; color:#4c1d95; margin-bottom:.75rem; display:flex; align-items:center; gap:6px; }
+    .tl-section h4::before { content:"🕐"; }
+    .tl-wrap { position:relative; padding-left:1.5rem; }
+    .tl-wrap::before { content:""; position:absolute; left:.4rem; top:0; bottom:0; width:2px; background:#ede9fe; }
+    .tl-item { position:relative; background:#fff; border:1px solid #ede9fe; border-left:3px solid #7c3aed; border-radius:0 8px 8px 0; padding:.65rem 1rem; margin-bottom:.75rem; font-size:.82rem; }
+    .tl-item::before { content:""; position:absolute; left:-1.18rem; top:.75rem; width:10px; height:10px; border-radius:50%; background:#7c3aed; border:2px solid #fff; }
+    .tl-item.ev-Escalated { border-left-color:#dc2626; } .tl-item.ev-Escalated::before { background:#dc2626; }
+    .tl-item.ev-Resolved  { border-left-color:#16a34a; } .tl-item.ev-Resolved::before  { background:#16a34a; }
+    .tl-item.ev-Submitted { border-left-color:#94a3b8; } .tl-item.ev-Submitted::before { background:#94a3b8; }
+    .tl-event { font-weight:700; color:#1e1b4b; }
+    .tl-desc  { color:#475569; margin-top:3px; }
+    .tl-meta  { color:#94a3b8; font-size:.72rem; margin-top:3px; }
+
+    /* Comments */
+    .cm-section h4 { font-size:.9rem; font-weight:700; color:#4c1d95; margin-bottom:.75rem; display:flex; align-items:center; gap:6px; }
+    .cm-section h4::before { content:"💬"; }
+    .cm-list { display:flex; flex-direction:column; gap:.65rem; margin-bottom:.75rem; }
+    .cm-item { background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:.75rem 1rem; font-size:.83rem; }
+    .cm-item.internal { border-left:3px solid #7c3aed; background:#f5f3ff; }
+    .cm-author { font-weight:700; color:#4c1d95; font-size:.78rem; }
+    .cm-role   { font-size:.7rem; color:#94a3b8; margin-left:6px; }
+    .cm-text   { margin-top:4px; color:#334155; }
+    .cm-time   { font-size:.7rem; color:#94a3b8; margin-top:3px; }
+    .cm-form   { display:flex; flex-direction:column; gap:.5rem; }
+    .cm-form textarea { padding:10px 12px; border:1.5px solid #e2e8f0; border-radius:8px; font-family:inherit; font-size:.85rem; resize:vertical; transition:border-color .15s; }
+    .cm-form textarea:focus { border-color:#7c3aed; outline:none; box-shadow:0 0 0 3px rgba(124,58,237,.1); }
+    .cm-form-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:.5rem; }
+    .internal-toggle { display:flex; align-items:center; gap:6px; font-size:.8rem; color:#6d28d9; cursor:pointer; }
+    .btn-post { padding:8px 20px; background:#7c3aed; color:#fff; border:none; border-radius:8px; font-size:.83rem; font-weight:600; cursor:pointer; transition:background .15s; }
+    .btn-post:hover { background:#6d28d9; }
+
+    /* Update form */
+    .upd-section { background:linear-gradient(135deg,#faf5ff,#f5f3ff); border:1px solid #ede9fe; border-radius:12px; padding:1.25rem; }
+    .upd-section h4 { font-size:.9rem; font-weight:700; color:#4c1d95; margin-bottom:1rem; display:flex; align-items:center; gap:6px; }
+    .upd-section h4::before { content:"✏️"; }
+    .upd-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+    .upd-group { display:flex; flex-direction:column; gap:.35rem; }
+    .upd-group.full { grid-column:1/-1; }
+    .upd-group label { font-size:.78rem; font-weight:600; color:#374151; }
+    .upd-group select, .upd-group textarea {
+      padding:10px 12px; border:1.5px solid #e2e8f0; border-radius:8px;
+      font-family:inherit; font-size:.875rem; background:#fff;
+      transition:border-color .15s; outline:none;
+    }
+    .upd-group select:focus, .upd-group textarea:focus { border-color:#7c3aed; box-shadow:0 0 0 3px rgba(124,58,237,.1); }
+    .upd-actions { display:flex; gap:.75rem; justify-content:flex-end; margin-top:1rem; }
+    .btn-cancel-upd { padding:10px 20px; background:#f1f5f9; color:#475569; border:none; border-radius:8px; font-size:.875rem; font-weight:600; cursor:pointer; transition:background .15s; }
+    .btn-cancel-upd:hover { background:#e2e8f0; }
+    .btn-save-upd { padding:10px 24px; background:linear-gradient(135deg,#7c3aed,#4c1d95); color:#fff; border:none; border-radius:8px; font-size:.875rem; font-weight:700; cursor:pointer; transition:transform .15s,box-shadow .15s; }
+    .btn-save-upd:hover { transform:translateY(-1px); box-shadow:0 4px 12px rgba(124,58,237,.3); }
+
+    /* Notif panel */
+    .notif-panel { position:fixed; top:3rem; right:1.5rem; width:360px; max-height:500px; background:#fff; border:1px solid #ede9fe; border-radius:16px; box-shadow:0 8px 30px rgba(124,58,237,.15); z-index:500; overflow:hidden; display:flex; flex-direction:column; }
+    .notif-panel.hidden { display:none; }
+    .notif-hdr { display:flex; align-items:center; gap:.5rem; padding:.85rem 1rem; border-bottom:1px solid #ede9fe; background:#faf5ff; }
+    .notif-hdr h4 { flex:1; margin:0; font-size:.9rem; color:#4c1d95; }
+    .notif-hdr button { background:none; border:1px solid #ede9fe; border-radius:6px; padding:3px 10px; font-size:.75rem; cursor:pointer; color:#7c3aed; }
+    .notif-list { overflow-y:auto; flex:1; }
+    .n-item { padding:.85rem 1rem; border-bottom:1px solid #f5f3ff; font-size:.82rem; cursor:pointer; }
+    .n-item:hover { background:#faf5ff; }
+    .n-item.unread { background:#f5f3ff; border-left:3px solid #7c3aed; }
+    .n-title { font-weight:700; color:#1e1b4b; }
+    .n-msg   { color:#475569; margin-top:2px; line-height:1.4; }
+    .n-time  { font-size:.7rem; color:#94a3b8; margin-top:3px; }
+
+    /* SLA */
+    .sla-pill { display:inline-flex; align-items:center; gap:5px; padding:4px 10px; border-radius:6px; font-size:.75rem; font-weight:700; }
+    .sla-ok      { background:#dcfce7; color:#15803d; }
+    .sla-warn    { background:#fef9c3; color:#92400e; }
+    .sla-breach  { background:#fee2e2; color:#dc2626; }
+
+    /* Refresh btn */
+    .btn-refresh { padding:8px 16px; background:#ede9fe; color:#7c3aed; border:none; border-radius:8px; font-size:.82rem; font-weight:600; cursor:pointer; transition:background .15s; }
+    .btn-refresh:hover { background:#ddd6fe; }
+
+    /* Notif bell */
+    .notif-btn-wrap { position:relative; }
+    .notif-btn { padding:8px 14px; background:#ede9fe; color:#7c3aed; border:none; border-radius:8px; font-size:.85rem; cursor:pointer; font-weight:600; transition:background .15s; }
+    .notif-btn:hover { background:#ddd6fe; }
+    .n-badge { position:absolute; top:-4px; right:-4px; background:#dc2626; color:#fff; border-radius:999px; font-size:.65rem; font-weight:700; padding:2px 5px; min-width:18px; text-align:center; animation:pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{box-shadow:0 0 0 0 rgba(220,38,38,.4)} 50%{box-shadow:0 0 0 5px rgba(220,38,38,0)} }
+  </style>
+</head>
+<body class="admin-dashboard">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <span class="brand-logo">🎓 GrievEase</span>
+      <p class="subtitle" style="color:rgba(255,255,255,.55);font-size:.75rem;margin-top:2px;">Staff Portal</p>
+    </div>
+    <div class="sidebar-section-label">Navigation</div>
+    <nav class="sidebar-nav">
+      <a class="nav-link active" href="#staffOverview">📊 Dashboard</a>
+      <a class="nav-link" href="#assignedSection">📋 My Complaints</a>
+    </nav>
+    <div class="sidebar-user" id="staffInfoSidebar" style="margin-top:auto;">
+      <p class="user-name" id="staffNameSidebar">Staff Member</p>
+      <p class="user-dept" id="staffDeptSidebar" style="font-size:.75rem;color:rgba(255,255,255,.5);margin-top:2px;"></p>
+    </div>
+    <button id="staffLogout" class="btn ghost full" style="margin:1rem;width:calc(100% - 2rem);">Logout</button>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="admin-main">
+
+    <!-- HEADER -->
+    <div class="s-main-header" id="staffOverview">
+      <div>
+        <p class="eyebrow">Staff Portal</p>
+        <h1 id="staffWelcome" style="font-size:1.6rem;font-weight:800;color:#1e1b4b;">Welcome, Staff</h1>
+        <span class="dept-pill">🏢 <span id="staffDeptHeader">Loading…</span></span>
+      </div>
+      <div style="display:flex;gap:.75rem;align-items:center;">
+        <div class="notif-btn-wrap">
+          <button class="notif-btn" onclick="openNotifications()">
+            🔔 Notifications
+            <span class="n-badge" id="staffNotifCount" style="display:none;">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="stat-card-wrap">
+      <div class="stat-card c-all">
+        <div class="s-num" id="staffTotal">0</div>
+        <div class="s-label">Total Assigned</div>
+      </div>
+      <div class="stat-card c-pend">
+        <div class="s-num" id="staffPending">0</div>
+        <div class="s-label">Pending</div>
+      </div>
+      <div class="stat-card c-prog">
+        <div class="s-num" id="staffInProgress">0</div>
+        <div class="s-label">In Progress</div>
+      </div>
+      <div class="stat-card c-res">
+        <div class="s-num" id="staffResolved">0</div>
+        <div class="s-label">Resolved</div>
+      </div>
+      <div class="stat-card c-esc">
+        <div class="s-num" id="staffEscalated">0</div>
+        <div class="s-label">Escalated</div>
+      </div>
+    </div>
+
+    <!-- COMPLAINTS TABLE -->
+    <div class="s-card" id="assignedSection">
+      <div class="s-card-header">
+        <div>
+          <h2>My Assigned Complaints</h2>
+          <p class="subtitle">Click ✏️ Update on any row to update status, add notes, and communicate with students.</p>
+        </div>
+        <button class="btn-refresh" id="refreshStaffComplaints" onclick="loadStaffComplaints()">↻ Refresh</button>
+      </div>
+      <div class="complaints-table-wrap">
+        <table class="s-table" id="staffComplaintsTable">
+          <thead>
+            <tr>
+              <th>Complaint ID</th>
+              <th>Student</th>
+              <th>Title</th>
+              <th>Category</th>
+              <th>Priority</th>
+              <th>Status</th>
+              <th>SLA</th>
+              <th>Date</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="empty-row"><td colspan="9">Loading your assigned complaints…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- UPDATE MODAL -->
+  <div id="staffUpdateModal" class="modal-overlay hidden">
+    <div class="s-modal">
+      <div class="s-modal-header">
+        <h3 id="staffModalTitle">Complaint Detail</h3>
+        <button class="s-modal-close" onclick="closeStaffModal()">✕</button>
+      </div>
+      <div class="s-modal-body">
+
+        <!-- Complaint details -->
+        <div class="detail-g" id="staffComplaintDetail"></div>
+
+        <!-- Timeline -->
+        <div class="tl-section">
+          <h4>Timeline</h4>
+          <div class="tl-wrap" id="staffTimeline"><p style="color:#94a3b8;font-size:.83rem;">No events yet.</p></div>
+        </div>
+
+        <!-- Comments -->
+        <div class="cm-section">
+          <h4>Comments</h4>
+          <div class="cm-list" id="staffComments"><p style="color:#94a3b8;font-size:.83rem;">No comments yet.</p></div>
+          <div class="cm-form">
+            <textarea id="staffCommentText" rows="2" placeholder="Add a comment or update for the student…"></textarea>
+            <div class="cm-form-row">
+              <label class="internal-toggle">
+                <input type="checkbox" id="staffCommentInternal"/>
+                🔒 Internal note (hidden from student)
+              </label>
+              <button class="btn-post" onclick="submitStaffComment()">Post Comment</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Update Status -->
+        <div class="upd-section">
+          <h4>Update Complaint</h4>
+          <input type="hidden" id="staffUpdateComplaintId"/>
+          <div class="upd-grid">
+            <div class="upd-group">
+              <label>Status</label>
+              <select id="staffUpdateStatus">
+                <option value="Assigned">Assigned</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Resolved">Resolved</option>
+                <option value="Closed">Closed</option>
+              </select>
+            </div>
+            <div class="upd-group">
+              <label>Priority (override)</label>
+              <select id="staffUpdatePriority">
+                <option value="">— Keep current —</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+                <option value="Critical">Critical</option>
+              </select>
+            </div>
+            <div class="upd-group full">
+              <label>Remarks for Student (visible to student)</label>
+              <textarea id="staffUpdateRemarks" rows="2" placeholder="e.g. We are looking into this, will update by tomorrow…"></textarea>
+            </div>
+            <div class="upd-group full">
+              <label>🔒 Internal Notes (staff/admin only — hidden from student)</label>
+              <textarea id="staffUpdateNotes" rows="2" placeholder="Internal tracking notes…"></textarea>
+            </div>
+          </div>
+          <div class="upd-actions">
+            <button class="btn-cancel-upd" onclick="closeStaffModal()">Cancel</button>
+            <button class="btn-save-upd" onclick="submitStaffUpdate()">💾 Save Changes</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTIFICATION PANEL -->
+  <div id="notifPanel" class="notif-panel hidden">
+    <div class="notif-hdr">
+      <h4>🔔 Notifications</h4>
+      <button onclick="markAllRead()">Mark all read</button>
+      <button onclick="closeNotifications()">✕</button>
+    </div>
+    <div class="notif-list" id="notifList"><p style="padding:1rem;color:#94a3b8;font-size:.83rem;">No notifications.</p></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // These override script.js functions BEFORE DOMContentLoaded fires
+    // because this <script> runs synchronously at parse time
+
+    // Override renderTimeline for staff portal styling
+    window.renderTimeline = function(containerId, timeline) {
+      const el = document.getElementById(containerId);
+      if (!el) return;
+      if (!timeline || !timeline.length) {
+        el.innerHTML = '<p style="color:#94a3b8;font-size:.83rem;padding:.5rem">No events yet.</p>';
+        return;
+      }
+      el.innerHTML = timeline.map(t => {
+        const evClass = (t.event||'').replace(' ','');
+        return `<div class="tl-item ev-${evClass}">
+          <div class="tl-event">${t.event}</div>
+          ${t.description ? `<div class="tl-desc">${t.description}</div>` : ''}
+          <div class="tl-meta">By ${t.performed_by || 'System'} · ${typeof timeAgo === 'function' ? timeAgo(t.created_at) : t.created_at}</div>
+        </div>`;
+      }).join('');
+    };
+
+    // Override renderComments for staff portal styling
+    window.renderComments = function(containerId, comments) {
+      const el = document.getElementById(containerId);
+      if (!el) return;
+      if (!comments || !comments.length) {
+        el.innerHTML = '<p style="color:#94a3b8;font-size:.83rem;padding:.5rem">No comments yet.</p>';
+        return;
+      }
+      el.innerHTML = comments.map(c => `
+        <div class="cm-item ${c.is_internal ? 'internal' : ''}">
+          <span class="cm-author">${c.author_name}</span>
+          <span class="cm-role">${c.author_role}${c.is_internal ? ' · 🔒 Internal' : ''}</span>
+          <div class="cm-text">${c.comment_text}</div>
+          <div class="cm-time">${typeof timeAgo === 'function' ? timeAgo(c.created_at) : c.created_at}</div>
+        </div>`).join('');
+    };
+
+    // Override loadStaffComplaints for custom table rendering
+    window.loadStaffComplaints = async function() {
+      const tbody = document.querySelector('#staffComplaintsTable tbody');
+      if (!tbody) return;
+      try {
+        const data = await window.apiRequest(window.API.staffComplaints) || [];
+
+        if (!data.length) {
+          tbody.innerHTML = '<tr class="empty-row"><td colspan="9">No complaints assigned to you yet.</td></tr>';
+          return;
+        }
+
+        const statusColors = { Pending:'#f59e0b', Assigned:'#8b5cf6', 'In Progress':'#3b82f6', Escalated:'#dc2626', Resolved:'#16a34a', Closed:'#94a3b8' };
+        const priorityColors = { Critical:'#dc2626', High:'#f97316', Medium:'#f59e0b', Low:'#22c55e' };
+
+        tbody.innerHTML = data.map(c => {
+          const rowClass = 'row-' + c.status.replace(' ','');
+          const sColor = statusColors[c.status] || '#64748b';
+          const pColor = priorityColors[c.priority] || '#64748b';
+
+          let slaHtml = '—';
+          if (c.sla_deadline) {
+            const diff = new Date(c.sla_deadline) - new Date();
+            const days = Math.ceil(diff / 86400000);
+            if (c.sla_breached || days < 0) slaHtml = '<span class="sla-pill sla-breach">⚠ Breached</span>';
+            else if (days === 0) slaHtml = '<span class="sla-pill sla-warn">Today</span>';
+            else if (days <= 1) slaHtml = `<span class="sla-pill sla-warn">${days}d left</span>`;
+            else slaHtml = `<span class="sla-pill sla-ok">${days}d left</span>`;
+          }
+
+          const dateStr = c.created_at ? new Date(c.created_at).toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}) : '—';
+
+          return `<tr class="${rowClass}">
+            <td class="td-id">${c.complaint_id}</td>
+            <td><div style="font-weight:600;font-size:.84rem;">${c.student_name}</div><div style="font-size:.73rem;color:#94a3b8;">${c.admission_number}</div></td>
+            <td class="td-title" title="${c.title}">${c.title}</td>
+            <td><span style="background:#ede9fe;color:#6d28d9;padding:3px 10px;border-radius:999px;font-size:.75rem;font-weight:600;">${c.category}</span></td>
+            <td><span style="color:${pColor};font-weight:700;font-size:.8rem;">● ${c.priority}</span></td>
+            <td><span style="background:${sColor}22;color:${sColor};padding:4px 10px;border-radius:999px;font-size:.75rem;font-weight:700;">${c.status}</span></td>
+            <td>${slaHtml}</td>
+            <td style="font-size:.78rem;color:#64748b;white-space:nowrap;">${dateStr}</td>
+            <td><button class="btn-update" onclick="openStaffComplaintModal('${c.complaint_id}')">✏️ Update</button></td>
+          </tr>`;
+        }).join('');
+      } catch(e) {
+        console.error('loadStaffComplaints error:', e);
+        tbody.innerHTML = '<tr class="empty-row"><td colspan="9">⚠️ ' + (e.message || 'Failed to load') + '</td></tr>';
+      }
+    };
+
+    // Override openStaffComplaintModal
+    window.openStaffComplaintModal = async function(complaintId) {
+      const c = await window.apiRequest(`${window.API.complaints}${complaintId}`);
+      if (!c) return;
+
+      document.getElementById('staffModalTitle').textContent = `Complaint ${c.complaint_id}`;
+      document.getElementById('staffUpdateComplaintId').value = complaintId;
+      document.getElementById('staffUpdateStatus').value   = c.status;
+      document.getElementById('staffUpdateRemarks').value  = c.admin_remarks || '';
+      document.getElementById('staffUpdateNotes').value    = c.internal_notes || '';
+      const prEl = document.getElementById('staffUpdatePriority');
+      if (prEl) prEl.value = '';
+
+      const statusColors   = { Pending:'#f59e0b', Assigned:'#8b5cf6', 'In Progress':'#3b82f6', Escalated:'#dc2626', Resolved:'#16a34a', Closed:'#94a3b8' };
+      const priorityColors = { Critical:'#dc2626', High:'#f97316', Medium:'#f59e0b', Low:'#22c55e' };
+      const sColor = statusColors[c.status] || '#64748b';
+      const pColor = priorityColors[c.priority] || '#64748b';
+      const dateStr = c.created_at ? new Date(c.created_at).toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}) : '—';
+
+      document.getElementById('staffComplaintDetail').innerHTML = `
+        <div class="drow"><span class="dlabel">Complaint ID</span><span class="dval" style="font-family:monospace;color:#7c3aed;">${c.complaint_id}</span></div>
+        <div class="drow"><span class="dlabel">Status</span><span class="dval"><span style="background:${sColor}22;color:${sColor};padding:3px 10px;border-radius:999px;font-size:.78rem;font-weight:700;">${c.status}</span></span></div>
+        <div class="drow"><span class="dlabel">Category</span><span class="dval">${c.category}</span></div>
+        <div class="drow"><span class="dlabel">Priority</span><span class="dval"><span style="color:${pColor};font-weight:700;">● ${c.priority}</span></span></div>
+        <div class="drow"><span class="dlabel">Student</span><span class="dval">${c.student_name}</span></div>
+        <div class="drow"><span class="dlabel">Admission No.</span><span class="dval">${c.admission_number}</span></div>
+        <div class="drow full"><span class="dlabel">Title</span><span class="dval" style="font-weight:600;">${c.title}</span></div>
+        <div class="drow full"><span class="dlabel">Description</span><span class="dval" style="line-height:1.6;">${c.description}</span></div>
+        <div class="drow"><span class="dlabel">SLA Deadline</span><span class="dval">${c.sla_deadline ? dateStr : '—'} ${c.sla_breached ? '<span style="color:#dc2626;font-weight:700;"> ⚠ BREACHED</span>' : ''}</span></div>
+        <div class="drow"><span class="dlabel">Submitted</span><span class="dval">${dateStr}</span></div>
+        ${c.admin_remarks ? `<div class="drow full"><span class="dlabel">Current Remarks</span><span class="dval">${c.admin_remarks}</span></div>` : ''}
+      `;
+
+      const timeline = await window.apiRequest(`${window.API.complaints}${complaintId}/timeline`) || [];
+      window.renderTimeline('staffTimeline', timeline);
+      const comments = await window.apiRequest(`${window.API.complaints}${complaintId}/comments`) || [];
+      window.renderComments('staffComments', comments);
+      document.getElementById('staffCommentText').value = '';
+      window._staffModalComplaintId = complaintId;
+      document.getElementById('staffUpdateModal').classList.remove('hidden');
+    };
+
+    // Notification panel for staff
+    window.openNotifications = function() {
+      const p = document.getElementById('notifPanel');
+      if (!p) return;
+      p.classList.toggle('hidden');
+      if (!p.classList.contains('hidden')) {
+        window.apiRequest(window.API.notifications).then(data => {
+          const list = document.getElementById('notifList');
+          if (!list) return;
+          if (!data || !data.length) { list.innerHTML = '<p style="padding:1rem;color:#94a3b8;font-size:.83rem;">No notifications yet.</p>'; return; }
+          list.innerHTML = data.map(n => `
+            <div class="n-item ${n.is_read ? '' : 'unread'}">
+              <div class="n-title">${n.title}</div>
+              <div class="n-msg">${n.message}</div>
+              <div class="n-time">${typeof timeAgo === 'function' ? timeAgo(n.created_at) : ''}</div>
+            </div>`).join('');
+        }).catch(()=>{});
+      }
+    };
+    window.closeNotifications = function() { document.getElementById('notifPanel')?.classList.add('hidden'); };
+    window.markAllRead = async function() {
+      await window.apiRequest(window.API.notifMarkRead, {method:'POST'}).catch(()=>{});
+      if (typeof window.loadNotifCount === 'function') window.loadNotifCount();
+      window.closeNotifications();
+      if (typeof window.showToast === 'function') window.showToast('Notifications marked as read');
+    };
+  </script>
+</body>
+</html>

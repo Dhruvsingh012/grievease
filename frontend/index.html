@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- GrievEase v3.0 - Landing Page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrievEase | AI-Powered University Grievance Management</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body class="home-page">
+
+    <!-- NAV -->
+    <header class="top-nav sticky">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-logo">🎓 GrievEase</span>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="#features">Features</a>
+          <a href="#faq">FAQs</a>
+          <a href="student-login.html" class="btn secondary small">Student Login</a>
+          <a href="staff-login.html" class="btn tertiary small">Staff Login</a>
+          <a href="admin-login.html" class="btn primary small">Admin Login</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- HERO -->
+      <section class="hero-section">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">AI-Powered · Enterprise-Grade · v3.0</p>
+            <h1>Smart, Transparent &amp; Student-Friendly Grievance Management</h1>
+            <p>
+              GrievEase automates complaint routing using Machine Learning, tracks SLA deadlines,
+              sends real-time notifications, and gives every stakeholder — student, staff, and admin
+              — a live dashboard. Built for real university operations.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="student-login.html">Student Portal →</a>
+              <a class="btn secondary" href="staff-login.html">Staff Portal</a>
+              <a class="btn ghost" href="admin-login.html">Admin Panel</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="stats-card">
+              <span class="metric" id="landingTotal">—</span>
+              <span class="label">Total Complaints Filed</span>
+            </div>
+            <div class="stats-card">
+              <span class="metric" id="landingResolved">—</span>
+              <span class="label">Resolved</span>
+            </div>
+            <div class="stats-card">
+              <span class="metric">10</span>
+              <span class="label">Departments Covered</span>
+            </div>
+            <div class="illustration">
+              <div class="circle"></div>
+              <div class="circle secondary"></div>
+              <div class="circle tertiary"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ROLE CARDS -->
+      <section class="section" style="padding-top:40px;padding-bottom:40px;">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Three Portals, One System</h2>
+            <p>Every role has its own dashboard — purpose-built for their workflow.</p>
+          </div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:32px;">
+
+            <div class="feature-card" style="border-top:4px solid #2563eb;text-align:center;">
+              <div style="font-size:2.5rem;margin-bottom:12px;">👨‍🎓</div>
+              <h3>Student Portal</h3>
+              <p>Submit complaints with AI auto-categorization. Track status, SLA countdown, timeline, and rate resolutions.</p>
+              <a href="student-login.html" class="btn primary full" style="margin-top:16px;">Login as Student</a>
+            </div>
+
+            <div class="feature-card" style="border-top:4px solid #7c3aed;text-align:center;">
+              <div style="font-size:2.5rem;margin-bottom:12px;">👨‍💼</div>
+              <h3>Staff Portal</h3>
+              <p>View assigned complaints, update status, add internal notes and comments. Department-specific queue.</p>
+              <a href="staff-login.html" class="btn secondary full" style="margin-top:16px;background:rgba(124,58,237,.12);color:#7c3aed;border-color:#7c3aed;">Login as Staff</a>
+            </div>
+
+            <div class="feature-card" style="border-top:4px solid #1e3a8a;text-align:center;">
+              <div style="font-size:2.5rem;margin-bottom:12px;">🔒</div>
+              <h3>Admin Panel</h3>
+              <p>Full control — analytics charts, bulk operations, staff management, department config, audit log, CSV export.</p>
+              <a href="admin-login.html" class="btn primary full" style="margin-top:16px;">Login as Admin</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="section" id="features">
+        <div class="container section-heading">
+          <h2>Why GrievEase?</h2>
+          <p>Designed for students. Trusted by administrators. Powered by AI.</p>
+        </div>
+        <div class="container feature-grid">
+          <article class="feature-card">
+            <h3>🤖 AI Category Prediction</h3>
+            <p>TF-IDF + Logistic Regression model predicts category and priority in real-time from complaint text. 100% accuracy on test set.</p>
+          </article>
+          <article class="feature-card">
+            <h3>⚡ Auto Assignment</h3>
+            <p>Complaints are automatically routed to the correct department staff. No manual assignment needed.</p>
+          </article>
+          <article class="feature-card">
+            <h3>⏱ SLA Tracking</h3>
+            <p>Each category has a defined resolution deadline. SLA breach triggers automatic escalation.</p>
+          </article>
+          <article class="feature-card">
+            <h3>📈 Escalation Engine</h3>
+            <p>Unresolved complaints escalate at 24h → 3d → 7d → 15d through four levels up to Principal.</p>
+          </article>
+          <article class="feature-card">
+            <h3>🔒 Role-Based Access Control</h3>
+            <p>Four roles — Student, Staff, Admin, Super Admin — each with precisely scoped permissions and JWT auth.</p>
+          </article>
+          <article class="feature-card">
+            <h3>📊 Live Analytics</h3>
+            <p>6 Chart.js charts — category distribution, status breakdown, monthly trends, department and staff performance.</p>
+          </article>
+          <article class="feature-card">
+            <h3>🔔 Real-Time Notifications</h3>
+            <p>WebSocket-powered live updates and in-app notification center for every complaint lifecycle event.</p>
+          </article>
+          <article class="feature-card">
+            <h3>🕵️ Full Audit Trail</h3>
+            <p>Every action — login, status change, assignment, escalation — logged with timestamp and actor.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="section highlights">
+        <div class="container">
+          <div class="section-heading">
+            <h2>How It Works</h2>
+            <p>From submission to resolution in 4 steps.</p>
+          </div>
+          <div class="highlights-grid">
+            <div class="highlight-card">
+              <h4>1️⃣ Student Submits</h4>
+              <p>Student logs in and describes the issue. AI predicts category and priority. Duplicate detection prevents repeat submissions.</p>
+            </div>
+            <div class="highlight-card">
+              <h4>2️⃣ Auto-Assigned</h4>
+              <p>System instantly routes the complaint to the correct department staff. SLA clock starts immediately.</p>
+            </div>
+            <div class="highlight-card">
+              <h4>3️⃣ Staff Resolves</h4>
+              <p>Staff updates status, adds internal notes, communicates via comments. Every step logged in the timeline.</p>
+            </div>
+            <div class="highlight-card">
+              <h4>4️⃣ Student Rates</h4>
+              <p>On resolution, student rates the experience 1–5 stars. Average rating feeds the analytics dashboard.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section cta">
+        <div class="container cta-box">
+          <div>
+            <h2>Ready to streamline grievances on campus?</h2>
+            <p>Students get real-time tracking. Staff get clear queues. Admins get full control.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn primary" href="student-login.html" style="background:#fff;color:#1e3a8a;">Student Portal</a>
+            <a class="btn ghost" href="staff-login.html">Staff Portal</a>
+            <a class="btn ghost" href="admin-login.html">Admin Dashboard</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2025 GrievEase | University Grievance Management System v3.0</p>
+        <div>
+          <a href="student-login.html">Student</a>
+          <a href="staff-login.html">Staff</a>
+          <a href="admin-login.html">Admin</a>
+          <a href="#features">Features</a>
+          <a href="#faq">FAQs</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="section-heading"><h2>Frequently Asked Questions</h2></div>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h4>How do I submit a complaint?</h4>
+            <p>Login with your name, email and admission number. Fill the complaint form — AI will auto-predict the category. Submit and track in real-time.</p>
+          </div>
+          <div class="faq-item">
+            <h4>Can I edit my complaint?</h4>
+            <p>Yes — you can edit the title and description as long as the complaint is in Pending or Assigned status.</p>
+          </div>
+          <div class="faq-item">
+            <h4>Who handles my complaint?</h4>
+            <p>Complaints are auto-routed to the relevant department — IT complaints to IT Team, Hostel complaints to Hostel Management, and so on.</p>
+          </div>
+          <div class="faq-item">
+            <h4>What if my complaint is not resolved?</h4>
+            <p>The escalation engine automatically escalates it to the Department Head, then Admin, then Principal at defined time intervals.</p>
+          </div>
+          <div class="faq-item">
+            <h4>How does AI prediction work?</h4>
+            <p>Your complaint text is vectorized using TF-IDF and classified by a Logistic Regression model trained on 1300 labeled grievances across 10 categories.</p>
+          </div>
+          <div class="faq-item">
+            <h4>Is my data secure?</h4>
+            <p>All sessions use JWT authentication. Passwords are bcrypt-hashed. Internal staff notes are hidden from students completely.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="chatbot-root"></div>
+    <script src="script.js"></script>
+
+    <!-- Live stats from API -->
+    <script>
+      (async () => {
+        try {
+          const r = await fetch("http://127.0.0.1:8000/api/complaints/stats");
+          if (r.ok) {
+            const d = await r.json();
+            const t = document.getElementById("landingTotal");
+            const s = document.getElementById("landingResolved");
+            if (t) t.textContent = d.total;
+            if (s) s.textContent = d.resolved;
+          }
+        } catch {}
+      })();
+    </script>
+
+  </body>
+</html>

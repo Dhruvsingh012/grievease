@@ -1,0 +1,32 @@
+# Render.com deployment configuration
+# Deploy your backend on Render Free Tier
+
+services:
+  - type: web
+    name: grievease-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        sync: false          # Set manually in Render dashboard (Neon PostgreSQL URL)
+      - key: SECRET_KEY
+        generateValue: true  # Auto-generate a secure secret
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "10080"
+      - key: ADMIN_USERNAME
+        value: admin
+      - key: ADMIN_PASSWORD
+        sync: false          # Set manually in Render dashboard
+      - key: DEBUG
+        value: "False"
+      - key: FRONTEND_URL
+        sync: false          # Set to your Vercel URL after deploying frontend
+      - key: APP_NAME
+        value: GrievEase
+      - key: APP_VERSION
+        value: 3.0.0

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- GrievEase v3.0 - Admin Login -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GrievEase | Admin Login</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif; min-height: 100vh;
+      background: linear-gradient(135deg, #020617 0%, #0f172a 50%, #1e3a8a 100%);
+      display: flex; align-items: center; justify-content: center; padding: 1rem;
+    }
+    .page-wrapper {
+      display: grid; grid-template-columns: 1fr 1fr;
+      width: 100%; max-width: 900px; border-radius: 24px;
+      overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.5);
+    }
+    .left-panel {
+      background: linear-gradient(160deg, #0f172a, #1e3a8a);
+      padding: 3rem 2.5rem; display: flex; flex-direction: column; justify-content: space-between; color: #fff;
+      border-right: 1px solid rgba(255,255,255,.06);
+    }
+    .left-panel .brand   { font-size: 1.5rem; font-weight: 800; }
+    .left-panel .tagline { font-size: .82rem; opacity: .5; margin-top: 4px; }
+    .left-panel .hero-h2 { font-size: 1.6rem; font-weight: 700; line-height: 1.3; margin-bottom: 1rem; }
+    .left-panel .hero-p  { font-size: .88rem; opacity: .65; line-height: 1.7; }
+    .feat-list { margin-top: 1.75rem; display: flex; flex-direction: column; gap: .65rem; }
+    .feat-item { display: flex; align-items: center; gap: .75rem; font-size: .84rem; opacity: .75; }
+    .feat-icon { width: 32px; height: 32px; background: rgba(255,255,255,.08); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .right-panel { background: #0f172a; padding: 3rem 2.5rem; }
+    .back-link { display: inline-flex; align-items: center; gap: 6px; color: #60a5fa; font-size: .82rem; font-weight: 600; text-decoration: none; margin-bottom: 2rem; }
+    .back-link:hover { text-decoration: underline; }
+    .role-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(96,165,250,.15); color: #93c5fd; padding: 5px 14px; border-radius: 999px; font-size: .78rem; font-weight: 700; margin-bottom: 1.5rem; border: 1px solid rgba(96,165,250,.2); }
+    .login-title    { font-size: 1.6rem; font-weight: 800; color: #f1f5f9; margin-bottom: .4rem; }
+    .login-subtitle { color: #64748b; font-size: .88rem; margin-bottom: 2rem; }
+    .form-group { margin-bottom: 1.25rem; }
+    .form-group label { display: block; font-size: .82rem; font-weight: 600; color: #94a3b8; margin-bottom: .4rem; }
+    .form-group input {
+      width: 100%; padding: 12px 16px; border: 1.5px solid rgba(255,255,255,.1);
+      border-radius: 10px; font-size: .9rem; font-family: inherit;
+      background: rgba(255,255,255,.06); color: #f1f5f9;
+      transition: border-color .2s, box-shadow .2s; outline: none;
+    }
+    .form-group input::placeholder { color: #475569; }
+    .form-group input:focus { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59,130,246,.15); }
+    .cred-box { background: rgba(245,158,11,.08); border: 1px solid rgba(245,158,11,.2); border-radius: 10px; padding: 11px 16px; font-size: .82rem; color: #fbbf24; margin-bottom: 1.5rem; }
+    .submit-btn {
+      width: 100%; padding: 14px; border: none; border-radius: 12px;
+      background: linear-gradient(135deg, #2563eb, #1e3a8a);
+      color: #fff; font-size: .95rem; font-weight: 700;
+      cursor: pointer; transition: transform .15s, box-shadow .15s;
+    }
+    .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,99,235,.4); }
+    .login-footer { text-align: center; margin-top: 1.5rem; font-size: .82rem; color: #475569; }
+    .login-footer a { color: #60a5fa; font-weight: 600; text-decoration: none; }
+    .login-footer a:hover { text-decoration: underline; }
+    #adminLoginError { display: none; background: rgba(220,38,38,.1); border: 1px solid rgba(220,38,38,.25); border-radius: 8px; padding: 10px 14px; font-size: .83rem; color: #f87171; margin-bottom: 1rem; }
+    @media (max-width: 640px) {
+      .page-wrapper { grid-template-columns: 1fr; }
+      .left-panel { padding: 2rem; }
+      .right-panel { padding: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="left-panel">
+      <div>
+        <div class="brand">🎓 GrievEase</div>
+        <div class="tagline">University Grievance Management</div>
+      </div>
+      <div>
+        <h2 class="hero-h2">AI-Powered University Control Center</h2>
+        <p class="hero-p">Monitor complaints, manage staff, and analyze university operations in real time. Full control over every grievance from submission to closure.</p>
+        <div class="feat-list">
+          <div class="feat-item"><span class="feat-icon">📊</span> Live analytics with 6 Chart.js charts</div>
+          <div class="feat-item"><span class="feat-icon">👥</span> Staff management and assignments</div>
+          <div class="feat-item"><span class="feat-icon">⚡</span> Bulk status update and CSV export</div>
+          <div class="feat-item"><span class="feat-icon">🔒</span> Full audit log and escalation control</div>
+        </div>
+      </div>
+      <div style="font-size:.75rem;opacity:.3;margin-top:2rem;">GrievEase v3.0 · Admin Panel · Restricted Access</div>
+    </div>
+
+    <div class="right-panel">
+      <a href="index.html" class="back-link">← Back to Home</a>
+      <span class="role-badge">🔒 Admin Panel</span>
+      <h1 class="login-title">Admin Login</h1>
+      <p class="login-subtitle">Restricted access. Authorized personnel only.</p>
+
+      <div class="cred-box">⚠️ Default credentials: <strong>admin</strong> / <strong>admin123</strong> — Change after first login.</div>
+      <div id="adminLoginError">❌ Invalid username or password.</div>
+
+      <form id="adminLoginForm">
+        <div class="form-group">
+          <label for="adminUsername">Username</label>
+          <input type="text" id="adminUsername" placeholder="admin" required autocomplete="username"/>
+        </div>
+        <div class="form-group">
+          <label for="adminPassword">Password</label>
+          <input type="password" id="adminPassword" placeholder="••••••••" required autocomplete="current-password"/>
+        </div>
+        <button type="submit" class="submit-btn" id="adminLoginBtn">Login to Admin Panel</button>
+      </form>
+
+      <div class="login-footer">
+        Student? <a href="student-login.html">Student Login</a>
+        &nbsp;·&nbsp;
+        Staff? <a href="staff-login.html">Staff Login</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

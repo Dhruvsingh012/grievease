@@ -1,0 +1,1301 @@
+student_name,admission_number,email,category,description,date
+Sanya Singh,GU24CE321,sanya.singh33@galgotias.edu,Transport,The bus conductor is charging extra fare without proper reason.,2025-10-02 09:12:06
+Reyansh Singh,GU22BCA234,reyansh.singh31@galgotias.edu,Examination,The exam hall seating arrangement was chaotic and poorly managed.,2025-11-19 09:12:06
+Aanya Verma,GU22CSE660,aanya.verma27@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2025-12-04 09:12:06
+Dhruv Bansal,GU21MCA945,dhruv.bansal40@galgotias.edu,Library,Internet computers in the library are very slow and outdated.,2025-11-06 09:12:06
+Om Singh,GU24CSE442,om.singh45@galgotias.edu,Transport,The bus seating capacity is insufficient for the number of students.,2025-12-23 09:12:06
+Mishka Joshi,GU22CSE328,mishka.joshi91@galgotias.edu,Infrastructure,There are no proper sports facilities available on campus.,2026-01-19 09:12:06
+Dhruv Malhotra,GU24CE900,dhruv.malhotra74@galgotias.edu,Infrastructure,Poor lighting in the corridors makes it unsafe during evening hours.,2025-10-06 09:12:06
+Atharv Shah,GU24ECE354,atharv.shah75@galgotias.edu,Hostel,The cleaning staff doesn't clean our floor regularly in B block.,2026-01-15 09:12:06
+Rohan Tiwari,GU23ME836,rohan.tiwari42@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-10-04 09:12:06
+Reyansh Bansal,GU22IT238,reyansh.bansal15@galgotias.edu,IT Support,Campus WiFi does not work in A block.,2025-09-26 09:12:06
+Sanya Trivedi,GU24MBA117,sanya.trivedi63@galgotias.edu,IT Support,Online assignment submission portal is not accepting files.,2025-09-30 09:12:06
+Aarohi Mehta,GU22BBA906,aarohi.mehta41@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-09-13 09:12:06
+Mishka Bhat,GU22ME427,mishka.bhat78@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-11-06 09:12:06
+Avni Kulkarni,GU23IT813,avni.kulkarni99@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2026-01-02 09:12:06
+Navya Malhotra,GU23ECE487,navya.malhotra93@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-08-07 09:12:06
+Arjun Kumar,GU23MBA168,arjun.kumar63@galgotias.edu,Administration,Document verification process is taking longer than promised.,2025-12-26 09:12:06
+Anvi Mehta,GU22ME581,anvi.mehta82@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2026-01-09 09:12:06
+Myra Rao,GU24MBA556,myra.rao18@galgotias.edu,Examination,Exam schedule was changed at the last moment without proper notice.,2025-10-04 09:12:06
+Dhruv Saxena,GU21EE156,dhruv.saxena98@galgotias.edu,Security,The security guards behavior towards students is unprofessional.,2025-10-03 09:12:06
+Dhruv Jain,GU21CE167,dhruv.jain32@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2026-01-04 09:12:06
+Rudra Kapoor,GU21MBA141,rudra.kapoor73@galgotias.edu,Transport,The bus seating capacity is insufficient for the number of students.,2025-10-22 09:12:06
+Avni Mishra,GU23IT725,avni.mishra26@galgotias.edu,Infrastructure,The C building elevator has been out of order for 12 days.,2025-08-18 09:12:06
+Advait Sharma,GU21CSE250,advait.sharma20@galgotias.edu,IT Support,Mobile app for college services has constant bugs and errors.,2025-10-09 09:12:06
+Dhruv Bansal,GU21ECE471,dhruv.bansal52@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2025-08-10 09:12:06
+Zara Menon,GU23EE341,zara.menon33@galgotias.edu,Infrastructure,The canteen infrastructure needs renovation and expansion.,2025-11-06 09:12:06
+Aadhya Mehta,GU21BBA342,aadhya.mehta60@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-11-30 09:12:06
+Parth Rao,GU23MCA602,parth.rao36@galgotias.edu,Hostel,WiFi connectivity in C block hostel is extremely poor.,2025-09-28 09:12:06
+Om Chopra,GU24BBA870,om.chopra28@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-09-23 09:12:06
+Harsh Sharma,GU21IT689,harsh.sharma12@galgotias.edu,Examination,The exam hall seating arrangement was chaotic and poorly managed.,2025-11-19 09:12:06
+Aryan Malhotra,GU22CSE173,aryan.malhotra84@galgotias.edu,Fees,The finance office is not responding to my fee-related queries.,2026-01-03 09:12:06
+Yash Tiwari,GU22BCA851,yash.tiwari28@galgotias.edu,Academic,The syllabus for Software Engineering was not completed within the semester.,2025-10-03 09:12:06
+Rudra Patel,GU21IT710,rudra.patel59@galgotias.edu,Fees,Bank transaction was successful but college system shows payment failed.,2025-11-26 09:12:06
+Vivaan Verma,GU22CE773,vivaan.verma58@galgotias.edu,Library,Digital library resources are insufficient for our course requirements.,2025-08-12 09:12:06
+Harsh Kumar,GU21ME270,harsh.kumar74@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2025-09-03 09:12:06
+Tara Saxena,GU24IT476,tara.saxena89@galgotias.edu,Examination,The exam hall seating arrangement was chaotic and poorly managed.,2025-10-28 09:12:06
+Reyansh Saxena,GU22ME289,reyansh.saxena62@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-09-28 09:12:06
+Raghav Patel,GU23CSE840,raghav.patel37@galgotias.edu,Hostel,There is no hot water supply in C block for the last 12 days.,2025-10-01 09:12:06
+Shanaya Rao,GU23IT349,shanaya.rao59@galgotias.edu,Administration,Administrative staff is not responsive to emails and phone calls.,2025-12-01 09:12:06
+Arnav Pillai,GU24MBA573,arnav.pillai41@galgotias.edu,Library,"Library maintains silence rule too strictly, preventing group study.",2025-12-09 09:12:06
+Aditya Nair,GU22CSE787,aditya.nair86@galgotias.edu,Fees,My sibling discount is not being applied despite submitting documents.,2025-10-11 09:12:06
+Aanya Verma,GU22CSE660,aanya.verma27@galgotias.edu,Administration,I need bonafide certificate urgently but the admin office is delaying.,2025-12-10 09:12:06
+Avni Sharma,GU24BBA506,avni.sharma77@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 3 weeks.,2025-08-09 09:12:06
+Ananya Pillai,GU22EE879,ananya.pillai15@galgotias.edu,Academic,Assignment deadlines for Mathematics are too short and unrealistic.,2025-09-15 09:12:06
+Om Mehta,GU23IT537,om.mehta41@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2026-01-15 09:12:06
+Kabir Jain,GU23BCA422,kabir.jain12@galgotias.edu,Infrastructure,There is no backup power supply in Administrative during outages.,2025-11-01 09:12:06
+Nisha Saxena,GU21MBA979,nisha.saxena98@galgotias.edu,IT Support,Internet speed in computer lab is too slow for practical work.,2025-09-17 09:12:06
+Sanya Pillai,GU24BBA272,sanya.pillai36@galgotias.edu,Transport,The buses are not well-maintained and have mechanical issues.,2025-08-22 09:12:06
+Karan Jain,GU23BCA702,karan.jain66@galgotias.edu,Hostel,My room furniture is broken and replacement has been delayed.,2025-12-04 09:12:06
+Advait Saxena,GU22CSE916,advait.saxena57@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-09-02 09:12:06
+Aanya Gupta,GU22ECE262,aanya.gupta88@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2026-01-08 09:12:06
+Aditya Shah,GU22ME452,aditya.shah29@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2025-10-21 09:12:06
+Shanaya Saxena,GU21MBA314,shanaya.saxena43@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-09-28 09:12:06
+Yash Jain,GU21CE725,yash.jain59@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-11-10 09:12:06
+Harsh Mishra,GU23BBA869,harsh.mishra73@galgotias.edu,Academic,My Control Systems marks are showing as zero despite submitting the assignment on time.,2025-11-13 09:12:06
+Vedant Arora,GU21MBA863,vedant.arora80@galgotias.edu,Academic,I was marked absent in Machine Learning class despite being present on 17/9/2024.,2025-11-15 09:12:06
+Laksh Arora,GU22ECE623,laksh.arora11@galgotias.edu,Transport,College bus broke down on 12/6/2024 leaving students stranded.,2025-10-29 09:12:06
+Yash Tiwari,GU22IT643,yash.tiwari92@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-10-14 09:12:06
+Aryan Jain,GU21CSE325,aryan.jain62@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-10-31 09:12:06
+Tara Jain,GU24ECE849,tara.jain32@galgotias.edu,Transport,Bus service was suspended during exam period without notice.,2025-08-03 09:12:06
+Aryan Rao,GU21BCA279,aryan.rao54@galgotias.edu,Hostel,My roommate creates noise late at night and the warden is not taking action.,2026-01-02 09:12:06
+Riya Malhotra,GU21EE513,riya.malhotra10@galgotias.edu,Fees,The fee structure is not clearly communicated for my course.,2025-12-27 09:12:06
+Rudra Sinha,GU23ECE148,rudra.sinha85@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-08-01 09:12:06
+Ishita Joshi,GU23MCA898,ishita.joshi16@galgotias.edu,Security,The security office does not respond to emergency calls promptly.,2025-10-03 09:12:06
+Aadhya Malhotra,GU21BCA740,aadhya.malhotra13@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 7 weeks.,2025-12-20 09:12:06
+Sara Bansal,GU22CE383,sara.bansal73@galgotias.edu,Library,Internet computers in the library are very slow and outdated.,2025-08-15 09:12:06
+Aditya Kumar,GU24EE807,aditya.kumar67@galgotias.edu,Administration,I submitted all required documents but application is still pending.,2025-09-11 09:12:06
+Aisha Pandey,GU21BCA369,aisha.pandey35@galgotias.edu,Infrastructure,There is no backup power supply in A during outages.,2026-01-15 09:12:06
+Kiara Kapoor,GU21CE997,kiara.kapoor54@galgotias.edu,Fees,Hostel fee was deducted twice from my account this semester.,2025-08-22 09:12:06
+Yash Jain,GU21CE725,yash.jain59@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 4 weeks.,2026-01-14 09:12:06
+Avni Malhotra,GU24BCA570,avni.malhotra73@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-11-18 09:12:06
+Dhruv Singh,GU22ECE104,dhruv.singh91@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-11-12 09:12:06
+Reyansh Pillai,GU21ME866,reyansh.pillai21@galgotias.edu,Transport,Bus route should include additional pickup point at Pari Chowk.,2025-08-05 09:12:06
+Aanya Mishra,GU22BBA536,aanya.mishra28@galgotias.edu,Library,Latest editions of textbooks are not available in the library.,2026-01-18 09:12:06
+Sara Kapoor,GU21EE969,sara.kapoor50@galgotias.edu,Academic,The syllabus for Chemistry was not completed within the semester.,2025-09-04 09:12:06
+Om Agarwal,GU24CSE920,om.agarwal68@galgotias.edu,Hostel,There is no hot water supply in C block for the last 11 days.,2025-11-28 09:12:06
+Ishita Trivedi,GU21MCA585,ishita.trivedi65@galgotias.edu,Infrastructure,The campus roads have potholes that need urgent repair.,2025-09-06 09:12:06
+Ishita Shah,GU24MBA478,ishita.shah56@galgotias.edu,Academic,The faculty Prof. Gupta behavior towards students in class is unprofessional.,2026-01-14 09:12:06
+Priya Sinha,GU23CSE482,priya.sinha25@galgotias.edu,Hostel,The hostel warden is not available during designated hours.,2025-08-31 09:12:06
+Nisha Rao,GU21ECE238,nisha.rao34@galgotias.edu,Academic,My Algorithms marks are showing as zero despite submitting the assignment on time.,2025-08-30 09:12:06
+Diya Rao,GU23EE948,diya.rao51@galgotias.edu,Transport,I applied for bus pass on 15/2/2024 but haven't received it yet.,2025-10-25 09:12:06
+Neil Menon,GU21ME443,neil.menon16@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-12-27 09:12:06
+Aarohi Gupta,GU23EE694,aarohi.gupta47@galgotias.edu,Examination,I was given wrong question paper during Thermodynamics examination.,2025-09-04 09:12:06
+Kabir Malhotra,GU24ME244,kabir.malhotra56@galgotias.edu,Administration,Administrative staff is not responsive to emails and phone calls.,2025-09-24 09:12:06
+Aarohi Bhat,GU22MCA375,aarohi.bhat88@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-10-14 09:12:06
+Aditya Pandey,GU22IT415,aditya.pandey80@galgotias.edu,Administration,The student services office provides conflicting information.,2026-01-07 09:12:06
+Ananya Singh,GU23IT410,ananya.singh60@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2025-12-14 09:12:06
+Myra Bansal,GU21CE880,myra.bansal48@galgotias.edu,Transport,Bus service from Sector 16 should start earlier in the morning.,2025-09-23 09:12:06
+Tara Bansal,GU24CE805,tara.bansal64@galgotias.edu,Hostel,The mess menu is monotonous and lacks nutritional variety.,2025-09-04 09:12:06
+Laksh Joshi,GU24ME644,laksh.joshi60@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2025-12-06 09:12:06
+Rohan Kulkarni,GU21MCA514,rohan.kulkarni56@galgotias.edu,Transport,The college bus from Sector 62 is consistently late by 30 minutes.,2025-08-12 09:12:06
+Zara Jain,GU21BCA102,zara.jain86@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2026-01-06 09:12:06
+Vihaan Nair,GU21CE827,vihaan.nair61@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-08-18 09:12:06
+Tara Jain,GU24ECE849,tara.jain32@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-10-18 09:12:06
+Pari Trivedi,GU23CSE279,pari.trivedi36@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-11-24 09:12:06
+Krishna Kulkarni,GU24MCA830,krishna.kulkarni78@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-10-09 09:12:06
+Vihaan Mishra,GU22MBA670,vihaan.mishra69@galgotias.edu,Academic,The Prof. Singh is using outdated teaching methods for Software Engineering course.,2025-11-04 09:12:06
+Raghav Tiwari,GU22CSE288,raghav.tiwari69@galgotias.edu,IT Support,I cannot update my personal information on the student portal.,2025-11-27 09:12:06
+Arjun Arora,GU22IT342,arjun.arora25@galgotias.edu,Fees,Extra charges are being levied without any prior notification.,2025-11-08 09:12:06
+Dhruv Bansal,GU21MCA945,dhruv.bansal40@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2025-12-04 09:12:06
+Sanya Pillai,GU24BBA272,sanya.pillai36@galgotias.edu,Examination,Results show I failed in Software Engineering but I'm confident about my performance.,2025-12-24 09:12:06
+Vedant Reddy,GU24EE853,vedant.reddy44@galgotias.edu,Library,Internet computers in the library are very slow and outdated.,2025-11-21 09:12:06
+Nisha Desai,GU21ME899,nisha.desai50@galgotias.edu,Examination,My answer sheet for Programming appears to be missing from evaluation.,2025-10-12 09:12:06
+Sia Saxena,GU22CSE612,sia.saxena29@galgotias.edu,Library,Required reference books for Chemistry are not available in the library.,2026-01-14 09:12:06
+Ayaan Arora,GU22ECE844,ayaan.arora93@galgotias.edu,Transport,Bus route 4 has been cancelled without alternative arrangement.,2025-10-27 09:12:06
+Kiara Gupta,GU24BBA398,kiara.gupta97@galgotias.edu,Fees,Extra charges are being levied without any prior notification.,2025-08-28 09:12:06
+Ayaan Trivedi,GU24CSE450,ayaan.trivedi25@galgotias.edu,Administration,The student services office provides conflicting information.,2025-08-13 09:12:06
+Yash Jain,GU21CE725,yash.jain59@galgotias.edu,IT Support,I cannot update my personal information on the student portal.,2025-07-31 09:12:06
+Laksh Arora,GU22ECE623,laksh.arora11@galgotias.edu,Infrastructure,There is no backup power supply in Administrative during outages.,2025-12-24 09:12:06
+Aditya Kumar,GU24EE807,aditya.kumar67@galgotias.edu,Infrastructure,The parking area is insufficient and poorly maintained.,2026-01-12 09:12:06
+Kabir Jain,GU23IT284,kabir.jain92@galgotias.edu,Infrastructure,Classroom 385 has broken furniture that poses safety risk.,2025-11-23 09:12:06
+Arnav Sinha,GU22CE926,arnav.sinha49@galgotias.edu,Fees,Fee receipt was not generated after payment through online mode.,2025-11-19 09:12:06
+Diya Reddy,GU22CE101,diya.reddy71@galgotias.edu,Hostel,Electricity supply is frequently interrupted in B block hostel.,2025-10-09 09:12:06
+Shanaya Trivedi,GU22MBA941,shanaya.trivedi85@galgotias.edu,Infrastructure,Laboratory equipment in Computer Lab is outdated and malfunctioning.,2025-08-12 09:12:06
+Arjun Verma,GU24EE282,arjun.verma44@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2026-01-15 09:12:06
+Avni Sharma,GU24BBA506,avni.sharma77@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-09-08 09:12:06
+Aisha Bansal,GU23ME794,aisha.bansal64@galgotias.edu,Infrastructure,Classroom 485 has broken furniture that poses safety risk.,2025-10-23 09:12:06
+Kiara Patel,GU21BBA108,kiara.patel51@galgotias.edu,Library,Digital library resources are insufficient for our course requirements.,2026-01-19 09:12:06
+Nisha Patel,GU24ME769,nisha.patel45@galgotias.edu,Administration,My transcript request submitted on 3/7/2024 has not been processed yet.,2025-09-17 09:12:06
+Laksh Reddy,GU24MBA331,laksh.reddy38@galgotias.edu,Hostel,The mess serves cold and undercooked food repeatedly.,2025-11-25 09:12:06
+Saanvi Trivedi,GU23CE600,saanvi.trivedi92@galgotias.edu,IT Support,The attendance marking system shows technical error repeatedly.,2025-07-25 09:12:06
+Kavya Agarwal,GU23IT628,kavya.agarwal37@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2026-01-13 09:12:06
+Nisha Gupta,GU22EE635,nisha.gupta22@galgotias.edu,Transport,There is no bus service available for evening classes.,2025-09-19 09:12:06
+Kavya Bansal,GU24BBA384,kavya.bansal94@galgotias.edu,Infrastructure,The D building elevator has been out of order for 3 days.,2025-08-02 09:12:06
+Krishna Chopra,GU24BBA181,krishna.chopra34@galgotias.edu,Transport,College bus broke down on 13/2/2024 leaving students stranded.,2025-10-09 09:12:06
+Aditi Trivedi,GU22CSE579,aditi.trivedi99@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2025-08-14 09:12:06
+Krishna Sharma,GU22ECE217,krishna.sharma79@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-12-29 09:12:06
+Ayaan Rao,GU23BBA448,ayaan.rao57@galgotias.edu,Academic,I submitted my Computer Science project on 23/11/2024 but it's still marked as pending.,2025-09-07 09:12:06
+Raghav Patel,GU23CSE840,raghav.patel37@galgotias.edu,Infrastructure,There is no backup power supply in D during outages.,2025-11-04 09:12:06
+Raghav Kapoor,GU21EE967,raghav.kapoor90@galgotias.edu,Infrastructure,Laboratory equipment in Electronics Lab is outdated and malfunctioning.,2025-12-07 09:12:06
+Yash Joshi,GU22IT492,yash.joshi85@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 24 classes but it shows 59%.,2025-10-27 09:12:06
+Ananya Bhat,GU21MCA584,ananya.bhat93@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-08-03 09:12:06
+Navya Pandey,GU24ME649,navya.pandey73@galgotias.edu,Infrastructure,Laboratory equipment in Physics Lab is outdated and malfunctioning.,2025-08-15 09:12:06
+Om Tiwari,GU21ECE681,om.tiwari30@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-10-15 09:12:06
+Sia Saxena,GU22ECE596,sia.saxena75@galgotias.edu,Library,E-journal access is not working for my department.,2026-01-14 09:12:06
+Aanya Reddy,GU23MBA793,aanya.reddy85@galgotias.edu,Fees,Fee receipt was not generated after payment through online mode.,2025-08-02 09:12:06
+Myra Singh,GU23MCA520,myra.singh77@galgotias.edu,Infrastructure,Poor lighting in the corridors makes it unsafe during evening hours.,2025-08-25 09:12:06
+Vedant Arora,GU21MBA863,vedant.arora80@galgotias.edu,Security,I lost my belongings in the campus and there's no lost and found system.,2025-11-08 09:12:06
+Dhruv Bhat,GU21BCA697,dhruv.bhat51@galgotias.edu,Security,The entry register system at hostel gate is not properly maintained.,2025-09-18 09:12:06
+Sanya Kulkarni,GU22CSE324,sanya.kulkarni41@galgotias.edu,Infrastructure,Poor lighting in the corridors makes it unsafe during evening hours.,2025-08-17 09:12:06
+Pari Mishra,GU24MCA630,pari.mishra64@galgotias.edu,Fees,Late fee penalty was added even though I paid before the deadline.,2025-11-29 09:12:06
+Krishna Nair,GU23BCA410,krishna.nair56@galgotias.edu,IT Support,Internet speed in computer lab is too slow for practical work.,2026-01-16 09:12:06
+Navya Kulkarni,GU23BBA423,navya.kulkarni93@galgotias.edu,Examination,Questions in Control Systems exam were out of syllabus and extremely difficult.,2025-09-25 09:12:06
+Sanya Singh,GU24CE321,sanya.singh33@galgotias.edu,Examination,Results show I failed in Programming but I'm confident about my performance.,2025-09-12 09:12:06
+Riya Desai,GU22CE417,riya.desai83@galgotias.edu,Examination,I was given wrong question paper during Engineering Drawing examination.,2025-10-04 09:12:06
+Sanya Mishra,GU22MCA559,sanya.mishra17@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 8 weeks.,2025-11-26 09:12:06
+Karan Pandey,GU22ME524,karan.pandey78@galgotias.edu,IT Support,Online fee payment gateway frequently shows transaction failed error.,2025-10-31 09:12:06
+Saanvi Mehta,GU23EE993,saanvi.mehta66@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2025-10-17 09:12:06
+Vihaan Jain,GU22CSE183,vihaan.jain47@galgotias.edu,Infrastructure,The campus roads have potholes that need urgent repair.,2025-11-08 09:12:06
+Rohan Kulkarni,GU21MCA514,rohan.kulkarni56@galgotias.edu,IT Support,The IT helpdesk phone number is always busy and unhelpful.,2025-10-02 09:12:06
+Sara Tiwari,GU21BBA366,sara.tiwari43@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-08-21 09:12:06
+Krishna Patel,GU21CE682,krishna.patel95@galgotias.edu,Infrastructure,The auditorium seating is uncomfortable and in bad condition.,2025-11-19 09:12:06
+Reyansh Iyer,GU24CSE875,reyansh.iyer12@galgotias.edu,Library,"Library maintains silence rule too strictly, preventing group study.",2026-01-11 09:12:06
+Laksh Rao,GU22ECE817,laksh.rao99@galgotias.edu,IT Support,Online assignment submission portal is not accepting files.,2025-10-28 09:12:06
+Krishna Bansal,GU21ECE269,krishna.bansal85@galgotias.edu,Hostel,Electricity supply is frequently interrupted in D block hostel.,2025-10-04 09:12:06
+Aanya Patel,GU21CE153,aanya.patel23@galgotias.edu,IT Support,My student email account is not working since 4/2/2024.,2025-10-19 09:12:06
+Dev Kumar,GU22BBA734,dev.kumar79@galgotias.edu,Infrastructure,The parking area is insufficient and poorly maintained.,2026-01-18 09:12:06
+Sara Tiwari,GU21BBA366,sara.tiwari43@galgotias.edu,Hostel,WiFi connectivity in A block hostel is extremely poor.,2025-09-27 09:12:06
+Aanya Singh,GU21CE715,aanya.singh85@galgotias.edu,Examination,Online examination faced severe technical glitches during the test.,2025-12-03 09:12:06
+Reyansh Arora,GU22CE260,reyansh.arora26@galgotias.edu,Administration,I submitted all required documents but application is still pending.,2025-10-02 09:12:06
+Saanvi Reddy,GU22MBA878,saanvi.reddy68@galgotias.edu,Academic,My Mathematics marks are showing as zero despite submitting the assignment on time.,2025-11-21 09:12:06
+Sara Kulkarni,GU21EE901,sara.kulkarni24@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2025-12-21 09:12:06
+Myra Agarwal,GU23CE964,myra.agarwal17@galgotias.edu,Transport,The bus conductor is charging extra fare without proper reason.,2025-10-29 09:12:06
+Kabir Agarwal,GU23CE501,kabir.agarwal98@galgotias.edu,Academic,I scored 69 in Microprocessors but my grade sheet shows 37. There is a discrepancy.,2025-12-25 09:12:06
+Avni Kulkarni,GU23IT813,avni.kulkarni99@galgotias.edu,Infrastructure,The auditorium seating is uncomfortable and in bad condition.,2026-01-19 09:12:06
+Raghav Iyer,GU22BCA908,raghav.iyer59@galgotias.edu,Security,The security guards are not allowing students entry without valid reason.,2025-10-20 09:12:06
+Ayaan Bhat,GU23IT213,ayaan.bhat18@galgotias.edu,Hostel,There is no hot water supply in A block for the last 12 days.,2025-12-25 09:12:06
+Riya Nair,GU22BCA755,riya.nair17@galgotias.edu,Administration,Document verification process is taking longer than promised.,2025-11-15 09:12:06
+Kavya Desai,GU24ECE482,kavya.desai45@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2025-11-29 09:12:06
+Ahana Jain,GU23IT157,ahana.jain20@galgotias.edu,Examination,Exam schedule was changed at the last moment without proper notice.,2025-11-09 09:12:06
+Atharv Malhotra,GU23MCA221,atharv.malhotra61@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-11-14 09:12:06
+Aanya Mishra,GU22BBA536,aanya.mishra28@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2025-11-12 09:12:06
+Sanya Saxena,GU22ECE873,sanya.saxena15@galgotias.edu,Academic,My mid-semester exam answer sheet for Operating Systems was not shown for review.,2025-08-27 09:12:06
+Om Khan,GU21BBA784,om.khan58@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 2 weeks.,2025-07-25 09:12:06
+Vedant Kapoor,GU23MCA975,vedant.kapoor39@galgotias.edu,Infrastructure,Classroom 275 has broken furniture that poses safety risk.,2025-11-12 09:12:06
+Laksh Malhotra,GU23EE883,laksh.malhotra16@galgotias.edu,Hostel,WiFi connectivity in A block hostel is extremely poor.,2025-08-06 09:12:06
+Laksh Malhotra,GU23EE883,laksh.malhotra16@galgotias.edu,Academic,The syllabus for Artificial Intelligence was not completed within the semester.,2025-11-27 09:12:06
+Advait Singh,GU24IT704,advait.singh75@galgotias.edu,Hostel,My room furniture is broken and replacement has been delayed.,2025-09-08 09:12:06
+Zara Rao,GU23ECE419,zara.rao69@galgotias.edu,Academic,The Dr. Verma is using outdated teaching methods for Web Development course.,2025-11-10 09:12:06
+Diya Saxena,GU21CE545,diya.saxena24@galgotias.edu,Administration,No proper queue system exists at the administrative office.,2025-09-17 09:12:06
+Aanya Bansal,GU22MBA500,aanya.bansal99@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-08-28 09:12:06
+Aditya Mishra,GU21MCA632,aditya.mishra66@galgotias.edu,Academic,I was marked absent in Computer Science class despite being present on 7/3/2024.,2025-11-11 09:12:06
+Sanya Gupta,GU24EE184,sanya.gupta68@galgotias.edu,Examination,Exam schedule was changed at the last moment without proper notice.,2025-08-28 09:12:06
+Aanya Joshi,GU21BBA911,aanya.joshi40@galgotias.edu,Infrastructure,There is no drinking water facility on the ground floor.,2025-12-28 09:12:06
+Sanya Nair,GU24MBA237,sanya.nair16@galgotias.edu,Transport,There is no bus service available for evening classes.,2025-10-01 09:12:06
+Ayaan Desai,GU24CSE564,ayaan.desai59@galgotias.edu,IT Support,The exam registration portal crashed during the registration period.,2025-10-27 09:12:06
+Ananya Pillai,GU22EE879,ananya.pillai15@galgotias.edu,Transport,Bus service from Pari Chowk should start earlier in the morning.,2025-12-04 09:12:06
+Reyansh Pillai,GU21ME866,reyansh.pillai21@galgotias.edu,Academic,The faculty Dr. Verma behavior towards students in class is unprofessional.,2026-01-17 09:12:06
+Kiara Patel,GU21BBA108,kiara.patel51@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-10-08 09:12:06
+Arnav Trivedi,GU24BCA355,arnav.trivedi78@galgotias.edu,Infrastructure,Classroom 167 has broken furniture that poses safety risk.,2025-11-24 09:12:06
+Advait Sharma,GU21CSE250,advait.sharma20@galgotias.edu,Security,The security guards are not allowing students entry without valid reason.,2025-10-07 09:12:06
+Yash Jain,GU21CE725,yash.jain59@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-12-06 09:12:06
+Aanya Joshi,GU23MCA548,aanya.joshi14@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2026-01-01 09:12:06
+Sanya Kumar,GU23CE209,sanya.kumar93@galgotias.edu,Transport,There is no bus service available for evening classes.,2025-10-10 09:12:06
+Sara Trivedi,GU24BCA517,sara.trivedi55@galgotias.edu,Hostel,The mess menu is monotonous and lacks nutritional variety.,2025-10-05 09:12:06
+Vedant Khan,GU24CE394,vedant.khan83@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2026-01-03 09:12:06
+Zara Pillai,GU23BBA706,zara.pillai28@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2025-09-24 09:12:06
+Yash Singh,GU24EE574,yash.singh79@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 4 weeks.,2025-11-20 09:12:06
+Kabir Rao,GU21ECE312,kabir.rao94@galgotias.edu,Security,I lost my belongings in the campus and there's no lost and found system.,2025-09-24 09:12:06
+Kiara Khan,GU23CE322,kiara.khan73@galgotias.edu,Infrastructure,Classroom 453 has broken furniture that poses safety risk.,2025-09-23 09:12:06
+Advait Gupta,GU23ME275,advait.gupta83@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-08-03 09:12:06
+Aadhya Trivedi,GU22ECE778,aadhya.trivedi51@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-07-26 09:12:06
+Ishita Sinha,GU23EE439,ishita.sinha56@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-09-03 09:12:06
+Karan Bhat,GU21BCA475,karan.bhat65@galgotias.edu,Transport,College bus broke down on 28/3/2024 leaving students stranded.,2025-07-28 09:12:06
+Laksh Khan,GU24BBA208,laksh.khan68@galgotias.edu,Academic,I submitted my Software Engineering project on 21/11/2024 but it's still marked as pending.,2026-01-07 09:12:06
+Kabir Mehta,GU22MBA431,kabir.mehta53@galgotias.edu,Infrastructure,Laboratory equipment in Electronics Lab is outdated and malfunctioning.,2025-08-27 09:12:06
+Yash Arora,GU24EE498,yash.arora81@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-09-29 09:12:06
+Aarav Shah,GU24EE267,aarav.shah94@galgotias.edu,Security,There are no proper lighting arrangements in the campus periphery.,2025-11-12 09:12:06
+Navya Reddy,GU24ME774,navya.reddy14@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2025-09-06 09:12:06
+Aditya Chopra,GU23ME851,aditya.chopra57@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-11-21 09:12:06
+Neil Sinha,GU22BBA572,neil.sinha34@galgotias.edu,Library,E-journal access is not working for my department.,2025-08-27 09:12:06
+Krishna Bhat,GU21CE533,krishna.bhat22@galgotias.edu,Hostel,The food quality in the mess has deteriorated significantly in the past week.,2025-08-23 09:12:06
+Anvi Nair,GU22IT143,anvi.nair85@galgotias.edu,Library,The library database search system is difficult to use.,2025-11-16 09:12:06
+Yash Gupta,GU21EE396,yash.gupta26@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2025-09-17 09:12:06
+Myra Bansal,GU21CE880,myra.bansal48@galgotias.edu,Transport,Bus route should include additional pickup point at Sector 16.,2025-11-09 09:12:06
+Nisha Sharma,GU21MCA341,nisha.sharma73@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-11-14 09:12:06
+Karan Menon,GU24EE259,karan.menon35@galgotias.edu,Security,The security guards are not allowing students entry without valid reason.,2025-08-21 09:12:06
+Aarav Shah,GU24EE267,aarav.shah94@galgotias.edu,Infrastructure,Classroom 483 has broken furniture that poses safety risk.,2025-10-25 09:12:06
+Yash Singh,GU24EE574,yash.singh79@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-12-22 09:12:06
+Kavya Trivedi,GU21CSE534,kavya.trivedi75@galgotias.edu,Infrastructure,The campus roads have potholes that need urgent repair.,2025-11-02 09:12:06
+Ananya Sinha,GU22MCA842,ananya.sinha74@galgotias.edu,Infrastructure,The air conditioning in classroom 157 has not been working for a month.,2025-09-21 09:12:06
+Karan Desai,GU24CSE695,karan.desai81@galgotias.edu,Fees,The finance office is not responding to my fee-related queries.,2025-11-12 09:12:06
+Kiara Kapoor,GU21CE997,kiara.kapoor54@galgotias.edu,Academic,The Prof. Singh is using outdated teaching methods for Mathematics course.,2026-01-16 09:12:06
+Aanya Kapoor,GU24ME404,aanya.kapoor33@galgotias.edu,Fees,My installment payment plan request has not been processed for 12 days.,2025-08-02 09:12:06
+Arnav Kapoor,GU21CSE377,arnav.kapoor96@galgotias.edu,Transport,Bus route 4 has been cancelled without alternative arrangement.,2025-11-30 09:12:06
+Sia Saxena,GU23ECE551,sia.saxena39@galgotias.edu,Security,Guest entry process is too complicated and time-consuming.,2025-10-06 09:12:06
+Kabir Agarwal,GU23CE501,kabir.agarwal98@galgotias.edu,Examination,I applied for revaluation of Physics on 22/5/2024 but there's no update.,2025-12-05 09:12:06
+Atharv Jain,GU21ECE133,atharv.jain60@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-11-02 09:12:06
+Navya Malhotra,GU24CSE895,navya.malhotra53@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-07-30 09:12:06
+Yash Kapoor,GU23EE892,yash.kapoor80@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-11-18 09:12:06
+Aanya Chopra,GU21CSE937,aanya.chopra29@galgotias.edu,Examination,Questions in Programming exam were out of syllabus and extremely difficult.,2025-11-30 09:12:06
+Tara Saxena,GU24IT476,tara.saxena89@galgotias.edu,IT Support,I cannot update my personal information on the student portal.,2025-10-28 09:12:06
+Riya Chopra,GU22BBA590,riya.chopra74@galgotias.edu,Academic,Assignment deadlines for Computer Science are too short and unrealistic.,2025-11-27 09:12:06
+Pari Sharma,GU21ECE963,pari.sharma28@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-08-27 09:12:06
+Navya Verma,GU24MBA331,navya.verma58@galgotias.edu,Infrastructure,The A building elevator has been out of order for 6 days.,2025-07-30 09:12:06
+Dhruv Bhat,GU23MCA261,dhruv.bhat99@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2026-01-12 09:12:06
+Atharv Saxena,GU21MCA939,atharv.saxena54@galgotias.edu,Academic,Class schedule for Artificial Intelligence keeps changing without prior notice.,2025-11-09 09:12:06
+Shaurya Tiwari,GU23MCA441,shaurya.tiwari88@galgotias.edu,Examination,My semester results are not published even though exam was held 4 months ago.,2025-08-25 09:12:06
+Khushi Jain,GU24CE961,khushi.jain44@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2026-01-06 09:12:06
+Shaurya Bansal,GU24ME901,shaurya.bansal56@galgotias.edu,Infrastructure,The air conditioning in classroom 502 has not been working for a month.,2025-10-26 09:12:06
+Pari Kulkarni,GU24CSE597,pari.kulkarni94@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-09-10 09:12:06
+Shanaya Jain,GU21ECE245,shanaya.jain83@galgotias.edu,Academic,The syllabus for Operating Systems was not completed within the semester.,2025-09-17 09:12:06
+Aarav Singh,GU23CSE193,aarav.singh36@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2025-11-25 09:12:06
+Reyansh Nair,GU24CSE446,reyansh.nair65@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-11-06 09:12:06
+Avni Jain,GU21ME117,avni.jain22@galgotias.edu,IT Support,Online assignment submission portal is not accepting files.,2025-11-14 09:12:06
+Rohan Mehta,GU23ME541,rohan.mehta22@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-08-13 09:12:06
+Shanaya Saxena,GU21MBA314,shanaya.saxena43@galgotias.edu,Hostel,The mess serves cold and undercooked food repeatedly.,2025-10-10 09:12:06
+Saanvi Trivedi,GU24IT196,saanvi.trivedi27@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-08-28 09:12:06
+Krishna Chopra,GU22ME485,krishna.chopra28@galgotias.edu,Administration,My course completion certificate request is pending for 1 months.,2025-07-25 09:12:06
+Parth Khan,GU21CE817,parth.khan20@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-10-07 09:12:06
+Arnav Gupta,GU23ME636,arnav.gupta41@galgotias.edu,Hostel,WiFi connectivity in C block hostel is extremely poor.,2025-12-21 09:12:06
+Kiara Menon,GU21CSE794,kiara.menon56@galgotias.edu,Library,The librarian is not helpful when asked for book recommendations.,2025-11-23 09:12:06
+Atharv Desai,GU23BBA236,atharv.desai97@galgotias.edu,Security,Security check at the gate is too time-consuming making students late.,2025-11-01 09:12:06
+Raghav Malhotra,GU21ME412,raghav.malhotra20@galgotias.edu,Fees,Hostel fee was deducted twice from my account this semester.,2025-09-02 09:12:06
+Nisha Saxena,GU21MBA979,nisha.saxena98@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2026-01-09 09:12:06
+Rohan Sharma,GU22IT251,rohan.sharma16@galgotias.edu,Academic,I submitted my Chemistry project on 13/8/2024 but it's still marked as pending.,2025-10-17 09:12:06
+Aryan Rao,GU21BCA279,aryan.rao54@galgotias.edu,Administration,No proper queue system exists at the administrative office.,2025-08-06 09:12:06
+Arjun Verma,GU24ECE906,arjun.verma94@galgotias.edu,Infrastructure,The campus roads have potholes that need urgent repair.,2025-12-29 09:12:06
+Sara Iyer,GU22IT641,sara.iyer49@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-09-21 09:12:06
+Parth Rao,GU23MCA602,parth.rao36@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-09-06 09:12:06
+Atharv Nair,GU21ME702,atharv.nair55@galgotias.edu,Academic,I submitted my Operating Systems project on 23/11/2024 but it's still marked as pending.,2025-09-22 09:12:06
+Aarohi Desai,GU24MBA461,aarohi.desai18@galgotias.edu,Hostel,Electricity supply is frequently interrupted in B block hostel.,2025-12-19 09:12:06
+Rudra Patel,GU21IT710,rudra.patel59@galgotias.edu,Fees,My installment payment plan request has not been processed for 5 days.,2025-12-09 09:12:06
+Myra Agarwal,GU24CE870,myra.agarwal63@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 7 weeks.,2025-12-26 09:12:06
+Pari Verma,GU21BBA689,pari.verma79@galgotias.edu,Administration,Staff at the counter is rude and unprofessional in behavior.,2025-10-30 09:12:06
+Shaurya Tiwari,GU23MCA441,shaurya.tiwari88@galgotias.edu,Academic,I scored 94 in Operating Systems but my grade sheet shows 32. There is a discrepancy.,2025-11-21 09:12:06
+Sara Arora,GU23CSE818,sara.arora97@galgotias.edu,Hostel,There is no hot water supply in C block for the last 9 days.,2025-09-13 09:12:06
+Tara Saxena,GU24IT476,tara.saxena89@galgotias.edu,Hostel,The food quality in the mess has deteriorated significantly in the past week.,2025-11-01 09:12:06
+Neil Menon,GU22CSE488,neil.menon95@galgotias.edu,Transport,Bus route 4 has been cancelled without alternative arrangement.,2025-07-31 09:12:06
+Aarav Reddy,GU24BBA988,aarav.reddy20@galgotias.edu,IT Support,The college WiFi is extremely slow and keeps disconnecting.,2025-10-21 09:12:06
+Arnav Sharma,GU22MBA854,arnav.sharma36@galgotias.edu,Fees,I paid my semester fee on 2/11/2024 but the portal still shows it as pending.,2025-11-19 09:12:06
+Arjun Chopra,GU22ECE726,arjun.chopra10@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2026-01-19 09:12:06
+Kavya Nair,GU22IT622,kavya.nair99@galgotias.edu,Transport,The buses are not well-maintained and have mechanical issues.,2025-09-13 09:12:06
+Riya Menon,GU21BBA300,riya.menon36@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2026-01-06 09:12:06
+Zara Menon,GU23ECE377,zara.menon70@galgotias.edu,Fees,My installment payment plan request has not been processed for 10 days.,2025-08-25 09:12:06
+Aditya Mishra,GU21MCA632,aditya.mishra66@galgotias.edu,Infrastructure,Laboratory equipment in Computer Lab is outdated and malfunctioning.,2026-01-15 09:12:06
+Neil Verma,GU23BCA535,neil.verma95@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-09-25 09:12:06
+Kabir Rao,GU21ECE312,kabir.rao94@galgotias.edu,Hostel,There are insects and pests in the mess dining area.,2026-01-13 09:12:06
+Om Khan,GU23CSE653,om.khan25@galgotias.edu,IT Support,Campus WiFi does not work in C block.,2025-09-26 09:12:06
+Ananya Trivedi,GU24BCA297,ananya.trivedi41@galgotias.edu,Hostel,The mess serves cold and undercooked food repeatedly.,2025-08-11 09:12:06
+Sara Rao,GU22CSE931,sara.rao17@galgotias.edu,Fees,Bank transaction was successful but college system shows payment failed.,2025-09-27 09:12:06
+Tara Jain,GU24ECE849,tara.jain32@galgotias.edu,Library,My library card was deactivated without any notification.,2025-08-11 09:12:06
+Rohan Kapoor,GU21ME727,rohan.kapoor87@galgotias.edu,Examination,I applied for revaluation of Engineering Drawing on 17/8/2024 but there's no update.,2025-08-01 09:12:06
+Rohan Kapoor,GU21ME727,rohan.kapoor87@galgotias.edu,Hostel,WiFi connectivity in D block hostel is extremely poor.,2025-11-26 09:12:06
+Aditya Iyer,GU21CSE613,aditya.iyer17@galgotias.edu,Fees,My scholarship amount was supposed to be adjusted but full fee is being demanded.,2025-10-24 09:12:06
+Neil Kulkarni,GU22BCA550,neil.kulkarni12@galgotias.edu,Academic,The Prof. Gupta is using outdated teaching methods for Chemistry course.,2025-11-18 09:12:06
+Ishita Iyer,GU22CSE230,ishita.iyer55@galgotias.edu,Hostel,My roommate creates noise late at night and the warden is not taking action.,2025-08-16 09:12:06
+Aanya Verma,GU22CSE660,aanya.verma27@galgotias.edu,Administration,My transcript request submitted on 16/9/2024 has not been processed yet.,2025-08-14 09:12:06
+Khushi Menon,GU24ECE997,khushi.menon74@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2025-09-16 09:12:06
+Vihaan Verma,GU21CE665,vihaan.verma29@galgotias.edu,Academic,My Mathematics marks are showing as zero despite submitting the assignment on time.,2025-12-19 09:12:06
+Pari Bhat,GU23CE968,pari.bhat77@galgotias.edu,Administration,I need bonafide certificate urgently but the admin office is delaying.,2025-09-07 09:12:06
+Raghav Chopra,GU22ECE840,raghav.chopra64@galgotias.edu,Transport,Bus service was suspended during exam period without notice.,2025-12-19 09:12:06
+Atharv Pillai,GU21BCA619,atharv.pillai60@galgotias.edu,Infrastructure,The auditorium seating is uncomfortable and in bad condition.,2025-11-04 09:12:06
+Atharv Nair,GU21CE215,atharv.nair53@galgotias.edu,Examination,Questions in Computer Science exam were out of syllabus and extremely difficult.,2025-10-04 09:12:06
+Kavya Nair,GU22EE148,kavya.nair84@galgotias.edu,Infrastructure,Classroom 409 has broken furniture that poses safety risk.,2025-10-12 09:12:06
+Rudra Patel,GU21IT710,rudra.patel59@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-09-02 09:12:06
+Saanvi Arora,GU24CSE198,saanvi.arora23@galgotias.edu,Fees,Fee receipt was not generated after payment through online mode.,2025-10-01 09:12:06
+Atharv Kapoor,GU22BCA238,atharv.kapoor76@galgotias.edu,Examination,Results show I failed in Physics but I'm confident about my performance.,2025-11-20 09:12:06
+Parth Kulkarni,GU23MCA465,parth.kulkarni53@galgotias.edu,Hostel,The food quality in the mess has deteriorated significantly in the past week.,2025-09-13 09:12:06
+Yash Khan,GU22ECE482,yash.khan42@galgotias.edu,Hostel,There are insects and pests in the mess dining area.,2025-09-28 09:12:06
+Dhruv Gupta,GU23MCA674,dhruv.gupta42@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-09-06 09:12:06
+Kavya Nair,GU22EE148,kavya.nair84@galgotias.edu,Hostel,The food quality in the mess has deteriorated significantly in the past week.,2025-11-22 09:12:06
+Aditya Arora,GU23IT110,aditya.arora52@galgotias.edu,Hostel,Electricity supply is frequently interrupted in C block hostel.,2025-12-24 09:12:06
+Nisha Saxena,GU21MBA979,nisha.saxena98@galgotias.edu,Infrastructure,The air conditioning in classroom 383 has not been working for a month.,2025-12-06 09:12:06
+Aryan Iyer,GU23CE643,aryan.iyer72@galgotias.edu,Hostel,My roommate creates noise late at night and the warden is not taking action.,2025-12-02 09:12:06
+Kavya Trivedi,GU21CSE534,kavya.trivedi75@galgotias.edu,Library,Digital library resources are insufficient for our course requirements.,2025-11-08 09:12:06
+Arjun Pillai,GU21MCA466,arjun.pillai20@galgotias.edu,Academic,I was marked absent in Chemistry class despite being present on 13/5/2024.,2025-09-22 09:12:06
+Ananya Reddy,GU21BCA786,ananya.reddy24@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2025-10-17 09:12:06
+Krishna Gupta,GU22ME383,krishna.gupta27@galgotias.edu,Hostel,My hostel room C368 has a leaking ceiling that hasn't been fixed for days.,2025-08-16 09:12:06
+Kavya Rao,GU23CSE509,kavya.rao47@galgotias.edu,Hostel,There are insects and pests in the mess dining area.,2025-11-09 09:12:06
+Sai Desai,GU24MBA406,sai.desai26@galgotias.edu,Academic,Internal assessment marks for Digital Electronics were not disclosed before final exam.,2025-11-29 09:12:06
+Aarav Singh,GU23CSE193,aarav.singh36@galgotias.edu,Hostel,WiFi connectivity in B block hostel is extremely poor.,2025-09-29 09:12:06
+Kabir Singh,GU21CE509,kabir.singh35@galgotias.edu,IT Support,My login credentials for library database are not working.,2025-12-19 09:12:06
+Raghav Patel,GU23CSE840,raghav.patel37@galgotias.edu,Infrastructure,The air conditioning in classroom 455 has not been working for a month.,2025-12-09 09:12:06
+Ayaan Khan,GU23BBA894,ayaan.khan42@galgotias.edu,Library,My library card was deactivated without any notification.,2025-09-15 09:12:06
+Atharv Arora,GU23MCA422,atharv.arora59@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2025-08-23 09:12:06
+Reyansh Verma,GU24CE224,reyansh.verma80@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-09-08 09:12:06
+Sai Singh,GU24CE957,sai.singh66@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-11-14 09:12:06
+Harsh Arora,GU21IT320,harsh.arora92@galgotias.edu,Fees,Late fee penalty was added even though I paid before the deadline.,2025-10-09 09:12:06
+Riya Arora,GU21CE166,riya.arora13@galgotias.edu,Administration,The student services office provides conflicting information.,2025-10-11 09:12:06
+Kavya Rao,GU21CE641,kavya.rao18@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2025-07-29 09:12:06
+Ayaan Sharma,GU21ECE404,ayaan.sharma95@galgotias.edu,Academic,The faculty Prof. Singh gave me low marks in Engineering Drawing without proper justification.,2025-10-20 09:12:06
+Advait Pillai,GU23EE759,advait.pillai13@galgotias.edu,Hostel,The hostel warden is not available during designated hours.,2025-10-13 09:12:06
+Aanya Singh,GU21CE715,aanya.singh85@galgotias.edu,IT Support,My login credentials for library database are not working.,2025-08-26 09:12:06
+Aanya Patel,GU21CE153,aanya.patel23@galgotias.edu,Examination,Internal marks are not updated on the portal before final examination.,2025-07-28 09:12:06
+Saanvi Agarwal,GU21ECE441,saanvi.agarwal93@galgotias.edu,Infrastructure,Washroom facilities in A are inadequate and unhygienic.,2025-08-19 09:12:06
+Rudra Kulkarni,GU24ECE344,rudra.kulkarni42@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 3 weeks.,2025-12-08 09:12:06
+Arnav Sharma,GU21ECE824,arnav.sharma42@galgotias.edu,Security,The entry register system at hostel gate is not properly maintained.,2025-10-08 09:12:06
+Vihaan Patel,GU24IT170,vihaan.patel65@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-09-07 09:12:06
+Vedant Kulkarni,GU22ME169,vedant.kulkarni38@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-09-14 09:12:06
+Rudra Sinha,GU23ECE148,rudra.sinha85@galgotias.edu,Examination,Exam schedule was changed at the last moment without proper notice.,2025-12-24 09:12:06
+Karan Kulkarni,GU22CSE719,karan.kulkarni97@galgotias.edu,Academic,The Dr. Verma is using outdated teaching methods for Data Structures course.,2025-12-25 09:12:06
+Vedant Sinha,GU24EE121,vedant.sinha78@galgotias.edu,Hostel,My hostel room C405 has a leaking ceiling that hasn't been fixed for days.,2025-09-07 09:12:06
+Mishka Arora,GU21ME866,mishka.arora99@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-09-15 09:12:06
+Advait Agarwal,GU24EE800,advait.agarwal18@galgotias.edu,Fees,Bank transaction was successful but college system shows payment failed.,2025-10-18 09:12:06
+Karan Singh,GU22MCA505,karan.singh17@galgotias.edu,Infrastructure,Projector in classroom 433 is not functioning properly.,2025-09-10 09:12:06
+Pari Saxena,GU21MBA876,pari.saxena79@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-08-22 09:12:06
+Arjun Khan,GU22MBA599,arjun.khan40@galgotias.edu,Fees,I paid my semester fee on 21/9/2024 but the portal still shows it as pending.,2026-01-03 09:12:06
+Nisha Kumar,GU23ECE650,nisha.kumar55@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-10-25 09:12:06
+Arjun Verma,GU24EE282,arjun.verma44@galgotias.edu,Administration,My course completion certificate request is pending for 1 months.,2025-10-14 09:12:06
+Diya Rao,GU21EE591,diya.rao96@galgotias.edu,Library,"Library maintains silence rule too strictly, preventing group study.",2025-12-08 09:12:06
+Vedant Menon,GU24BBA228,vedant.menon87@galgotias.edu,Hostel,Electricity supply is frequently interrupted in A block hostel.,2025-08-16 09:12:06
+Raghav Verma,GU24EE999,raghav.verma15@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-09-14 09:12:06
+Yash Kapoor,GU23EE892,yash.kapoor80@galgotias.edu,Fees,My sibling discount is not being applied despite submitting documents.,2025-08-09 09:12:06
+Rohan Mehta,GU22CSE309,rohan.mehta78@galgotias.edu,IT Support,The college WiFi is extremely slow and keeps disconnecting.,2025-09-21 09:12:06
+Vedant Kapoor,GU23MCA975,vedant.kapoor39@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-10-18 09:12:06
+Aditya Shah,GU22ME452,aditya.shah29@galgotias.edu,IT Support,The attendance marking system shows technical error repeatedly.,2025-07-25 09:12:06
+Saanvi Pillai,GU24EE206,saanvi.pillai69@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-12-23 09:12:06
+Om Singh,GU23BBA249,om.singh15@galgotias.edu,Transport,Bus service from Pari Chowk should start earlier in the morning.,2025-09-11 09:12:06
+Reyansh Chopra,GU24BCA350,reyansh.chopra19@galgotias.edu,Fees,My installment payment plan request has not been processed for 14 days.,2025-11-19 09:12:06
+Avni Patel,GU24BCA753,avni.patel70@galgotias.edu,Hostel,My room furniture is broken and replacement has been delayed.,2025-11-06 09:12:06
+Pari Trivedi,GU23CSE279,pari.trivedi36@galgotias.edu,Infrastructure,Laboratory equipment in Physics Lab is outdated and malfunctioning.,2025-10-28 09:12:06
+Aditi Patel,GU21ECE789,aditi.patel21@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-08-14 09:12:06
+Shanaya Reddy,GU23CSE138,shanaya.reddy23@galgotias.edu,Security,The entry register system at hostel gate is not properly maintained.,2025-10-19 09:12:06
+Shanaya Rao,GU23IT349,shanaya.rao59@galgotias.edu,Hostel,The mess serves cold and undercooked food repeatedly.,2025-08-12 09:12:06
+Krishna Jain,GU21BBA955,krishna.jain96@galgotias.edu,Infrastructure,There is no backup power supply in Administrative during outages.,2026-01-04 09:12:06
+Sanya Trivedi,GU24MBA117,sanya.trivedi63@galgotias.edu,Academic,The syllabus for Engineering Drawing was not completed within the semester.,2025-08-15 09:12:06
+Vedant Kulkarni,GU23BBA868,vedant.kulkarni50@galgotias.edu,Transport,There is no bus service available for evening classes.,2025-10-04 09:12:06
+Rohan Patel,GU21MBA180,rohan.patel16@galgotias.edu,Academic,I need clarification on my Data Structures grade as the evaluation seems unfair.,2025-10-14 09:12:06
+Aanya Desai,GU24EE349,aanya.desai33@galgotias.edu,Infrastructure,The air conditioning in classroom 108 has not been working for a month.,2025-10-06 09:12:06
+Arnav Reddy,GU21IT211,arnav.reddy63@galgotias.edu,Administration,Administrative staff is not responsive to emails and phone calls.,2025-12-23 09:12:06
+Aisha Reddy,GU23CSE123,aisha.reddy51@galgotias.edu,Infrastructure,Washroom facilities in C are inadequate and unhygienic.,2025-11-16 09:12:06
+Harsh Nair,GU24MBA239,harsh.nair74@galgotias.edu,IT Support,Mobile app for college services has constant bugs and errors.,2025-10-09 09:12:06
+Aditya Shah,GU22ME452,aditya.shah29@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-11-27 09:12:06
+Advait Agarwal,GU24EE800,advait.agarwal18@galgotias.edu,Library,"Library maintains silence rule too strictly, preventing group study.",2025-12-04 09:12:06
+Ayaan Trivedi,GU23ECE888,ayaan.trivedi83@galgotias.edu,Administration,My course completion certificate request is pending for 3 months.,2025-12-26 09:12:06
+Khushi Kulkarni,GU24ME830,khushi.kulkarni60@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 24 classes but it shows 46%.,2025-12-26 09:12:06
+Harsh Mishra,GU23BBA869,harsh.mishra73@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-08-01 09:12:06
+Reyansh Joshi,GU22BBA950,reyansh.joshi53@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2025-12-23 09:12:06
+Anvi Patel,GU23CSE877,anvi.patel54@galgotias.edu,Hostel,The food quality in the mess has deteriorated significantly in the past week.,2025-07-27 09:12:06
+Dhruv Bhat,GU23BBA628,dhruv.bhat66@galgotias.edu,Academic,I was marked absent in Electronics class despite being present on 28/8/2024.,2025-07-27 09:12:06
+Aryan Pillai,GU24EE242,aryan.pillai24@galgotias.edu,Academic,I scored 61 in Thermodynamics but my grade sheet shows 56. There is a discrepancy.,2025-10-04 09:12:06
+Rohan Singh,GU23BCA481,rohan.singh95@galgotias.edu,Fees,Extra charges are being levied without any prior notification.,2025-08-06 09:12:06
+Sia Iyer,GU23ECE221,sia.iyer94@galgotias.edu,Fees,My installment payment plan request has not been processed for 14 days.,2025-10-20 09:12:06
+Laksh Malhotra,GU23EE883,laksh.malhotra16@galgotias.edu,Administration,Staff at the counter is rude and unprofessional in behavior.,2025-08-24 09:12:06
+Dhruv Saxena,GU21EE156,dhruv.saxena98@galgotias.edu,Transport,There is no bus service available for evening classes.,2026-01-05 09:12:06
+Aditya Iyer,GU24MCA307,aditya.iyer11@galgotias.edu,Transport,Bus service from Sector 62 should start earlier in the morning.,2025-10-09 09:12:06
+Dhruv Bhat,GU23BBA628,dhruv.bhat66@galgotias.edu,Transport,Bus service was suspended during exam period without notice.,2025-07-28 09:12:06
+Aanya Desai,GU24EE349,aanya.desai33@galgotias.edu,Examination,Exam schedule was changed at the last moment without proper notice.,2025-08-07 09:12:06
+Kiara Pandey,GU24CSE276,kiara.pandey15@galgotias.edu,Infrastructure,The canteen infrastructure needs renovation and expansion.,2025-09-09 09:12:06
+Parth Arora,GU22IT635,parth.arora29@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2025-10-04 09:12:06
+Sanya Trivedi,GU24MBA117,sanya.trivedi63@galgotias.edu,Infrastructure,The auditorium seating is uncomfortable and in bad condition.,2025-12-04 09:12:06
+Shaurya Kapoor,GU22CSE809,shaurya.kapoor86@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-12-19 09:12:06
+Reyansh Rao,GU24CSE958,reyansh.rao41@galgotias.edu,Academic,I scored 91 in Computer Science but my grade sheet shows 47. There is a discrepancy.,2026-01-03 09:12:06
+Aanya Pillai,GU22ME487,aanya.pillai36@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-12-10 09:12:06
+Atharv Arora,GU23MCA422,atharv.arora59@galgotias.edu,Administration,Administrative staff is not responsive to emails and phone calls.,2026-01-04 09:12:06
+Ayaan Mishra,GU21CSE856,ayaan.mishra98@galgotias.edu,IT Support,The exam registration portal crashed during the registration period.,2025-09-18 09:12:06
+Diya Arora,GU23ME609,diya.arora65@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 24 classes but it shows 46%.,2025-11-08 09:12:06
+Myra Tiwari,GU22CE871,myra.tiwari31@galgotias.edu,Infrastructure,Classroom 468 has broken furniture that poses safety risk.,2025-11-15 09:12:06
+Myra Rao,GU24MBA556,myra.rao18@galgotias.edu,Infrastructure,Projector in classroom 138 is not functioning properly.,2026-01-10 09:12:06
+Aryan Khan,GU22MBA210,aryan.khan16@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2025-09-21 09:12:06
+Rudra Nair,GU23CSE381,rudra.nair94@galgotias.edu,Hostel,Food portions in the mess are insufficient for students.,2025-08-06 09:12:06
+Ahana Menon,GU22CE100,ahana.menon56@galgotias.edu,Library,Digital library resources are insufficient for our course requirements.,2026-01-06 09:12:06
+Kavya Desai,GU24ECE482,kavya.desai45@galgotias.edu,IT Support,Mobile app for college services has constant bugs and errors.,2025-08-29 09:12:06
+Rohan Malhotra,GU24IT216,rohan.malhotra57@galgotias.edu,Infrastructure,There is no backup power supply in D during outages.,2025-09-20 09:12:06
+Zara Tiwari,GU21MBA933,zara.tiwari62@galgotias.edu,Academic,The Dr. Sharma is using outdated teaching methods for Mathematics course.,2025-11-04 09:12:06
+Diya Rao,GU21EE591,diya.rao96@galgotias.edu,IT Support,Campus WiFi does not work in A block.,2025-09-29 09:12:06
+Aryan Mishra,GU24BBA666,aryan.mishra76@galgotias.edu,IT Support,The IT helpdesk phone number is always busy and unhelpful.,2025-08-27 09:12:06
+Ishita Verma,GU23EE407,ishita.verma77@galgotias.edu,Infrastructure,There is no drinking water facility on the third floor.,2025-11-25 09:12:06
+Sia Gupta,GU24MCA762,sia.gupta96@galgotias.edu,Academic,My Mathematics marks are showing as zero despite submitting the assignment on time.,2026-01-02 09:12:06
+Ananya Sinha,GU22MCA842,ananya.sinha74@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2026-01-09 09:12:06
+Dhruv Kapoor,GU24ME218,dhruv.kapoor97@galgotias.edu,Hostel,WiFi connectivity in D block hostel is extremely poor.,2025-12-10 09:12:06
+Rohan Tiwari,GU23ME836,rohan.tiwari42@galgotias.edu,Library,Digital library resources are insufficient for our course requirements.,2025-07-27 09:12:06
+Aarav Joshi,GU24IT312,aarav.joshi16@galgotias.edu,Infrastructure,The canteen infrastructure needs renovation and expansion.,2025-09-14 09:12:06
+Diya Rao,GU21EE591,diya.rao96@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-11-15 09:12:06
+Tara Jain,GU24ECE849,tara.jain32@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-10-13 09:12:06
+Parth Shah,GU23ME491,parth.shah81@galgotias.edu,IT Support,The exam registration portal crashed during the registration period.,2025-11-26 09:12:06
+Anvi Kulkarni,GU24EE344,anvi.kulkarni96@galgotias.edu,Hostel,The food quality in the mess has deteriorated significantly in the past week.,2025-12-19 09:12:06
+Atharv Kapoor,GU24BBA393,atharv.kapoor56@galgotias.edu,Academic,The Prof. Singh is using outdated teaching methods for Control Systems course.,2025-12-28 09:12:06
+Shaurya Bansal,GU22ECE942,shaurya.bansal62@galgotias.edu,Academic,Assignment deadlines for Mathematics are too short and unrealistic.,2025-08-27 09:12:06
+Aryan Kulkarni,GU21MBA330,aryan.kulkarni13@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-08-09 09:12:06
+Aryan Saxena,GU21MCA729,aryan.saxena49@galgotias.edu,Academic,My mid-semester exam answer sheet for Web Development was not shown for review.,2025-12-13 09:12:06
+Dhruv Kapoor,GU24ME218,dhruv.kapoor97@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-09-26 09:12:06
+Khushi Malhotra,GU22CE419,khushi.malhotra28@galgotias.edu,Transport,The bus is overcrowded making it uncomfortable and unsafe.,2025-07-29 09:12:06
+Priya Chopra,GU21EE799,priya.chopra44@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-10-19 09:12:06
+Aadhya Trivedi,GU21EE743,aadhya.trivedi33@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2025-09-06 09:12:06
+Aisha Pillai,GU24ECE870,aisha.pillai55@galgotias.edu,Academic,The Prof. Singh is using outdated teaching methods for Machine Learning course.,2025-08-18 09:12:06
+Nisha Agarwal,GU21EE935,nisha.agarwal55@galgotias.edu,Fees,Fee receipt was not generated after payment through online mode.,2026-01-01 09:12:06
+Laksh Pillai,GU22BBA441,laksh.pillai51@galgotias.edu,Academic,I was marked absent in Microprocessors class despite being present on 16/2/2024.,2025-09-20 09:12:06
+Harsh Kapoor,GU24CE264,harsh.kapoor21@galgotias.edu,IT Support,The exam registration portal crashed during the registration period.,2025-11-16 09:12:06
+Raghav Sharma,GU21MBA253,raghav.sharma61@galgotias.edu,Infrastructure,There is no backup power supply in Administrative during outages.,2025-10-31 09:12:06
+Shaurya Rao,GU22CE120,shaurya.rao58@galgotias.edu,Transport,The bus seating capacity is insufficient for the number of students.,2025-11-02 09:12:06
+Atharv Pandey,GU21BCA149,atharv.pandey18@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-07-29 09:12:06
+Vihaan Iyer,GU22CSE801,vihaan.iyer34@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-11-14 09:12:06
+Sanya Saxena,GU22ECE873,sanya.saxena15@galgotias.edu,Academic,I need clarification on my Machine Learning grade as the evaluation seems unfair.,2026-01-14 09:12:06
+Zara Trivedi,GU24CE160,zara.trivedi69@galgotias.edu,Library,"Library maintains silence rule too strictly, preventing group study.",2025-11-12 09:12:06
+Ayaan Rao,GU23BBA448,ayaan.rao57@galgotias.edu,Infrastructure,The air conditioning in classroom 279 has not been working for a month.,2025-12-02 09:12:06
+Tara Sinha,GU22ECE161,tara.sinha84@galgotias.edu,Infrastructure,Classroom 265 has broken furniture that poses safety risk.,2026-01-01 09:12:06
+Parth Sinha,GU21CE939,parth.sinha52@galgotias.edu,Hostel,Room maintenance request submitted on 11/8/2024 has not been addressed yet.,2025-07-29 09:12:06
+Aditya Pandey,GU22BCA757,aditya.pandey11@galgotias.edu,Transport,There is no bus service available for evening classes.,2025-09-15 09:12:06
+Reyansh Pillai,GU21ME866,reyansh.pillai21@galgotias.edu,Hostel,My hostel room C113 has a leaking ceiling that hasn't been fixed for days.,2025-09-04 09:12:06
+Vivaan Bansal,GU22IT106,vivaan.bansal54@galgotias.edu,Infrastructure,The B building elevator has been out of order for 14 days.,2025-08-26 09:12:06
+Dhruv Bhat,GU23BBA628,dhruv.bhat66@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-11-09 09:12:06
+Harsh Reddy,GU22IT685,harsh.reddy20@galgotias.edu,Examination,My answer sheet for Electronics appears to be missing from evaluation.,2025-10-02 09:12:06
+Krishna Bansal,GU21ECE269,krishna.bansal85@galgotias.edu,Transport,Bus service from Sector 16 should start earlier in the morning.,2025-09-22 09:12:06
+Vedant Shah,GU24MCA305,vedant.shah30@galgotias.edu,Transport,I applied for bus pass on 4/6/2024 but haven't received it yet.,2025-12-05 09:12:06
+Kabir Joshi,GU22CSE660,kabir.joshi14@galgotias.edu,Academic,Assignment deadlines for Machine Learning are too short and unrealistic.,2025-12-14 09:12:06
+Sara Sharma,GU24BCA928,sara.sharma52@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-12-31 09:12:06
+Kabir Singh,GU21CE509,kabir.singh35@galgotias.edu,Administration,Document verification process is taking longer than promised.,2025-11-13 09:12:06
+Aryan Mishra,GU21BCA890,aryan.mishra31@galgotias.edu,Academic,The faculty Dr. Verma gave me low marks in Database Management without proper justification.,2025-09-30 09:12:06
+Sia Khan,GU22BBA203,sia.khan66@galgotias.edu,Transport,Bus service from Greater Noida should start earlier in the morning.,2025-09-11 09:12:06
+Aditya Shah,GU22ME452,aditya.shah29@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-09-26 09:12:06
+Myra Menon,GU22ECE877,myra.menon13@galgotias.edu,Hostel,Electricity supply is frequently interrupted in C block hostel.,2025-10-09 09:12:06
+Atharv Jain,GU21ECE133,atharv.jain60@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2026-01-14 09:12:06
+Aditya Pandey,GU22IT415,aditya.pandey80@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2025-11-05 09:12:06
+Anvi Nair,GU22IT143,anvi.nair85@galgotias.edu,Security,The security guards are not allowing students entry without valid reason.,2025-10-12 09:12:06
+Sara Mishra,GU23IT622,sara.mishra66@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-11-06 09:12:06
+Vedant Khan,GU24CE394,vedant.khan83@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-10-18 09:12:06
+Kabir Shah,GU24CSE482,kabir.shah77@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2026-01-18 09:12:06
+Avni Sinha,GU23CE212,avni.sinha11@galgotias.edu,Hostel,Electricity supply is frequently interrupted in C block hostel.,2025-12-09 09:12:06
+Aarohi Bansal,GU23MBA369,aarohi.bansal15@galgotias.edu,Infrastructure,Laboratory equipment in Electronics Lab is outdated and malfunctioning.,2025-07-26 09:12:06
+Parth Kulkarni,GU23MCA465,parth.kulkarni53@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-10-11 09:12:06
+Harsh Kapoor,GU24CE264,harsh.kapoor21@galgotias.edu,Hostel,My hostel room C194 has a leaking ceiling that hasn't been fixed for days.,2025-09-18 09:12:06
+Tara Menon,GU22CSE419,tara.menon47@galgotias.edu,Infrastructure,The air conditioning in classroom 323 has not been working for a month.,2025-11-01 09:12:06
+Om Khan,GU23MCA230,om.khan26@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 8 weeks.,2025-08-26 09:12:06
+Aryan Khan,GU23MBA524,aryan.khan36@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2025-10-10 09:12:06
+Mishka Trivedi,GU21MCA337,mishka.trivedi72@galgotias.edu,Transport,I applied for bus pass on 23/1/2024 but haven't received it yet.,2026-01-03 09:12:06
+Shaurya Tiwari,GU23MCA441,shaurya.tiwari88@galgotias.edu,Academic,Practical marks allocation in Control Systems lab is inconsistent across students.,2025-08-18 09:12:06
+Ahana Malhotra,GU22IT282,ahana.malhotra80@galgotias.edu,Administration,The student services office provides conflicting information.,2025-09-24 09:12:06
+Arnav Tiwari,GU22ME202,arnav.tiwari17@galgotias.edu,Examination,I applied for revaluation of Artificial Intelligence on 23/2/2024 but there's no update.,2025-11-05 09:12:06
+Kabir Agarwal,GU23CE501,kabir.agarwal98@galgotias.edu,Library,The library database search system is difficult to use.,2025-12-19 09:12:06
+Arjun Tiwari,GU23MCA909,arjun.tiwari32@galgotias.edu,Transport,Bus service from Greater Noida should start earlier in the morning.,2025-11-09 09:12:06
+Avni Kulkarni,GU23CSE575,avni.kulkarni73@galgotias.edu,Transport,Bus route 3 has been cancelled without alternative arrangement.,2025-08-22 09:12:06
+Harsh Nair,GU24MBA239,harsh.nair74@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-11-20 09:12:06
+Saanvi Reddy,GU21ECE292,saanvi.reddy21@galgotias.edu,Examination,My answer sheet for Electronics appears to be missing from evaluation.,2025-08-20 09:12:06
+Rudra Kapoor,GU21MBA141,rudra.kapoor73@galgotias.edu,Security,The security office does not respond to emergency calls promptly.,2025-10-15 09:12:06
+Atharv Desai,GU21ECE436,atharv.desai13@galgotias.edu,IT Support,Internet speed in computer lab is too slow for practical work.,2025-08-15 09:12:06
+Sara Joshi,GU24CE300,sara.joshi26@galgotias.edu,Examination,I applied for revaluation of Networks on 8/8/2024 but there's no update.,2025-08-20 09:12:06
+Reyansh Verma,GU24CE224,reyansh.verma80@galgotias.edu,Hostel,There is no hot water supply in C block for the last 3 days.,2025-09-06 09:12:06
+Sara Iyer,GU22IT641,sara.iyer49@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-12-08 09:12:06
+Aditi Gupta,GU21EE196,aditi.gupta83@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-07-28 09:12:06
+Diya Arora,GU23ME609,diya.arora65@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2025-10-24 09:12:06
+Tara Menon,GU22CSE419,tara.menon47@galgotias.edu,IT Support,The attendance marking system shows technical error repeatedly.,2025-10-06 09:12:06
+Neil Sinha,GU23CE336,neil.sinha38@galgotias.edu,Fees,I paid my semester fee on 17/12/2024 but the portal still shows it as pending.,2025-08-06 09:12:06
+Om Kumar,GU22ECE903,om.kumar66@galgotias.edu,Transport,Bus route should include additional pickup point at Greater Noida.,2025-12-11 09:12:06
+Shanaya Kumar,GU23BBA520,shanaya.kumar10@galgotias.edu,Transport,The buses are not well-maintained and have mechanical issues.,2025-11-19 09:12:06
+Vihaan Iyer,GU24IT544,vihaan.iyer52@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-10-12 09:12:06
+Saanvi Patel,GU22BBA304,saanvi.patel91@galgotias.edu,Administration,Staff at the counter is rude and unprofessional in behavior.,2025-10-16 09:12:06
+Harsh Kumar,GU21ME270,harsh.kumar74@galgotias.edu,Library,The librarian is not helpful when asked for book recommendations.,2025-09-04 09:12:06
+Yash Kapoor,GU23EE892,yash.kapoor80@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2025-09-18 09:12:06
+Yash Mehta,GU23BBA242,yash.mehta24@galgotias.edu,Hostel,Room maintenance request submitted on 24/5/2024 has not been addressed yet.,2025-12-28 09:12:06
+Om Khan,GU21BBA784,om.khan58@galgotias.edu,Security,The security guards behavior towards students is unprofessional.,2025-10-19 09:12:06
+Nisha Verma,GU22MCA735,nisha.verma51@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-12-22 09:12:06
+Sia Gupta,GU21MBA680,sia.gupta50@galgotias.edu,Security,There is no security personnel at the main gate during evening hours.,2025-12-23 09:12:06
+Arnav Reddy,GU21IT211,arnav.reddy63@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-12-03 09:12:06
+Dhruv Gupta,GU23MCA674,dhruv.gupta42@galgotias.edu,Hostel,The mess menu is monotonous and lacks nutritional variety.,2025-08-15 09:12:06
+Vivaan Rao,GU21ECE640,vivaan.rao83@galgotias.edu,Infrastructure,Poor lighting in the corridors makes it unsafe during evening hours.,2025-10-15 09:12:06
+Reyansh Bansal,GU22IT238,reyansh.bansal15@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2026-01-15 09:12:06
+Advait Kapoor,GU22CSE145,advait.kapoor24@galgotias.edu,Examination,I applied for revaluation of Programming on 19/6/2024 but there's no update.,2025-11-15 09:12:06
+Sai Shah,GU23CE498,sai.shah26@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-09-08 09:12:06
+Yash Jain,GU21CE725,yash.jain59@galgotias.edu,Security,The security guards are not allowing students entry without valid reason.,2025-08-20 09:12:06
+Raghav Patel,GU23CSE840,raghav.patel37@galgotias.edu,Administration,I need bonafide certificate urgently but the admin office is delaying.,2025-12-08 09:12:06
+Anvi Agarwal,GU24MBA343,anvi.agarwal34@galgotias.edu,Examination,Exam schedule was changed at the last moment without proper notice.,2025-09-07 09:12:06
+Dhruv Jain,GU21EE910,dhruv.jain38@galgotias.edu,Fees,Bank transaction was successful but college system shows payment failed.,2025-12-17 09:12:06
+Sia Iyer,GU23ECE221,sia.iyer94@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-08-06 09:12:06
+Dhruv Singh,GU22ECE104,dhruv.singh91@galgotias.edu,Academic,Class schedule for Data Structures keeps changing without prior notice.,2025-12-26 09:12:06
+Avni Patel,GU24BCA753,avni.patel70@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2026-01-09 09:12:06
+Aryan Mishra,GU21BCA890,aryan.mishra31@galgotias.edu,Library,The library database search system is difficult to use.,2025-12-15 09:12:06
+Riya Nair,GU22BCA755,riya.nair17@galgotias.edu,Administration,I submitted all required documents but application is still pending.,2025-08-30 09:12:06
+Vihaan Mishra,GU22MBA670,vihaan.mishra69@galgotias.edu,Administration,Document verification process is taking longer than promised.,2025-09-11 09:12:06
+Diya Rao,GU22CE742,diya.rao60@galgotias.edu,Academic,Class schedule for Programming keeps changing without prior notice.,2026-01-14 09:12:06
+Harsh Patel,GU24BBA310,harsh.patel55@galgotias.edu,Academic,I submitted my Mathematics project on 11/7/2024 but it's still marked as pending.,2025-11-01 09:12:06
+Vihaan Jain,GU22CSE183,vihaan.jain47@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-09-12 09:12:06
+Aditya Rao,GU23IT670,aditya.rao42@galgotias.edu,IT Support,Campus WiFi does not work in A block.,2025-10-08 09:12:06
+Sai Desai,GU24MBA406,sai.desai26@galgotias.edu,Transport,Bus route should include additional pickup point at Pari Chowk.,2025-10-11 09:12:06
+Priya Gupta,GU22MCA613,priya.gupta55@galgotias.edu,Security,The security office does not respond to emergency calls promptly.,2025-09-12 09:12:06
+Aanya Pandey,GU23BBA174,aanya.pandey36@galgotias.edu,Security,The security guards are not allowing students entry without valid reason.,2025-11-28 09:12:06
+Arnav Gupta,GU23ME636,arnav.gupta41@galgotias.edu,Library,Latest editions of textbooks are not available in the library.,2025-11-20 09:12:06
+Khushi Kulkarni,GU23IT224,khushi.kulkarni76@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 21 classes but it shows 54%.,2025-09-04 09:12:06
+Rohan Kapoor,GU21CE459,rohan.kapoor50@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-12-11 09:12:06
+Aadhya Shah,GU21BBA575,aadhya.shah60@galgotias.edu,Academic,I was marked absent in Engineering Drawing class despite being present on 17/1/2024.,2025-12-16 09:12:06
+Avni Jain,GU21ME117,avni.jain22@galgotias.edu,Hostel,The hostel warden is not available during designated hours.,2025-09-22 09:12:06
+Ayaan Khan,GU24EE445,ayaan.khan16@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2025-08-10 09:12:06
+Om Sharma,GU21EE417,om.sharma83@galgotias.edu,Administration,Administrative staff is not responsive to emails and phone calls.,2025-08-01 09:12:06
+Anvi Pillai,GU21MBA693,anvi.pillai50@galgotias.edu,Infrastructure,Projector in classroom 224 is not functioning properly.,2025-07-27 09:12:06
+Zara Pillai,GU23BBA706,zara.pillai28@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-08-29 09:12:06
+Atharv Kapoor,GU22BCA238,atharv.kapoor76@galgotias.edu,Library,My library card was deactivated without any notification.,2025-10-06 09:12:06
+Arnav Kapoor,GU21CSE377,arnav.kapoor96@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-12-19 09:12:06
+Diya Tiwari,GU23BBA217,diya.tiwari51@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-10-12 09:12:06
+Aarav Joshi,GU24IT312,aarav.joshi16@galgotias.edu,Security,There are no proper lighting arrangements in the campus periphery.,2025-10-04 09:12:06
+Vedant Kulkarni,GU23BBA868,vedant.kulkarni50@galgotias.edu,Transport,I applied for bus pass on 28/5/2024 but haven't received it yet.,2025-08-08 09:12:06
+Krishna Sinha,GU23IT598,krishna.sinha20@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2026-01-01 09:12:06
+Tara Mishra,GU23CE657,tara.mishra73@galgotias.edu,Transport,The buses are not well-maintained and have mechanical issues.,2025-12-06 09:12:06
+Nisha Agarwal,GU21BBA933,nisha.agarwal12@galgotias.edu,Hostel,The cleaning staff doesn't clean our floor regularly in A block.,2025-08-07 09:12:06
+Zara Rao,GU23ECE419,zara.rao69@galgotias.edu,Administration,My transcript request submitted on 21/11/2024 has not been processed yet.,2025-11-06 09:12:06
+Ishita Singh,GU23MCA712,ishita.singh48@galgotias.edu,Security,The security guards are not allowing students entry without valid reason.,2025-12-22 09:12:06
+Myra Tiwari,GU21IT253,myra.tiwari97@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2025-12-10 09:12:06
+Shanaya Sinha,GU21CSE570,shanaya.sinha96@galgotias.edu,Hostel,My hostel room C176 has a leaking ceiling that hasn't been fixed for days.,2025-08-21 09:12:06
+Nisha Desai,GU21ME899,nisha.desai50@galgotias.edu,Security,The security guards behavior towards students is unprofessional.,2025-10-07 09:12:06
+Kabir Agarwal,GU23CE501,kabir.agarwal98@galgotias.edu,Administration,Document verification process is taking longer than promised.,2026-01-06 09:12:06
+Mishka Pandey,GU22CE299,mishka.pandey52@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-12-04 09:12:06
+Sia Khan,GU22BBA203,sia.khan66@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-11-20 09:12:06
+Yash Agarwal,GU24BCA469,yash.agarwal59@galgotias.edu,Hostel,Electricity supply is frequently interrupted in D block hostel.,2025-11-25 09:12:06
+Reyansh Arora,GU22CE260,reyansh.arora26@galgotias.edu,IT Support,The exam registration portal crashed during the registration period.,2025-08-01 09:12:06
+Om Mehta,GU24EE997,om.mehta45@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-09-20 09:12:06
+Sanya Singh,GU24CE321,sanya.singh33@galgotias.edu,Examination,Questions in Chemistry exam were out of syllabus and extremely difficult.,2026-01-04 09:12:06
+Sara Kulkarni,GU21EE901,sara.kulkarni24@galgotias.edu,Administration,Document verification process is taking longer than promised.,2025-09-18 09:12:06
+Om Mehta,GU24EE997,om.mehta45@galgotias.edu,Academic,My mid-semester exam answer sheet for Electronics was not shown for review.,2025-11-01 09:12:06
+Reyansh Kumar,GU23ME464,reyansh.kumar85@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2025-11-15 09:12:06
+Vedant Reddy,GU24BCA585,vedant.reddy51@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-10-12 09:12:06
+Krishna Kulkarni,GU24MCA830,krishna.kulkarni78@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-08-27 09:12:06
+Aadhya Singh,GU24ME961,aadhya.singh45@galgotias.edu,Administration,My transcript request submitted on 7/1/2024 has not been processed yet.,2025-08-26 09:12:06
+Rohan Tiwari,GU23ME836,rohan.tiwari42@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-09-26 09:12:06
+Arjun Pandey,GU22IT585,arjun.pandey12@galgotias.edu,Hostel,The hostel warden is not available during designated hours.,2025-10-06 09:12:06
+Aditya Kumar,GU24EE807,aditya.kumar67@galgotias.edu,Security,There is no security personnel at the back gate during evening hours.,2025-10-13 09:12:06
+Shanaya Khan,GU24BCA498,shanaya.khan71@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2025-11-15 09:12:06
+Kabir Joshi,GU21ECE640,kabir.joshi20@galgotias.edu,Infrastructure,The air conditioning in classroom 308 has not been working for a month.,2025-08-31 09:12:06
+Kabir Singh,GU21CE509,kabir.singh35@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-12-20 09:12:06
+Mishka Joshi,GU23MBA206,mishka.joshi33@galgotias.edu,Hostel,The mess serves cold and undercooked food repeatedly.,2025-08-21 09:12:06
+Saanvi Pillai,GU21MCA263,saanvi.pillai81@galgotias.edu,IT Support,Mobile app for college services has constant bugs and errors.,2025-12-02 09:12:06
+Harsh Mishra,GU23BBA869,harsh.mishra73@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2025-11-08 09:12:06
+Arnav Pillai,GU24MBA573,arnav.pillai41@galgotias.edu,Academic,Assignment deadlines for Programming are too short and unrealistic.,2025-12-03 09:12:06
+Shanaya Jain,GU21ECE245,shanaya.jain83@galgotias.edu,Library,My library card was deactivated without any notification.,2025-10-14 09:12:06
+Laksh Bansal,GU21ECE681,laksh.bansal65@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-09-12 09:12:06
+Laksh Joshi,GU24CE826,laksh.joshi64@galgotias.edu,Academic,The faculty Dr. Patel gave me low marks in Database Management without proper justification.,2025-09-12 09:12:06
+Parth Agarwal,GU21CE674,parth.agarwal40@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-12-19 09:12:06
+Dhruv Kulkarni,GU21BBA482,dhruv.kulkarni16@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 8 weeks.,2025-09-28 09:12:06
+Arjun Jain,GU24MCA811,arjun.jain25@galgotias.edu,Transport,College bus broke down on 5/7/2024 leaving students stranded.,2025-08-06 09:12:06
+Kabir Bhat,GU24MBA664,kabir.bhat61@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-11-01 09:12:06
+Parth Shah,GU23ME491,parth.shah81@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-09-28 09:12:06
+Sanya Kulkarni,GU22CSE324,sanya.kulkarni41@galgotias.edu,Transport,The college bus from Sector 62 is consistently late by 30 minutes.,2025-08-01 09:12:06
+Raghav Tiwari,GU22CSE288,raghav.tiwari69@galgotias.edu,Library,The library database search system is difficult to use.,2025-11-22 09:12:06
+Aadhya Kulkarni,GU23MCA301,aadhya.kulkarni60@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-08-10 09:12:06
+Aanya Desai,GU24EE349,aanya.desai33@galgotias.edu,Hostel,The cleaning staff doesn't clean our floor regularly in C block.,2025-08-30 09:12:06
+Yash Singh,GU24EE574,yash.singh79@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2025-11-29 09:12:06
+Aadhya Mishra,GU21BBA933,aadhya.mishra56@galgotias.edu,IT Support,Online fee payment gateway frequently shows transaction failed error.,2025-08-31 09:12:06
+Aanya Singh,GU21CE715,aanya.singh85@galgotias.edu,Academic,My mid-semester exam answer sheet for Artificial Intelligence was not shown for review.,2025-10-04 09:12:06
+Krishna Chopra,GU24BBA181,krishna.chopra34@galgotias.edu,Transport,Bus route 5 has been cancelled without alternative arrangement.,2025-11-05 09:12:06
+Advait Agarwal,GU24EE800,advait.agarwal18@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-08-30 09:12:06
+Ahana Iyer,GU23CE432,ahana.iyer97@galgotias.edu,IT Support,Campus WiFi does not work in Administrative block.,2025-08-25 09:12:06
+Aditi Saxena,GU23CE874,aditi.saxena40@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 24 classes but it shows 48%.,2025-10-10 09:12:06
+Diya Rao,GU23ECE291,diya.rao47@galgotias.edu,Transport,The college bus from Sector 16 is consistently late by 30 minutes.,2025-11-09 09:12:06
+Vihaan Nair,GU21CE827,vihaan.nair61@galgotias.edu,Examination,Results show I failed in Computer Science but I'm confident about my performance.,2025-07-26 09:12:06
+Arnav Sharma,GU22MBA854,arnav.sharma36@galgotias.edu,Library,Required reference books for Computer Science are not available in the library.,2025-11-29 09:12:06
+Diya Rao,GU21EE591,diya.rao96@galgotias.edu,Infrastructure,The air conditioning in classroom 366 has not been working for a month.,2025-08-17 09:12:06
+Sanya Verma,GU22CE254,sanya.verma88@galgotias.edu,Academic,My mid-semester exam answer sheet for Database Management was not shown for review.,2025-08-16 09:12:06
+Parth Iyer,GU24IT835,parth.iyer75@galgotias.edu,IT Support,The college WiFi is extremely slow and keeps disconnecting.,2026-01-09 09:12:06
+Aryan Sinha,GU23BBA770,aryan.sinha88@galgotias.edu,Library,Digital library resources are insufficient for our course requirements.,2025-08-29 09:12:06
+Atharv Pillai,GU21BCA619,atharv.pillai60@galgotias.edu,IT Support,The college WiFi is extremely slow and keeps disconnecting.,2025-09-05 09:12:06
+Aditi Patel,GU21ECE789,aditi.patel21@galgotias.edu,Academic,I scored 71 in Machine Learning but my grade sheet shows 53. There is a discrepancy.,2025-08-24 09:12:06
+Priya Sinha,GU23CSE482,priya.sinha25@galgotias.edu,Infrastructure,Washroom facilities in A are inadequate and unhygienic.,2025-07-31 09:12:06
+Aarav Mishra,GU21MBA175,aarav.mishra72@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2025-11-29 09:12:06
+Aadhya Malhotra,GU24MCA770,aadhya.malhotra18@galgotias.edu,Infrastructure,The canteen infrastructure needs renovation and expansion.,2025-08-23 09:12:06
+Om Singh,GU23BBA249,om.singh15@galgotias.edu,Infrastructure,The air conditioning in classroom 471 has not been working for a month.,2025-12-14 09:12:06
+Rudra Kulkarni,GU24ECE344,rudra.kulkarni42@galgotias.edu,IT Support,Campus WiFi does not work in B block.,2025-11-10 09:12:06
+Nisha Sharma,GU21MCA341,nisha.sharma73@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2025-11-20 09:12:06
+Harsh Rao,GU24ME795,harsh.rao58@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-10-04 09:12:06
+Arnav Pillai,GU24MBA573,arnav.pillai41@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-11-06 09:12:06
+Rudra Nair,GU24ECE394,rudra.nair67@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-09-26 09:12:06
+Aadhya Mehta,GU22IT473,aadhya.mehta45@galgotias.edu,Fees,My installment payment plan request has not been processed for 5 days.,2025-08-02 09:12:06
+Kavya Nair,GU22IT622,kavya.nair99@galgotias.edu,Infrastructure,Laboratory equipment in Physics Lab is outdated and malfunctioning.,2025-12-09 09:12:06
+Kavya Kapoor,GU24CSE293,kavya.kapoor26@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 5 weeks.,2025-08-09 09:12:06
+Ayaan Arora,GU22ECE844,ayaan.arora93@galgotias.edu,Examination,Internal marks are not updated on the portal before final examination.,2025-12-01 09:12:06
+Aditya Kumar,GU24EE807,aditya.kumar67@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2025-10-26 09:12:06
+Zara Trivedi,GU24CE160,zara.trivedi69@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-11-07 09:12:06
+Aditya Gupta,GU24IT810,aditya.gupta33@galgotias.edu,Academic,I submitted my Microprocessors project on 10/5/2024 but it's still marked as pending.,2025-11-20 09:12:06
+Harsh Arora,GU21EE519,harsh.arora57@galgotias.edu,Infrastructure,The parking area is insufficient and poorly maintained.,2025-12-20 09:12:06
+Harsh Desai,GU21CE184,harsh.desai31@galgotias.edu,Hostel,WiFi connectivity in C block hostel is extremely poor.,2025-08-08 09:12:06
+Tara Mishra,GU24MBA803,tara.mishra67@galgotias.edu,Infrastructure,Laboratory equipment in Physics Lab is outdated and malfunctioning.,2025-08-08 09:12:06
+Kiara Gupta,GU24BBA398,kiara.gupta97@galgotias.edu,Hostel,There is no hot water supply in C block for the last 11 days.,2025-10-05 09:12:06
+Parth Iyer,GU24IT835,parth.iyer75@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-07-24 09:12:06
+Mishka Bansal,GU24ECE480,mishka.bansal25@galgotias.edu,Infrastructure,Laboratory equipment in Computer Lab is outdated and malfunctioning.,2025-12-19 09:12:06
+Kiara Malhotra,GU22EE993,kiara.malhotra32@galgotias.edu,Security,The security guards are not allowing students entry without valid reason.,2025-11-04 09:12:06
+Ahana Saxena,GU22BBA339,ahana.saxena43@galgotias.edu,Hostel,Food portions in the mess are insufficient for students.,2025-08-01 09:12:06
+Aanya Kapoor,GU24ME404,aanya.kapoor33@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-11-18 09:12:06
+Shanaya Rao,GU23IT349,shanaya.rao59@galgotias.edu,Infrastructure,Washroom facilities in B are inadequate and unhygienic.,2025-08-21 09:12:06
+Advait Joshi,GU21CE485,advait.joshi22@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-12-05 09:12:06
+Vivaan Malhotra,GU22BBA505,vivaan.malhotra53@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 4 weeks.,2025-07-30 09:12:06
+Saanvi Pillai,GU24EE206,saanvi.pillai69@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-11-07 09:12:06
+Riya Malhotra,GU21EE513,riya.malhotra10@galgotias.edu,Hostel,The food quality in the mess has deteriorated significantly in the past week.,2025-10-14 09:12:06
+Raghav Chopra,GU22ECE840,raghav.chopra64@galgotias.edu,IT Support,The IT helpdesk phone number is always busy and unhelpful.,2025-12-05 09:12:06
+Priya Sinha,GU23CSE482,priya.sinha25@galgotias.edu,Fees,The finance office is not responding to my fee-related queries.,2025-11-26 09:12:06
+Diya Bhat,GU24ECE348,diya.bhat87@galgotias.edu,Hostel,Food portions in the mess are insufficient for students.,2025-11-12 09:12:06
+Aditya Shah,GU22ME452,aditya.shah29@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 24 classes but it shows 52%.,2026-01-12 09:12:06
+Nisha Agarwal,GU21EE935,nisha.agarwal55@galgotias.edu,Security,There are no proper lighting arrangements in the campus periphery.,2025-08-30 09:12:06
+Ahana Saxena,GU22BBA339,ahana.saxena43@galgotias.edu,Examination,My semester results are not published even though exam was held 4 months ago.,2025-08-11 09:12:06
+Arnav Rao,GU22CSE829,arnav.rao11@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-12-22 09:12:06
+Parth Iyer,GU24IT835,parth.iyer75@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-09-10 09:12:06
+Aarav Mishra,GU21MBA175,aarav.mishra72@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-07-27 09:12:06
+Dev Rao,GU22EE259,dev.rao67@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-09-13 09:12:06
+Ahana Tiwari,GU22CSE244,ahana.tiwari16@galgotias.edu,Library,The library database search system is difficult to use.,2025-08-07 09:12:06
+Sanya Agarwal,GU21ME800,sanya.agarwal64@galgotias.edu,Fees,My installment payment plan request has not been processed for 10 days.,2025-08-24 09:12:06
+Arnav Saxena,GU21BBA202,arnav.saxena98@galgotias.edu,Hostel,Room maintenance request submitted on 27/5/2024 has not been addressed yet.,2025-12-26 09:12:06
+Krishna Sharma,GU22ECE217,krishna.sharma79@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2025-08-02 09:12:06
+Sanya Bansal,GU21MCA145,sanya.bansal63@galgotias.edu,Transport,The bus conductor is charging extra fare without proper reason.,2025-10-25 09:12:06
+Atharv Malhotra,GU23MCA221,atharv.malhotra61@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-07-28 09:12:06
+Tara Trivedi,GU22ME751,tara.trivedi35@galgotias.edu,Examination,Internal marks are not updated on the portal before final examination.,2025-12-07 09:12:06
+Anvi Menon,GU21CSE974,anvi.menon78@galgotias.edu,Hostel,Room maintenance request submitted on 16/7/2024 has not been addressed yet.,2026-01-13 09:12:06
+Yash Kumar,GU21CE407,yash.kumar93@galgotias.edu,IT Support,Internet speed in computer lab is too slow for practical work.,2026-01-10 09:12:06
+Sia Gupta,GU21MBA680,sia.gupta50@galgotias.edu,Library,Digital library resources are insufficient for our course requirements.,2025-08-21 09:12:06
+Sia Patel,GU21ME225,sia.patel61@galgotias.edu,Administration,I need bonafide certificate urgently but the admin office is delaying.,2025-11-05 09:12:06
+Vihaan Kumar,GU23CE505,vihaan.kumar71@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-07-28 09:12:06
+Saanvi Saxena,GU21IT264,saanvi.saxena19@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-08-01 09:12:06
+Sara Sinha,GU24ECE755,sara.sinha73@galgotias.edu,Academic,The faculty Prof. Singh gave me low marks in Data Structures without proper justification.,2025-08-14 09:12:06
+Ananya Kumar,GU23IT927,ananya.kumar33@galgotias.edu,IT Support,My login credentials for library database are not working.,2025-10-24 09:12:06
+Laksh Joshi,GU24BCA364,laksh.joshi88@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-11-20 09:12:06
+Navya Kapoor,GU23ME955,navya.kapoor60@galgotias.edu,Library,Internet computers in the library are very slow and outdated.,2025-08-22 09:12:06
+Advait Agarwal,GU24EE800,advait.agarwal18@galgotias.edu,Infrastructure,Laboratory equipment in Electronics Lab is outdated and malfunctioning.,2025-10-26 09:12:06
+Aadhya Pandey,GU24CSE682,aadhya.pandey26@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-09-07 09:12:06
+Krishna Singh,GU21IT463,krishna.singh72@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-12-31 09:12:06
+Karan Khan,GU22EE846,karan.khan96@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2025-10-10 09:12:06
+Vihaan Arora,GU23CE503,vihaan.arora78@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-11-15 09:12:06
+Laksh Trivedi,GU23BCA831,laksh.trivedi21@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 4 weeks.,2025-10-11 09:12:06
+Rudra Nair,GU24CSE716,rudra.nair16@galgotias.edu,IT Support,Campus WiFi does not work in C block.,2025-10-24 09:12:06
+Sai Desai,GU24MBA406,sai.desai26@galgotias.edu,Infrastructure,The air conditioning in classroom 319 has not been working for a month.,2025-11-12 09:12:06
+Avni Kulkarni,GU23IT813,avni.kulkarni99@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-10-30 09:12:06
+Kiara Khan,GU23CE322,kiara.khan73@galgotias.edu,Library,My library card was deactivated without any notification.,2025-09-04 09:12:06
+Atharv Pillai,GU21BCA619,atharv.pillai60@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-10-14 09:12:06
+Dev Kumar,GU22BBA734,dev.kumar79@galgotias.edu,Academic,Assignment deadlines for Programming are too short and unrealistic.,2025-09-10 09:12:06
+Myra Pandey,GU21MCA215,myra.pandey63@galgotias.edu,Hostel,My roommate creates noise late at night and the warden is not taking action.,2025-11-20 09:12:06
+Parth Agarwal,GU21CE674,parth.agarwal40@galgotias.edu,Academic,Practical marks allocation in Networks lab is inconsistent across students.,2025-11-22 09:12:06
+Yash Singh,GU24EE574,yash.singh79@galgotias.edu,IT Support,Campus WiFi does not work in D block.,2025-12-16 09:12:06
+Arnav Tiwari,GU22ME202,arnav.tiwari17@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2025-08-06 09:12:06
+Neil Shah,GU23EE475,neil.shah54@galgotias.edu,Fees,Fee receipt was not generated after payment through online mode.,2025-08-25 09:12:06
+Navya Malhotra,GU23ECE487,navya.malhotra93@galgotias.edu,Academic,The Dr. Sharma is using outdated teaching methods for Control Systems course.,2025-11-23 09:12:06
+Raghav Iyer,GU22BCA908,raghav.iyer59@galgotias.edu,Administration,My transcript request submitted on 20/5/2024 has not been processed yet.,2025-08-28 09:12:06
+Dev Sharma,GU21ECE996,dev.sharma10@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-11-24 09:12:06
+Avni Jain,GU21ME117,avni.jain22@galgotias.edu,Examination,The exam hall seating arrangement was chaotic and poorly managed.,2025-07-30 09:12:06
+Aryan Reddy,GU21BBA169,aryan.reddy14@galgotias.edu,Academic,Class schedule for Web Development keeps changing without prior notice.,2025-12-11 09:12:06
+Vedant Kulkarni,GU22ME169,vedant.kulkarni38@galgotias.edu,Infrastructure,The campus roads have potholes that need urgent repair.,2025-11-14 09:12:06
+Dev Arora,GU21BCA502,dev.arora75@galgotias.edu,Infrastructure,Poor lighting in the corridors makes it unsafe during evening hours.,2025-12-31 09:12:06
+Neil Kulkarni,GU24CE916,neil.kulkarni82@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2025-11-15 09:12:06
+Yash Singh,GU24EE574,yash.singh79@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-11-04 09:12:06
+Neil Agarwal,GU23CE435,neil.agarwal81@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2025-09-07 09:12:06
+Sanya Rao,GU21CE310,sanya.rao73@galgotias.edu,IT Support,The exam registration portal crashed during the registration period.,2026-01-12 09:12:06
+Khushi Tiwari,GU23CSE797,khushi.tiwari92@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-10-29 09:12:06
+Riya Malhotra,GU21EE513,riya.malhotra10@galgotias.edu,Hostel,There is no hot water supply in C block for the last 4 days.,2025-09-18 09:12:06
+Aryan Pillai,GU24EE242,aryan.pillai24@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-09-24 09:12:06
+Sia Kapoor,GU23ME579,sia.kapoor80@galgotias.edu,Academic,Internal assessment marks for Microprocessors were not disclosed before final exam.,2025-11-07 09:12:06
+Laksh Patel,GU24IT228,laksh.patel77@galgotias.edu,Transport,College bus broke down on 20/11/2024 leaving students stranded.,2025-12-10 09:12:06
+Ishita Iyer,GU22CSE230,ishita.iyer55@galgotias.edu,Fees,Late fee penalty was added even though I paid before the deadline.,2025-08-10 09:12:06
+Dhruv Bansal,GU21MCA945,dhruv.bansal40@galgotias.edu,Academic,I submitted my Physics project on 16/4/2024 but it's still marked as pending.,2025-09-22 09:12:06
+Sai Shah,GU23CE498,sai.shah26@galgotias.edu,Fees,My installment payment plan request has not been processed for 10 days.,2026-01-06 09:12:06
+Sara Joshi,GU24CE300,sara.joshi26@galgotias.edu,Administration,No proper queue system exists at the administrative office.,2025-08-29 09:12:06
+Ishita Menon,GU23IT676,ishita.menon43@galgotias.edu,IT Support,Online assignment submission portal is not accepting files.,2025-10-06 09:12:06
+Kavya Patel,GU22ME904,kavya.patel46@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-09-05 09:12:06
+Kavya Rao,GU23CSE509,kavya.rao47@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2026-01-01 09:12:06
+Atharv Patel,GU24MBA264,atharv.patel45@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-07-24 09:12:06
+Om Malhotra,GU23BBA402,om.malhotra18@galgotias.edu,Hostel,Electricity supply is frequently interrupted in A block hostel.,2025-10-14 09:12:06
+Rudra Sinha,GU23ECE148,rudra.sinha85@galgotias.edu,Infrastructure,The auditorium seating is uncomfortable and in bad condition.,2025-12-19 09:12:06
+Avni Sinha,GU23CE212,avni.sinha11@galgotias.edu,Transport,The bus is overcrowded making it uncomfortable and unsafe.,2025-07-27 09:12:06
+Anvi Menon,GU21CSE974,anvi.menon78@galgotias.edu,Infrastructure,Poor lighting in the corridors makes it unsafe during evening hours.,2025-10-15 09:12:06
+Reyansh Rao,GU24ECE106,reyansh.rao82@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2026-01-19 09:12:06
+Arjun Sinha,GU23CE993,arjun.sinha21@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2025-10-09 09:12:06
+Rudra Nair,GU24CSE716,rudra.nair16@galgotias.edu,IT Support,My login credentials for library database are not working.,2025-08-27 09:12:06
+Aanya Kapoor,GU24ME404,aanya.kapoor33@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-08-27 09:12:06
+Om Sharma,GU21EE417,om.sharma83@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-12-19 09:12:06
+Shaurya Kulkarni,GU23ME171,shaurya.kulkarni56@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-10-25 09:12:06
+Atharv Arora,GU23MCA422,atharv.arora59@galgotias.edu,Library,Latest editions of textbooks are not available in the library.,2025-08-09 09:12:06
+Khushi Kulkarni,GU22CE471,khushi.kulkarni41@galgotias.edu,Fees,My installment payment plan request has not been processed for 8 days.,2025-10-09 09:12:06
+Aditya Patel,GU22ECE523,aditya.patel24@galgotias.edu,Administration,No proper queue system exists at the administrative office.,2025-11-05 09:12:06
+Laksh Kapoor,GU24BBA563,laksh.kapoor67@galgotias.edu,Academic,The syllabus for Programming was not completed within the semester.,2025-09-22 09:12:06
+Aadhya Malhotra,GU24MCA770,aadhya.malhotra18@galgotias.edu,Hostel,There are insects and pests in the mess dining area.,2025-09-28 09:12:06
+Laksh Joshi,GU24ME644,laksh.joshi60@galgotias.edu,Fees,Bank transaction was successful but college system shows payment failed.,2025-11-16 09:12:06
+Arjun Chopra,GU22ECE726,arjun.chopra10@galgotias.edu,IT Support,Online assignment submission portal is not accepting files.,2026-01-01 09:12:06
+Vivaan Malhotra,GU22BBA505,vivaan.malhotra53@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-11-12 09:12:06
+Kiara Patel,GU21BBA108,kiara.patel51@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 5 weeks.,2025-08-12 09:12:06
+Atharv Agarwal,GU22EE271,atharv.agarwal20@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2025-12-30 09:12:06
+Anvi Arora,GU24BCA577,anvi.arora51@galgotias.edu,Examination,Questions in Mathematics exam were out of syllabus and extremely difficult.,2025-12-04 09:12:06
+Aditi Patel,GU21ECE789,aditi.patel21@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2025-08-29 09:12:06
+Atharv Gupta,GU24BBA649,atharv.gupta42@galgotias.edu,Administration,My transcript request submitted on 3/4/2024 has not been processed yet.,2025-08-16 09:12:06
+Arjun Verma,GU24ECE906,arjun.verma94@galgotias.edu,Fees,My installment payment plan request has not been processed for 12 days.,2025-08-04 09:12:06
+Khushi Kulkarni,GU24ME830,khushi.kulkarni60@galgotias.edu,Security,The security guards behavior towards students is unprofessional.,2025-12-31 09:12:06
+Kavya Reddy,GU23BCA935,kavya.reddy41@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2025-10-02 09:12:06
+Rudra Gupta,GU21CE296,rudra.gupta17@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-10-01 09:12:06
+Aanya Gupta,GU22ECE262,aanya.gupta88@galgotias.edu,Academic,I submitted my Electronics project on 23/8/2024 but it's still marked as pending.,2025-12-19 09:12:06
+Dhruv Kapoor,GU24ME218,dhruv.kapoor97@galgotias.edu,Fees,My scholarship amount was supposed to be adjusted but full fee is being demanded.,2025-11-20 09:12:06
+Tara Mishra,GU24MBA803,tara.mishra67@galgotias.edu,Academic,I submitted my Control Systems project on 3/6/2024 but it's still marked as pending.,2025-11-21 09:12:06
+Myra Saxena,GU24BBA224,myra.saxena58@galgotias.edu,Security,Guest entry process is too complicated and time-consuming.,2025-08-21 09:12:06
+Aisha Reddy,GU23CSE123,aisha.reddy51@galgotias.edu,Examination,Results show I failed in Algorithms but I'm confident about my performance.,2025-12-10 09:12:06
+Rudra Nair,GU23CSE381,rudra.nair94@galgotias.edu,Examination,I was given wrong question paper during Algorithms examination.,2025-10-08 09:12:06
+Kabir Malhotra,GU24ME244,kabir.malhotra56@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-08-09 09:12:06
+Khushi Saxena,GU21BCA131,khushi.saxena41@galgotias.edu,Transport,The bus seating capacity is insufficient for the number of students.,2025-11-14 09:12:06
+Anvi Mehta,GU22ME581,anvi.mehta82@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-10-29 09:12:06
+Sia Singh,GU21EE643,sia.singh64@galgotias.edu,Infrastructure,The Administrative building elevator has been out of order for 6 days.,2025-10-16 09:12:06
+Riya Kulkarni,GU22MCA579,riya.kulkarni11@galgotias.edu,Fees,The finance office is not responding to my fee-related queries.,2025-08-07 09:12:06
+Aarohi Gupta,GU23EE694,aarohi.gupta47@galgotias.edu,Infrastructure,There is no backup power supply in C during outages.,2026-01-05 09:12:06
+Reyansh Bhat,GU24IT774,reyansh.bhat69@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2025-11-04 09:12:06
+Ahana Chopra,GU22CSE962,ahana.chopra14@galgotias.edu,Infrastructure,Washroom facilities in C are inadequate and unhygienic.,2026-01-01 09:12:06
+Ahana Saxena,GU22BBA339,ahana.saxena43@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-11-27 09:12:06
+Vedant Shah,GU24MCA305,vedant.shah30@galgotias.edu,Academic,My Thermodynamics marks are showing as zero despite submitting the assignment on time.,2025-09-22 09:12:06
+Neil Chopra,GU23BCA896,neil.chopra52@galgotias.edu,Academic,Practical marks allocation in Thermodynamics lab is inconsistent across students.,2025-10-05 09:12:06
+Rohan Sinha,GU24ME798,rohan.sinha99@galgotias.edu,Security,The security guards behavior towards students is unprofessional.,2025-08-13 09:12:06
+Diya Rao,GU23ECE291,diya.rao47@galgotias.edu,IT Support,Campus WiFi does not work in D block.,2025-11-29 09:12:06
+Parth Malhotra,GU21IT477,parth.malhotra34@galgotias.edu,Transport,College bus broke down on 27/7/2024 leaving students stranded.,2025-10-22 09:12:06
+Diya Rao,GU21EE591,diya.rao96@galgotias.edu,Hostel,There are insects and pests in the mess dining area.,2025-09-04 09:12:06
+Shaurya Bansal,GU22ECE942,shaurya.bansal62@galgotias.edu,Academic,I need clarification on my Digital Electronics grade as the evaluation seems unfair.,2025-12-12 09:12:06
+Laksh Bansal,GU21ECE681,laksh.bansal65@galgotias.edu,Security,I lost my belongings in the campus and there's no lost and found system.,2025-09-22 09:12:06
+Navya Verma,GU24MCA632,navya.verma40@galgotias.edu,Infrastructure,Washroom facilities in D are inadequate and unhygienic.,2025-09-15 09:12:06
+Riya Rao,GU24CE156,riya.rao54@galgotias.edu,Academic,I was marked absent in Data Structures class despite being present on 7/4/2024.,2025-12-11 09:12:06
+Rudra Kulkarni,GU24ECE344,rudra.kulkarni42@galgotias.edu,Library,The librarian is not helpful when asked for book recommendations.,2025-07-25 09:12:06
+Ahana Mishra,GU23BBA642,ahana.mishra58@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-12-09 09:12:06
+Om Saxena,GU22ECE789,om.saxena39@galgotias.edu,Transport,There is no bus service available for evening classes.,2025-12-21 09:12:06
+Myra Pandey,GU21MCA215,myra.pandey63@galgotias.edu,IT Support,The college WiFi is extremely slow and keeps disconnecting.,2025-09-18 09:12:06
+Avni Kulkarni,GU23IT813,avni.kulkarni99@galgotias.edu,Academic,I need clarification on my Machine Learning grade as the evaluation seems unfair.,2025-11-22 09:12:06
+Advait Nair,GU24ME134,advait.nair24@galgotias.edu,IT Support,Online fee payment gateway frequently shows transaction failed error.,2026-01-02 09:12:06
+Harsh Rao,GU23ECE196,harsh.rao61@galgotias.edu,Library,My library card was deactivated without any notification.,2025-12-22 09:12:06
+Pari Desai,GU22EE834,pari.desai23@galgotias.edu,Infrastructure,The C building elevator has been out of order for 10 days.,2025-10-29 09:12:06
+Khushi Nair,GU21BBA351,khushi.nair45@galgotias.edu,Academic,The Prof. Gupta is using outdated teaching methods for Machine Learning course.,2025-12-06 09:12:06
+Kabir Kapoor,GU24CSE568,kabir.kapoor65@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-08-30 09:12:06
+Aditi Pillai,GU24BBA530,aditi.pillai33@galgotias.edu,IT Support,The IT helpdesk phone number is always busy and unhelpful.,2025-10-09 09:12:06
+Harsh Khan,GU24CE421,harsh.khan40@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-10-27 09:12:06
+Om Malhotra,GU22CE486,om.malhotra48@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-11-17 09:12:06
+Ahana Jain,GU23ECE463,ahana.jain54@galgotias.edu,Library,E-journal access is not working for my department.,2025-11-15 09:12:06
+Ayaan Mishra,GU21CSE856,ayaan.mishra98@galgotias.edu,IT Support,Campus WiFi does not work in C block.,2025-07-31 09:12:06
+Om Saxena,GU22ECE789,om.saxena39@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-07-26 09:12:06
+Tara Kulkarni,GU21BBA467,tara.kulkarni76@galgotias.edu,Academic,I scored 75 in Algorithms but my grade sheet shows 50. There is a discrepancy.,2025-11-09 09:12:06
+Saanvi Trivedi,GU23CE600,saanvi.trivedi92@galgotias.edu,Transport,Bus route 9 has been cancelled without alternative arrangement.,2025-10-21 09:12:06
+Kavya Nair,GU22IT622,kavya.nair99@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-11-04 09:12:06
+Sanya Menon,GU23CE170,sanya.menon91@galgotias.edu,Examination,My answer sheet for Computer Science appears to be missing from evaluation.,2025-08-11 09:12:06
+Sanya Bhat,GU21MCA722,sanya.bhat42@galgotias.edu,Academic,I scored 90 in Chemistry but my grade sheet shows 39. There is a discrepancy.,2026-01-01 09:12:06
+Sanya Trivedi,GU21ME733,sanya.trivedi31@galgotias.edu,Transport,Bus service from Dadri should start earlier in the morning.,2025-12-06 09:12:06
+Anvi Arora,GU24EE152,anvi.arora91@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 1 weeks.,2025-08-18 09:12:06
+Myra Agarwal,GU24CE870,myra.agarwal63@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 25 classes but it shows 46%.,2025-11-15 09:12:06
+Yash Tiwari,GU22IT643,yash.tiwari92@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-12-02 09:12:06
+Arjun Arora,GU22ECE774,arjun.arora85@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2026-01-05 09:12:06
+Nisha Gupta,GU22EE635,nisha.gupta22@galgotias.edu,Academic,My mid-semester exam answer sheet for Programming was not shown for review.,2025-09-18 09:12:06
+Dev Khan,GU24EE996,dev.khan38@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2025-08-16 09:12:06
+Shanaya Reddy,GU23CSE138,shanaya.reddy23@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2026-01-15 09:12:06
+Sia Trivedi,GU24IT642,sia.trivedi47@galgotias.edu,Hostel,Electricity supply is frequently interrupted in B block hostel.,2026-01-05 09:12:06
+Aarav Singh,GU23CSE193,aarav.singh36@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-07-28 09:12:06
+Diya Bansal,GU21ECE473,diya.bansal17@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-09-29 09:12:06
+Sara Arora,GU23MCA856,sara.arora22@galgotias.edu,Examination,I was given wrong question paper during Chemistry examination.,2025-11-07 09:12:06
+Shanaya Reddy,GU23CSE138,shanaya.reddy23@galgotias.edu,Infrastructure,The parking area is insufficient and poorly maintained.,2025-12-03 09:12:06
+Yash Singh,GU24EE574,yash.singh79@galgotias.edu,Security,Guest entry process is too complicated and time-consuming.,2025-10-01 09:12:06
+Rohan Mehta,GU23ME541,rohan.mehta22@galgotias.edu,Hostel,The cleaning staff doesn't clean our floor regularly in A block.,2026-01-02 09:12:06
+Zara Bansal,GU23MBA282,zara.bansal91@galgotias.edu,Examination,My answer sheet for Microprocessors appears to be missing from evaluation.,2025-12-01 09:12:06
+Aarav Joshi,GU24IT312,aarav.joshi16@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-07-31 09:12:06
+Laksh Joshi,GU24BCA364,laksh.joshi88@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2026-01-18 09:12:06
+Ahana Saxena,GU22BBA339,ahana.saxena43@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2025-08-18 09:12:06
+Saanvi Arora,GU24CSE198,saanvi.arora23@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2026-01-11 09:12:06
+Krishna Sharma,GU22ECE217,krishna.sharma79@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-11-20 09:12:06
+Sanya Saxena,GU22ECE873,sanya.saxena15@galgotias.edu,Transport,The buses are not well-maintained and have mechanical issues.,2025-10-28 09:12:06
+Advait Tiwari,GU21BBA294,advait.tiwari93@galgotias.edu,Administration,I submitted all required documents but application is still pending.,2025-11-12 09:12:06
+Rohan Patel,GU21MBA180,rohan.patel16@galgotias.edu,Library,The library timing should be extended during examination period.,2025-12-27 09:12:06
+Reyansh Saxena,GU22ME289,reyansh.saxena62@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-08-20 09:12:06
+Saanvi Pillai,GU24EE206,saanvi.pillai69@galgotias.edu,Academic,Internal assessment marks for Algorithms were not disclosed before final exam.,2025-09-20 09:12:06
+Arnav Bansal,GU23BCA380,arnav.bansal54@galgotias.edu,IT Support,The grievance portal itself is not working to file complaints.,2025-09-23 09:12:06
+Rudra Kapoor,GU21MBA141,rudra.kapoor73@galgotias.edu,Administration,I need bonafide certificate urgently but the admin office is delaying.,2025-08-05 09:12:06
+Zara Jain,GU21BCA102,zara.jain86@galgotias.edu,IT Support,Campus WiFi does not work in B block.,2025-11-12 09:12:06
+Ishita Sinha,GU23EE439,ishita.sinha56@galgotias.edu,IT Support,Campus WiFi does not work in C block.,2025-12-20 09:12:06
+Riya Rao,GU24CE156,riya.rao54@galgotias.edu,Hostel,WiFi connectivity in A block hostel is extremely poor.,2025-10-07 09:12:06
+Zara Joshi,GU22CE438,zara.joshi82@galgotias.edu,Administration,The student services office provides conflicting information.,2025-09-22 09:12:06
+Harsh Sinha,GU23BCA506,harsh.sinha13@galgotias.edu,IT Support,Internet speed in computer lab is too slow for practical work.,2025-08-17 09:12:06
+Anvi Mehta,GU21BCA924,anvi.mehta59@galgotias.edu,IT Support,The attendance marking system shows technical error repeatedly.,2025-12-01 09:12:06
+Kabir Mehta,GU22MBA431,kabir.mehta53@galgotias.edu,Security,The security office does not respond to emergency calls promptly.,2025-08-29 09:12:06
+Riya Nair,GU22BCA755,riya.nair17@galgotias.edu,Library,E-journal access is not working for my department.,2025-10-12 09:12:06
+Sara Agarwal,GU23CSE173,sara.agarwal50@galgotias.edu,Fees,Fee receipt was not generated after payment through online mode.,2025-11-16 09:12:06
+Harsh Rao,GU23ECE196,harsh.rao61@galgotias.edu,Security,The entry register system at hostel gate is not properly maintained.,2025-08-16 09:12:06
+Yash Gupta,GU22BBA529,yash.gupta97@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-11-26 09:12:06
+Dev Sinha,GU23BCA208,dev.sinha20@galgotias.edu,Transport,The bus seating capacity is insufficient for the number of students.,2025-09-15 09:12:06
+Karan Reddy,GU22CSE544,karan.reddy87@galgotias.edu,Administration,My transcript request submitted on 16/7/2024 has not been processed yet.,2025-11-07 09:12:06
+Krishna Mehta,GU22BCA411,krishna.mehta66@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2025-09-04 09:12:06
+Tara Kulkarni,GU21BBA467,tara.kulkarni76@galgotias.edu,Hostel,There are insects and pests in the mess dining area.,2025-12-19 09:12:06
+Kiara Khan,GU22MBA120,kiara.khan66@galgotias.edu,Academic,Class schedule for Engineering Drawing keeps changing without prior notice.,2025-08-07 09:12:06
+Diya Tiwari,GU23BBA217,diya.tiwari51@galgotias.edu,Hostel,My roommate creates noise late at night and the warden is not taking action.,2025-12-01 09:12:06
+Kiara Kapoor,GU21CE997,kiara.kapoor54@galgotias.edu,IT Support,Internet speed in computer lab is too slow for practical work.,2025-12-31 09:12:06
+Aditya Shah,GU22CSE440,aditya.shah85@galgotias.edu,Transport,The bus seating capacity is insufficient for the number of students.,2025-08-09 09:12:06
+Arnav Sharma,GU21ECE824,arnav.sharma42@galgotias.edu,Fees,Late fee penalty was added even though I paid before the deadline.,2025-10-14 09:12:06
+Kavya Nair,GU22IT622,kavya.nair99@galgotias.edu,Hostel,The hostel warden is not available during designated hours.,2025-09-09 09:12:06
+Avni Khan,GU22BCA229,avni.khan82@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-10-24 09:12:06
+Karan Jain,GU21ECE648,karan.jain86@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-10-27 09:12:06
+Vihaan Verma,GU21CE665,vihaan.verma29@galgotias.edu,Examination,My answer sheet for Mathematics appears to be missing from evaluation.,2025-08-12 09:12:06
+Rohan Malhotra,GU24IT216,rohan.malhotra57@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-08-28 09:12:06
+Reyansh Rao,GU24ECE106,reyansh.rao82@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-12-05 09:12:06
+Dev Menon,GU24CE422,dev.menon96@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2025-12-27 09:12:06
+Tara Saxena,GU24IT476,tara.saxena89@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-10-28 09:12:06
+Neil Kulkarni,GU24CE916,neil.kulkarni82@galgotias.edu,Hostel,Electricity supply is frequently interrupted in A block hostel.,2026-01-02 09:12:06
+Vivaan Shah,GU24CE514,vivaan.shah68@galgotias.edu,Hostel,WiFi connectivity in A block hostel is extremely poor.,2025-07-29 09:12:06
+Mishka Kumar,GU21MCA149,mishka.kumar80@galgotias.edu,Security,The security office does not respond to emergency calls promptly.,2025-10-26 09:12:06
+Sara Kumar,GU21EE696,sara.kumar56@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-09-12 09:12:06
+Kabir Bhat,GU22ME725,kabir.bhat17@galgotias.edu,Security,Security check at the gate is too time-consuming making students late.,2026-01-18 09:12:06
+Aadhya Patel,GU24BCA224,aadhya.patel83@galgotias.edu,Hostel,My hostel room B114 has a leaking ceiling that hasn't been fixed for days.,2025-12-08 09:12:06
+Vihaan Iyer,GU24IT544,vihaan.iyer52@galgotias.edu,Fees,Extra charges are being levied without any prior notification.,2025-11-28 09:12:06
+Dhruv Jain,GU21CE167,dhruv.jain32@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2026-01-11 09:12:06
+Priya Gupta,GU22MCA613,priya.gupta55@galgotias.edu,Library,The library database search system is difficult to use.,2025-09-30 09:12:06
+Arjun Menon,GU21MCA586,arjun.menon48@galgotias.edu,IT Support,I cannot update my personal information on the student portal.,2025-12-16 09:12:06
+Arnav Bansal,GU23BCA380,arnav.bansal54@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2025-09-09 09:12:06
+Nisha Agarwal,GU21BBA933,nisha.agarwal12@galgotias.edu,Academic,I need clarification on my Computer Science grade as the evaluation seems unfair.,2025-10-06 09:12:06
+Yash Menon,GU21IT146,yash.menon41@galgotias.edu,Hostel,WiFi connectivity in A block hostel is extremely poor.,2025-09-11 09:12:06
+Neil Shah,GU23EE475,neil.shah54@galgotias.edu,Academic,I submitted my Programming project on 20/12/2024 but it's still marked as pending.,2025-11-30 09:12:06
+Arnav Trivedi,GU22BBA168,arnav.trivedi59@galgotias.edu,Transport,I applied for bus pass on 11/12/2024 but haven't received it yet.,2026-01-11 09:12:06
+Laksh Joshi,GU22MBA970,laksh.joshi18@galgotias.edu,Examination,My semester results are not published even though exam was held 1 months ago.,2025-12-27 09:12:06
+Vihaan Iyer,GU24IT544,vihaan.iyer52@galgotias.edu,Examination,I applied for revaluation of Digital Electronics on 20/10/2024 but there's no update.,2025-11-20 09:12:06
+Priya Joshi,GU24EE673,priya.joshi70@galgotias.edu,Hostel,Food portions in the mess are insufficient for students.,2026-01-18 09:12:06
+Tara Pandey,GU22EE415,tara.pandey32@galgotias.edu,Fees,My sibling discount is not being applied despite submitting documents.,2025-11-01 09:12:06
+Aarohi Desai,GU24MBA461,aarohi.desai18@galgotias.edu,IT Support,Online fee payment gateway frequently shows transaction failed error.,2025-10-09 09:12:06
+Aryan Bansal,GU23IT420,aryan.bansal58@galgotias.edu,Academic,My Thermodynamics marks are showing as zero despite submitting the assignment on time.,2025-11-01 09:12:06
+Kavya Trivedi,GU21CSE534,kavya.trivedi75@galgotias.edu,Security,The security guards behavior towards students is unprofessional.,2025-08-04 09:12:06
+Krishna Gupta,GU22ME383,krishna.gupta27@galgotias.edu,IT Support,My student email account is not working since 4/11/2024.,2025-09-20 09:12:06
+Diya Rao,GU22CSE108,diya.rao77@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-12-05 09:12:06
+Atharv Khan,GU23IT650,atharv.khan57@galgotias.edu,Security,The entry register system at hostel gate is not properly maintained.,2025-08-24 09:12:06
+Om Sharma,GU21EE417,om.sharma83@galgotias.edu,IT Support,My login credentials for library database are not working.,2025-10-19 09:12:06
+Aryan Gupta,GU21MCA407,aryan.gupta93@galgotias.edu,Library,Required reference books for Mathematics are not available in the library.,2025-11-29 09:12:06
+Vivaan Bansal,GU22IT106,vivaan.bansal54@galgotias.edu,Transport,Bus route 4 has been cancelled without alternative arrangement.,2025-10-08 09:12:06
+Yash Bansal,GU24EE531,yash.bansal13@galgotias.edu,Library,The library database search system is difficult to use.,2025-12-28 09:12:06
+Aadhya Mehta,GU22IT473,aadhya.mehta45@galgotias.edu,Hostel,Electricity supply is frequently interrupted in C block hostel.,2025-07-26 09:12:06
+Aditya Shah,GU22CSE440,aditya.shah85@galgotias.edu,Academic,Class schedule for Programming keeps changing without prior notice.,2025-09-23 09:12:06
+Aditya Pandey,GU22BCA757,aditya.pandey11@galgotias.edu,Transport,The bus seating capacity is insufficient for the number of students.,2026-01-06 09:12:06
+Arnav Saxena,GU21BBA202,arnav.saxena98@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-09-07 09:12:06
+Laksh Pillai,GU22BBA441,laksh.pillai51@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2025-09-14 09:12:06
+Avni Kulkarni,GU23IT813,avni.kulkarni99@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-09-06 09:12:06
+Rohan Sinha,GU21CE594,rohan.sinha58@galgotias.edu,Library,The library timing should be extended during examination period.,2025-12-01 09:12:06
+Aadhya Mehta,GU22IT473,aadhya.mehta45@galgotias.edu,Library,Latest editions of textbooks are not available in the library.,2025-10-11 09:12:06
+Sia Gupta,GU24MCA762,sia.gupta96@galgotias.edu,Examination,I applied for revaluation of Programming on 11/3/2024 but there's no update.,2025-12-27 09:12:06
+Aadhya Trivedi,GU21EE743,aadhya.trivedi33@galgotias.edu,Infrastructure,The parking area is insufficient and poorly maintained.,2025-11-03 09:12:06
+Aditya Patel,GU22ECE523,aditya.patel24@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2026-01-15 09:12:06
+Sanya Mishra,GU22MCA559,sanya.mishra17@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-08-19 09:12:06
+Aditya Pandey,GU22BCA757,aditya.pandey11@galgotias.edu,Examination,Online examination faced severe technical glitches during the test.,2025-09-22 09:12:06
+Kiara Kumar,GU21EE224,kiara.kumar15@galgotias.edu,Academic,The syllabus for Control Systems was not completed within the semester.,2025-12-19 09:12:06
+Myra Agarwal,GU23CE964,myra.agarwal17@galgotias.edu,Transport,The buses are not well-maintained and have mechanical issues.,2025-08-27 09:12:06
+Laksh Rao,GU22ECE817,laksh.rao99@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2026-01-15 09:12:06
+Kavya Singh,GU22ECE600,kavya.singh40@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2025-12-20 09:12:06
+Sai Kumar,GU22EE180,sai.kumar47@galgotias.edu,IT Support,My student email account is not working since 15/6/2024.,2025-09-07 09:12:06
+Dev Desai,GU24CSE618,dev.desai62@galgotias.edu,Academic,My mid-semester exam answer sheet for Chemistry was not shown for review.,2025-09-03 09:12:06
+Aditya Iyer,GU21CSE613,aditya.iyer17@galgotias.edu,Hostel,Food portions in the mess are insufficient for students.,2025-09-14 09:12:06
+Dhruv Tiwari,GU23BBA798,dhruv.tiwari24@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2025-12-24 09:12:06
+Khushi Kulkarni,GU23IT224,khushi.kulkarni76@galgotias.edu,Administration,Administrative staff is not responsive to emails and phone calls.,2025-08-25 09:12:06
+Nisha Rao,GU21ECE238,nisha.rao34@galgotias.edu,IT Support,The attendance marking system shows technical error repeatedly.,2025-12-31 09:12:06
+Myra Malhotra,GU22CSE177,myra.malhotra84@galgotias.edu,Fees,Extra charges are being levied without any prior notification.,2025-12-18 09:12:06
+Navya Malhotra,GU24CSE895,navya.malhotra53@galgotias.edu,Hostel,The food quality in the mess has deteriorated significantly in the past week.,2025-10-16 09:12:06
+Ahana Jain,GU23ECE463,ahana.jain54@galgotias.edu,Examination,Exam schedule was changed at the last moment without proper notice.,2025-09-24 09:12:06
+Laksh Reddy,GU24MBA331,laksh.reddy38@galgotias.edu,Examination,My semester results are not published even though exam was held 1 months ago.,2025-08-13 09:12:06
+Aditya Pandey,GU22IT415,aditya.pandey80@galgotias.edu,Library,Required reference books for Computer Science are not available in the library.,2025-08-26 09:12:06
+Advait Kapoor,GU22CSE145,advait.kapoor24@galgotias.edu,Infrastructure,The campus roads have potholes that need urgent repair.,2025-12-19 09:12:06
+Rudra Sinha,GU23ECE148,rudra.sinha85@galgotias.edu,Security,The entry register system at hostel gate is not properly maintained.,2025-11-24 09:12:06
+Karan Rao,GU23BCA182,karan.rao66@galgotias.edu,Transport,The college bus from Dadri is consistently late by 30 minutes.,2025-12-11 09:12:06
+Raghav Iyer,GU22BCA908,raghav.iyer59@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 7 weeks.,2025-10-17 09:12:06
+Atharv Jain,GU21ECE133,atharv.jain60@galgotias.edu,Infrastructure,Poor lighting in the corridors makes it unsafe during evening hours.,2025-08-05 09:12:06
+Krishna Bansal,GU21ECE269,krishna.bansal85@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-08-02 09:12:06
+Dev Rao,GU22EE259,dev.rao67@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-08-24 09:12:06
+Mishka Iyer,GU24MBA620,mishka.iyer26@galgotias.edu,Academic,The faculty Prof. Gupta behavior towards students in class is unprofessional.,2025-12-10 09:12:06
+Khushi Malhotra,GU22CE419,khushi.malhotra28@galgotias.edu,Security,The security office does not respond to emergency calls promptly.,2026-01-14 09:12:06
+Saanvi Sharma,GU21EE680,saanvi.sharma14@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-10-31 09:12:06
+Sai Kumar,GU21CSE327,sai.kumar17@galgotias.edu,Examination,Questions in Computer Science exam were out of syllabus and extremely difficult.,2026-01-09 09:12:06
+Aadhya Kapoor,GU24CSE992,aadhya.kapoor54@galgotias.edu,Academic,Class schedule for Algorithms keeps changing without prior notice.,2025-09-03 09:12:06
+Om Saxena,GU22ECE789,om.saxena39@galgotias.edu,Library,E-journal access is not working for my department.,2025-10-31 09:12:06
+Kavya Kapoor,GU21BBA745,kavya.kapoor27@galgotias.edu,Library,Required reference books for Data Structures are not available in the library.,2025-08-14 09:12:06
+Ayaan Trivedi,GU23ECE888,ayaan.trivedi83@galgotias.edu,Examination,Internal marks are not updated on the portal before final examination.,2025-09-14 09:12:06
+Arjun Shah,GU22MBA537,arjun.shah49@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-11-01 09:12:06
+Aditi Khan,GU21ME635,aditi.khan15@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-08-31 09:12:06
+Raghav Kapoor,GU21EE967,raghav.kapoor90@galgotias.edu,Hostel,Electricity supply is frequently interrupted in C block hostel.,2025-12-10 09:12:06
+Diya Bhat,GU21EE382,diya.bhat10@galgotias.edu,Examination,Results show I failed in Machine Learning but I'm confident about my performance.,2025-10-08 09:12:06
+Laksh Joshi,GU24ME644,laksh.joshi60@galgotias.edu,Hostel,My hostel room C159 has a leaking ceiling that hasn't been fixed for days.,2025-08-29 09:12:06
+Atharv Tiwari,GU22BCA332,atharv.tiwari44@galgotias.edu,Hostel,My roommate creates noise late at night and the warden is not taking action.,2026-01-15 09:12:06
+Ishita Joshi,GU23MCA898,ishita.joshi16@galgotias.edu,Administration,I need bonafide certificate urgently but the admin office is delaying.,2025-11-27 09:12:06
+Kabir Mehta,GU22MBA431,kabir.mehta53@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-12-28 09:12:06
+Rohan Singh,GU23BCA481,rohan.singh95@galgotias.edu,Academic,My Software Engineering marks are showing as zero despite submitting the assignment on time.,2025-11-06 09:12:06
+Navya Mehta,GU22EE956,navya.mehta91@galgotias.edu,Examination,I applied for revaluation of Thermodynamics on 7/8/2024 but there's no update.,2025-08-11 09:12:06
+Ayaan Desai,GU24CSE564,ayaan.desai59@galgotias.edu,Administration,Staff at the counter is rude and unprofessional in behavior.,2025-12-28 09:12:06
+Dhruv Saxena,GU21EE156,dhruv.saxena98@galgotias.edu,Infrastructure,The D building elevator has been out of order for 5 days.,2025-12-13 09:12:06
+Dev Nair,GU21ECE708,dev.nair87@galgotias.edu,Infrastructure,The parking area is insufficient and poorly maintained.,2025-09-17 09:12:06
+Neil Agarwal,GU23MBA355,neil.agarwal87@galgotias.edu,IT Support,Campus WiFi does not work in D block.,2026-01-01 09:12:06
+Rudra Nair,GU24ECE394,rudra.nair67@galgotias.edu,IT Support,I cannot update my personal information on the student portal.,2025-07-27 09:12:06
+Anvi Arora,GU24BCA577,anvi.arora51@galgotias.edu,Fees,My scholarship amount was supposed to be adjusted but full fee is being demanded.,2026-01-15 09:12:06
+Arnav Trivedi,GU24BCA355,arnav.trivedi78@galgotias.edu,Administration,No proper queue system exists at the administrative office.,2025-10-07 09:12:06
+Dhruv Tiwari,GU23EE937,dhruv.tiwari18@galgotias.edu,Infrastructure,The air conditioning in classroom 215 has not been working for a month.,2025-08-03 09:12:06
+Neil Singh,GU22BBA607,neil.singh80@galgotias.edu,Academic,I submitted my Database Management project on 12/2/2024 but it's still marked as pending.,2025-07-27 09:12:06
+Sia Rao,GU21IT942,sia.rao46@galgotias.edu,Transport,The bus is overcrowded making it uncomfortable and unsafe.,2025-08-18 09:12:06
+Navya Mehta,GU22EE956,navya.mehta91@galgotias.edu,Examination,I was given wrong question paper during Electronics examination.,2025-08-04 09:12:06
+Shanaya Jain,GU23EE531,shanaya.jain10@galgotias.edu,Hostel,There is no hot water supply in A block for the last 7 days.,2026-01-10 09:12:06
+Atharv Singh,GU22BBA126,atharv.singh86@galgotias.edu,Infrastructure,Projector in classroom 248 is not functioning properly.,2026-01-01 09:12:06
+Parth Malhotra,GU21IT477,parth.malhotra34@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2025-09-15 09:12:06
+Om Bansal,GU23BBA475,om.bansal56@galgotias.edu,IT Support,The IT helpdesk phone number is always busy and unhelpful.,2025-08-22 09:12:06
+Ayaan Mishra,GU21EE211,ayaan.mishra69@galgotias.edu,Infrastructure,There are no proper sports facilities available on campus.,2025-09-18 09:12:06
+Avni Singh,GU22CE199,avni.singh73@galgotias.edu,Library,Required reference books for Database Management are not available in the library.,2026-01-08 09:12:06
+Reyansh Arora,GU22CE260,reyansh.arora26@galgotias.edu,Academic,The syllabus for Operating Systems was not completed within the semester.,2025-08-03 09:12:06
+Dhruv Jain,GU21CE167,dhruv.jain32@galgotias.edu,Infrastructure,The campus roads have potholes that need urgent repair.,2025-10-03 09:12:06
+Reyansh Shah,GU22ECE800,reyansh.shah26@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-10-07 09:12:06
+Saanvi Trivedi,GU23CE600,saanvi.trivedi92@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-08-27 09:12:06
+Sanya Pandey,GU22CSE323,sanya.pandey18@galgotias.edu,IT Support,I cannot update my personal information on the student portal.,2025-11-10 09:12:06
+Sanya Pillai,GU24BBA272,sanya.pillai36@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2025-11-25 09:12:06
+Nisha Sharma,GU21MCA341,nisha.sharma73@galgotias.edu,IT Support,Online fee payment gateway frequently shows transaction failed error.,2025-10-30 09:12:06
+Kavya Trivedi,GU21CSE534,kavya.trivedi75@galgotias.edu,Security,The security guards behavior towards students is unprofessional.,2025-07-24 09:12:06
+Sara Tiwari,GU21BBA366,sara.tiwari43@galgotias.edu,IT Support,My login credentials for library database are not working.,2025-10-26 09:12:06
+Aarohi Desai,GU24MBA461,aarohi.desai18@galgotias.edu,Security,I lost my belongings in the campus and there's no lost and found system.,2025-12-01 09:12:06
+Kiara Pandey,GU24CSE276,kiara.pandey15@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-09-24 09:12:06
+Reyansh Verma,GU24CE224,reyansh.verma80@galgotias.edu,Academic,The syllabus for Computer Science was not completed within the semester.,2025-08-06 09:12:06
+Aditi Arora,GU24MBA821,aditi.arora58@galgotias.edu,Library,The library timing should be extended during examination period.,2025-12-18 09:12:06
+Arjun Jain,GU24MCA811,arjun.jain25@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2025-10-28 09:12:06
+Ahana Bhat,GU22ECE630,ahana.bhat48@galgotias.edu,Transport,Bus service was suspended during exam period without notice.,2025-09-22 09:12:06
+Raghav Chopra,GU22ECE840,raghav.chopra64@galgotias.edu,Fees,Bank transaction was successful but college system shows payment failed.,2026-01-18 09:12:06
+Kavya Arora,GU23BCA734,kavya.arora57@galgotias.edu,Security,The entry register system at hostel gate is not properly maintained.,2025-08-25 09:12:06
+Aanya Joshi,GU21BBA911,aanya.joshi40@galgotias.edu,Infrastructure,The parking area is insufficient and poorly maintained.,2025-11-01 09:12:06
+Sanya Gupta,GU24EE184,sanya.gupta68@galgotias.edu,Hostel,WiFi connectivity in B block hostel is extremely poor.,2025-09-05 09:12:06
+Sara Agarwal,GU23CSE173,sara.agarwal50@galgotias.edu,Security,The security office does not respond to emergency calls promptly.,2025-10-25 09:12:06
+Zara Tiwari,GU21MBA933,zara.tiwari62@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 25 classes but it shows 41%.,2026-01-10 09:12:06
+Advait Tiwari,GU23IT840,advait.tiwari51@galgotias.edu,Security,I lost my belongings in the campus and there's no lost and found system.,2025-10-24 09:12:06
+Atharv Kapoor,GU21MCA411,atharv.kapoor32@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-12-08 09:12:06
+Sia Kulkarni,GU24CSE129,sia.kulkarni29@galgotias.edu,Examination,I couldn't appear for exam due to medical emergency and need to apply for special exam.,2025-07-25 09:12:06
+Sanya Pandey,GU22CSE323,sanya.pandey18@galgotias.edu,Academic,I scored 72 in Physics but my grade sheet shows 33. There is a discrepancy.,2025-09-08 09:12:06
+Sara Rao,GU21MBA730,sara.rao69@galgotias.edu,Fees,My installment payment plan request has not been processed for 13 days.,2025-10-22 09:12:06
+Om Sharma,GU22IT817,om.sharma20@galgotias.edu,Library,"Library maintains silence rule too strictly, preventing group study.",2025-09-16 09:12:06
+Atharv Arora,GU23MCA422,atharv.arora59@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2025-12-24 09:12:06
+Laksh Kapoor,GU24BBA563,laksh.kapoor67@galgotias.edu,Security,Security check at the gate is too time-consuming making students late.,2025-12-02 09:12:06
+Aanya Singh,GU21CE715,aanya.singh85@galgotias.edu,Infrastructure,There are no proper sports facilities available on campus.,2025-07-30 09:12:06
+Atharv Desai,GU23BBA236,atharv.desai97@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2026-01-16 09:12:06
+Sia Singh,GU21EE643,sia.singh64@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-12-07 09:12:06
+Aryan Pillai,GU24EE242,aryan.pillai24@galgotias.edu,Examination,Results show I failed in Database Management but I'm confident about my performance.,2025-12-05 09:12:06
+Rohan Desai,GU24IT626,rohan.desai89@galgotias.edu,Administration,The student services office provides conflicting information.,2025-11-20 09:12:06
+Aryan Tiwari,GU21BCA838,aryan.tiwari72@galgotias.edu,Hostel,Food portions in the mess are insufficient for students.,2025-12-05 09:12:06
+Ishita Shah,GU24MBA478,ishita.shah56@galgotias.edu,Fees,Late fee penalty was added even though I paid before the deadline.,2025-09-30 09:12:06
+Om Singh,GU23BBA249,om.singh15@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-11-09 09:12:06
+Laksh Joshi,GU24ME644,laksh.joshi60@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-11-08 09:12:06
+Riya Arora,GU21CE166,riya.arora13@galgotias.edu,Security,I lost my belongings in the campus and there's no lost and found system.,2025-08-30 09:12:06
+Aisha Verma,GU23MBA711,aisha.verma56@galgotias.edu,Fees,Late fee penalty was added even though I paid before the deadline.,2025-08-20 09:12:06
+Nisha Desai,GU21ME899,nisha.desai50@galgotias.edu,Infrastructure,Poor lighting in the corridors makes it unsafe during evening hours.,2025-07-28 09:12:06
+Ahana Mehta,GU22ECE931,ahana.mehta75@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-10-27 09:12:06
+Aanya Reddy,GU23MBA793,aanya.reddy85@galgotias.edu,Infrastructure,Classroom 480 has broken furniture that poses safety risk.,2026-01-14 09:12:06
+Khushi Jain,GU24MBA217,khushi.jain42@galgotias.edu,Security,The security guards are not allowing students entry without valid reason.,2025-07-24 09:12:06
+Khushi Kulkarni,GU22MCA404,khushi.kulkarni62@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-07-24 09:12:06
+Om Saxena,GU22ECE789,om.saxena39@galgotias.edu,Transport,I applied for bus pass on 28/12/2024 but haven't received it yet.,2025-10-14 09:12:06
+Zara Trivedi,GU24BCA255,zara.trivedi30@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-07-30 09:12:06
+Aditya Shah,GU22CSE440,aditya.shah85@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-11-07 09:12:06
+Neil Desai,GU21ECE378,neil.desai19@galgotias.edu,Fees,My sibling discount is not being applied despite submitting documents.,2025-07-28 09:12:06
+Parth Bansal,GU21BCA112,parth.bansal18@galgotias.edu,Academic,Assignment deadlines for Control Systems are too short and unrealistic.,2025-12-30 09:12:06
+Kavya Bansal,GU24BBA384,kavya.bansal94@galgotias.edu,Administration,The student services office provides conflicting information.,2025-08-18 09:12:06
+Reyansh Bhat,GU24IT774,reyansh.bhat69@galgotias.edu,IT Support,The attendance marking system shows technical error repeatedly.,2025-07-26 09:12:06
+Shaurya Bansal,GU22ECE942,shaurya.bansal62@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2025-12-05 09:12:06
+Ahana Malhotra,GU22IT282,ahana.malhotra80@galgotias.edu,Security,Guest entry process is too complicated and time-consuming.,2025-11-24 09:12:06
+Anvi Patel,GU23CSE877,anvi.patel54@galgotias.edu,Academic,Class schedule for Engineering Drawing keeps changing without prior notice.,2025-12-17 09:12:06
+Atharv Singh,GU22BBA126,atharv.singh86@galgotias.edu,Transport,The college bus from Sector 16 is consistently late by 30 minutes.,2025-10-19 09:12:06
+Yash Patel,GU24ME971,yash.patel47@galgotias.edu,Fees,I paid my semester fee on 6/4/2024 but the portal still shows it as pending.,2025-10-03 09:12:06
+Diya Menon,GU21MCA101,diya.menon84@galgotias.edu,Examination,Questions in Database Management exam were out of syllabus and extremely difficult.,2025-08-22 09:12:06
+Priya Sinha,GU23CSE482,priya.sinha25@galgotias.edu,Library,Latest editions of textbooks are not available in the library.,2025-08-16 09:12:06
+Kavya Trivedi,GU21CSE534,kavya.trivedi75@galgotias.edu,Academic,I need clarification on my Control Systems grade as the evaluation seems unfair.,2025-09-08 09:12:06
+Yash Menon,GU21IT146,yash.menon41@galgotias.edu,Examination,I was given wrong question paper during Database Management examination.,2025-08-18 09:12:06
+Pari Arora,GU21MBA682,pari.arora77@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2025-09-05 09:12:06
+Khushi Malhotra,GU22CE419,khushi.malhotra28@galgotias.edu,Infrastructure,Washroom facilities in A are inadequate and unhygienic.,2025-12-22 09:12:06
+Rudra Kulkarni,GU24ECE344,rudra.kulkarni42@galgotias.edu,Transport,I applied for bus pass on 17/3/2024 but haven't received it yet.,2025-09-27 09:12:06
+Aarohi Mishra,GU23EE163,aarohi.mishra92@galgotias.edu,Fees,My scholarship amount was supposed to be adjusted but full fee is being demanded.,2025-12-14 09:12:06
+Shaurya Bansal,GU22ECE942,shaurya.bansal62@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-10-16 09:12:06
+Pari Sharma,GU24CE185,pari.sharma35@galgotias.edu,Fees,I paid my semester fee on 16/5/2024 but the portal still shows it as pending.,2025-07-30 09:12:06
+Aditya Iyer,GU24MCA307,aditya.iyer11@galgotias.edu,Academic,My Web Development marks are showing as zero despite submitting the assignment on time.,2025-10-23 09:12:06
+Laksh Khan,GU24BBA208,laksh.khan68@galgotias.edu,Academic,The Prof. Singh is using outdated teaching methods for Software Engineering course.,2026-01-11 09:12:06
+Zara Saxena,GU24IT840,zara.saxena78@galgotias.edu,Examination,I applied for revaluation of Digital Electronics on 9/12/2024 but there's no update.,2025-08-29 09:12:06
+Priya Bhat,GU22CE390,priya.bhat74@galgotias.edu,Hostel,The hostel warden is not available during designated hours.,2025-12-06 09:12:06
+Anvi Agarwal,GU24MBA343,anvi.agarwal34@galgotias.edu,Hostel,The mess menu is monotonous and lacks nutritional variety.,2025-11-26 09:12:06
+Shaurya Tiwari,GU23MCA441,shaurya.tiwari88@galgotias.edu,Fees,The fee structure is not clearly communicated for my course.,2025-12-23 09:12:06
+Ananya Mehta,GU21BCA103,ananya.mehta47@galgotias.edu,Administration,Staff at the counter is rude and unprofessional in behavior.,2025-12-08 09:12:06
+Rudra Tiwari,GU24ECE607,rudra.tiwari31@galgotias.edu,IT Support,My student email account is not working since 27/3/2024.,2025-12-14 09:12:06
+Harsh Patel,GU24BBA310,harsh.patel55@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2026-01-03 09:12:06
+Riya Nair,GU22BCA755,riya.nair17@galgotias.edu,Examination,Exam schedule was changed at the last moment without proper notice.,2025-10-08 09:12:06
+Dev Nair,GU21ECE708,dev.nair87@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2025-10-18 09:12:06
+Sara Tiwari,GU21BBA366,sara.tiwari43@galgotias.edu,Administration,My request for official documents was lost and I have to resubmit.,2025-12-24 09:12:06
+Kavya Agarwal,GU23IT628,kavya.agarwal37@galgotias.edu,Transport,The bus conductor is charging extra fare without proper reason.,2025-09-23 09:12:06
+Sia Kulkarni,GU24EE152,sia.kulkarni12@galgotias.edu,Administration,My transcript request submitted on 11/3/2024 has not been processed yet.,2025-12-10 09:12:06
+Riya Desai,GU21MBA807,riya.desai38@galgotias.edu,Hostel,Electricity supply is frequently interrupted in C block hostel.,2025-11-02 09:12:06
+Dhruv Bansal,GU21ECE471,dhruv.bansal52@galgotias.edu,Fees,I was promised a fee waiver during admission but it's not reflected.,2025-10-02 09:12:06
+Kavya Reddy,GU23BCA935,kavya.reddy41@galgotias.edu,Infrastructure,Washroom facilities in C are inadequate and unhygienic.,2026-01-06 09:12:06
+Khushi Malhotra,GU22CE419,khushi.malhotra28@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 20 classes but it shows 54%.,2025-12-10 09:12:06
+Navya Malhotra,GU23ECE487,navya.malhotra93@galgotias.edu,Hostel,Electricity supply is frequently interrupted in C block hostel.,2025-08-31 09:12:06
+Neil Agarwal,GU23MBA355,neil.agarwal87@galgotias.edu,Transport,The bus seating capacity is insufficient for the number of students.,2025-12-01 09:12:06
+Aditya Iyer,GU21CSE613,aditya.iyer17@galgotias.edu,Academic,The Prof. Gupta is using outdated teaching methods for Data Structures course.,2025-08-14 09:12:06
+Krishna Patel,GU21CE682,krishna.patel95@galgotias.edu,Library,"Library maintains silence rule too strictly, preventing group study.",2025-08-02 09:12:06
+Tara Pandey,GU22EE415,tara.pandey32@galgotias.edu,Infrastructure,The canteen infrastructure needs renovation and expansion.,2025-10-19 09:12:06
+Neil Kulkarni,GU24CE916,neil.kulkarni82@galgotias.edu,Hostel,WiFi connectivity in B block hostel is extremely poor.,2025-09-11 09:12:06
+Krishna Desai,GU21CSE470,krishna.desai22@galgotias.edu,Transport,The bus conductor is charging extra fare without proper reason.,2025-12-14 09:12:06
+Aditya Chopra,GU23ME851,aditya.chopra57@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2025-10-13 09:12:06
+Sia Khan,GU22BBA203,sia.khan66@galgotias.edu,Transport,College bus broke down on 15/5/2024 leaving students stranded.,2025-11-20 09:12:06
+Nisha Menon,GU24EE306,nisha.menon71@galgotias.edu,Hostel,WiFi connectivity in D block hostel is extremely poor.,2025-07-29 09:12:06
+Aisha Reddy,GU23CSE123,aisha.reddy51@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2026-01-05 09:12:06
+Aadhya Kapoor,GU24CSE992,aadhya.kapoor54@galgotias.edu,IT Support,Online fee payment gateway frequently shows transaction failed error.,2025-08-06 09:12:06
+Reyansh Arora,GU22CE260,reyansh.arora26@galgotias.edu,Fees,I paid my semester fee on 14/2/2024 but the portal still shows it as pending.,2025-08-06 09:12:06
+Navya Joshi,GU23BCA511,navya.joshi98@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-11-30 09:12:06
+Laksh Gupta,GU24MCA219,laksh.gupta99@galgotias.edu,Academic,My mid-semester exam answer sheet for Computer Science was not shown for review.,2025-07-29 09:12:06
+Aryan Nair,GU24ECE540,aryan.nair40@galgotias.edu,Fees,The fee structure is not clearly communicated for my course.,2025-08-03 09:12:06
+Krishna Sharma,GU22ECE217,krishna.sharma79@galgotias.edu,Hostel,The cleaning staff doesn't clean our floor regularly in B block.,2025-09-04 09:12:06
+Aditi Patel,GU21ECE789,aditi.patel21@galgotias.edu,Hostel,There is no hot water supply in B block for the last 13 days.,2025-08-17 09:12:06
+Navya Malhotra,GU24CSE895,navya.malhotra53@galgotias.edu,Academic,The Prof. Singh is using outdated teaching methods for Chemistry course.,2025-12-27 09:12:06
+Ananya Joshi,GU22MCA960,ananya.joshi35@galgotias.edu,Examination,I applied for revaluation of Digital Electronics on 21/10/2024 but there's no update.,2025-10-29 09:12:06
+Myra Nair,GU23MCA111,myra.nair82@galgotias.edu,Hostel,There is no hot water supply in D block for the last 13 days.,2025-11-25 09:12:06
+Vihaan Nair,GU21CE827,vihaan.nair61@galgotias.edu,Academic,Practical marks allocation in Physics lab is inconsistent across students.,2025-09-22 09:12:06
+Shanaya Agarwal,GU21BCA708,shanaya.agarwal96@galgotias.edu,Fees,My scholarship amount was supposed to be adjusted but full fee is being demanded.,2025-12-14 09:12:06
+Karan Rao,GU24IT461,karan.rao13@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-10-06 09:12:06
+Zara Saxena,GU24IT840,zara.saxena78@galgotias.edu,Transport,There is no bus service available for evening classes.,2025-11-10 09:12:06
+Rohan Bhat,GU22CSE582,rohan.bhat69@galgotias.edu,Transport,The bus is overcrowded making it uncomfortable and unsafe.,2025-11-27 09:12:06
+Aditi Arora,GU22CE193,aditi.arora91@galgotias.edu,Hostel,My room furniture is broken and replacement has been delayed.,2025-09-01 09:12:06
+Om Khan,GU23CSE653,om.khan25@galgotias.edu,Academic,Practical marks allocation in Web Development lab is inconsistent across students.,2025-12-18 09:12:06
+Om Iyer,GU24CE129,om.iyer70@galgotias.edu,Security,I lost my belongings in the campus and there's no lost and found system.,2025-10-14 09:12:06
+Tara Mishra,GU23CE657,tara.mishra73@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2026-01-02 09:12:06
+Aanya Joshi,GU23MCA548,aanya.joshi14@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-09-12 09:12:06
+Pari Sharma,GU21ECE963,pari.sharma28@galgotias.edu,Transport,College bus broke down on 21/5/2024 leaving students stranded.,2025-11-23 09:12:06
+Rohan Kapoor,GU21CE459,rohan.kapoor50@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2025-09-20 09:12:06
+Zara Bansal,GU23MBA282,zara.bansal91@galgotias.edu,Administration,My transcript request submitted on 28/12/2024 has not been processed yet.,2026-01-11 09:12:06
+Tara Bansal,GU24CE805,tara.bansal64@galgotias.edu,Academic,I need clarification on my Artificial Intelligence grade as the evaluation seems unfair.,2025-12-27 09:12:06
+Aarohi Singh,GU22ME540,aarohi.singh13@galgotias.edu,Library,Air conditioning in the reading room is not adequate.,2025-11-21 09:12:06
+Neil Singh,GU22BBA607,neil.singh80@galgotias.edu,Hostel,Room maintenance request submitted on 9/5/2024 has not been addressed yet.,2025-11-28 09:12:06
+Kiara Malhotra,GU22EE993,kiara.malhotra32@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2025-08-15 09:12:06
+Kiara Kumar,GU21EE224,kiara.kumar15@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-08-15 09:12:06
+Parth Sinha,GU21CE939,parth.sinha52@galgotias.edu,Administration,Staff at the counter is rude and unprofessional in behavior.,2025-09-16 09:12:06
+Om Tiwari,GU21ECE681,om.tiwari30@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-09-03 09:12:06
+Rudra Gupta,GU21CE296,rudra.gupta17@galgotias.edu,Fees,Hostel fee was deducted twice from my account this semester.,2025-10-27 09:12:06
+Vihaan Nair,GU21CE827,vihaan.nair61@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-11-18 09:12:06
+Sia Trivedi,GU24IT642,sia.trivedi47@galgotias.edu,IT Support,I cannot update my personal information on the student portal.,2025-08-01 09:12:06
+Rohan Sharma,GU22IT251,rohan.sharma16@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-09-11 09:12:06
+Dev Sharma,GU21ECE996,dev.sharma10@galgotias.edu,Library,My library card was deactivated without any notification.,2025-11-07 09:12:06
+Atharv Nair,GU21ME702,atharv.nair55@galgotias.edu,Administration,I submitted all required documents but application is still pending.,2025-09-23 09:12:06
+Aditya Mishra,GU21MCA632,aditya.mishra66@galgotias.edu,Examination,I was given wrong question paper during Thermodynamics examination.,2025-11-12 09:12:06
+Ayaan Agarwal,GU23CE536,ayaan.agarwal87@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-09-10 09:12:06
+Pari Sharma,GU23ECE582,pari.sharma67@galgotias.edu,Transport,Bus service from Sector 16 should start earlier in the morning.,2025-10-10 09:12:06
+Shaurya Bansal,GU24ME901,shaurya.bansal56@galgotias.edu,Infrastructure,The auditorium seating is uncomfortable and in bad condition.,2025-10-17 09:12:06
+Shaurya Gupta,GU21IT722,shaurya.gupta79@galgotias.edu,Infrastructure,The auditorium seating is uncomfortable and in bad condition.,2025-09-04 09:12:06
+Ahana Jain,GU23IT157,ahana.jain20@galgotias.edu,Security,Security check at the gate is too time-consuming making students late.,2025-09-19 09:12:06
+Rudra Desai,GU24BCA841,rudra.desai29@galgotias.edu,Hostel,The hostel warden is not available during designated hours.,2025-12-03 09:12:06
+Aanya Gupta,GU22ECE262,aanya.gupta88@galgotias.edu,IT Support,The college WiFi is extremely slow and keeps disconnecting.,2025-12-06 09:12:06
+Rohan Kapoor,GU21ME727,rohan.kapoor87@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-12-10 09:12:06
+Sai Pillai,GU23ECE725,sai.pillai36@galgotias.edu,Transport,College bus broke down on 5/8/2024 leaving students stranded.,2025-12-17 09:12:06
+Aanya Verma,GU22CSE660,aanya.verma27@galgotias.edu,IT Support,Mobile app for college services has constant bugs and errors.,2026-01-10 09:12:06
+Aanya Mishra,GU22BBA536,aanya.mishra28@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-08-10 09:12:06
+Harsh Rao,GU21ECE856,harsh.rao47@galgotias.edu,Fees,My sibling discount is not being applied despite submitting documents.,2025-12-14 09:12:06
+Avni Kulkarni,GU23IT813,avni.kulkarni99@galgotias.edu,Administration,Staff at the counter is rude and unprofessional in behavior.,2025-11-28 09:12:06
+Aanya Pandey,GU23BBA174,aanya.pandey36@galgotias.edu,Library,The library database search system is difficult to use.,2025-10-14 09:12:06
+Shanaya Patel,GU21EE933,shanaya.patel30@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2026-01-03 09:12:06
+Myra Tiwari,GU21IT253,myra.tiwari97@galgotias.edu,Hostel,The hostel warden is not available during designated hours.,2025-09-01 09:12:06
+Harsh Trivedi,GU21BCA434,harsh.trivedi16@galgotias.edu,Infrastructure,There is no drinking water facility on the first floor.,2026-01-17 09:12:06
+Atharv Nair,GU21CE215,atharv.nair53@galgotias.edu,Infrastructure,The parking area is insufficient and poorly maintained.,2025-08-10 09:12:06
+Arjun Pandey,GU22IT585,arjun.pandey12@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2026-01-05 09:12:06
+Aditya Bansal,GU21CE752,aditya.bansal85@galgotias.edu,Library,The library timing should be extended during examination period.,2025-11-17 09:12:06
+Saanvi Agarwal,GU21ECE441,saanvi.agarwal93@galgotias.edu,Fees,Extra charges are being levied without any prior notification.,2025-12-16 09:12:06
+Krishna Sinha,GU23IT598,krishna.sinha20@galgotias.edu,Fees,Late fee penalty was added even though I paid before the deadline.,2025-11-16 09:12:06
+Aditya Iyer,GU21CSE613,aditya.iyer17@galgotias.edu,Academic,My Networks marks are showing as zero despite submitting the assignment on time.,2026-01-01 09:12:06
+Kabir Kumar,GU23IT935,kabir.kumar51@galgotias.edu,Administration,Document verification process is taking longer than promised.,2025-11-24 09:12:06
+Nisha Shah,GU22CE124,nisha.shah16@galgotias.edu,Administration,My course completion certificate request is pending for 4 months.,2025-11-12 09:12:06
+Ananya Mehta,GU21BCA103,ananya.mehta47@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-08-28 09:12:06
+Aarohi Kumar,GU23ECE585,aarohi.kumar32@galgotias.edu,Library,My library card was deactivated without any notification.,2025-09-22 09:12:06
+Ananya Trivedi,GU24BCA297,ananya.trivedi41@galgotias.edu,Fees,Late fee penalty was added even though I paid before the deadline.,2026-01-13 09:12:06
+Dhruv Joshi,GU21IT669,dhruv.joshi50@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-09-21 09:12:06
+Tara Sinha,GU22ECE161,tara.sinha84@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-09-26 09:12:06
+Harsh Gupta,GU23BCA661,harsh.gupta68@galgotias.edu,Infrastructure,Projector in classroom 299 is not functioning properly.,2025-11-26 09:12:06
+Aadhya Mishra,GU21BBA933,aadhya.mishra56@galgotias.edu,Academic,The Dr. Sharma is using outdated teaching methods for Control Systems course.,2025-08-31 09:12:06
+Sia Gupta,GU21MBA680,sia.gupta50@galgotias.edu,Academic,Practical marks allocation in Physics lab is inconsistent across students.,2025-08-21 09:12:06
+Shanaya Joshi,GU24MBA389,shanaya.joshi98@galgotias.edu,Examination,Questions in Web Development exam were out of syllabus and extremely difficult.,2025-11-16 09:12:06
+Sanya Bansal,GU21MCA145,sanya.bansal63@galgotias.edu,Security,Security check at the gate is too time-consuming making students late.,2025-12-31 09:12:06
+Advait Pillai,GU23EE759,advait.pillai13@galgotias.edu,Academic,Practical marks allocation in Control Systems lab is inconsistent across students.,2026-01-14 09:12:06
+Arnav Reddy,GU21IT211,arnav.reddy63@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-09-29 09:12:06
+Dhruv Jain,GU21EE910,dhruv.jain38@galgotias.edu,Academic,The syllabus for Microprocessors was not completed within the semester.,2025-08-30 09:12:06
+Dev Nair,GU21ECE708,dev.nair87@galgotias.edu,Administration,My transcript request submitted on 18/6/2024 has not been processed yet.,2025-12-06 09:12:06
+Rudra Sinha,GU23MCA841,rudra.sinha30@galgotias.edu,Transport,Bus service was suspended during exam period without notice.,2025-08-14 09:12:06
+Kavya Desai,GU24ECE482,kavya.desai45@galgotias.edu,Library,My library card was deactivated without any notification.,2025-11-28 09:12:06
+Karan Rao,GU23BCA182,karan.rao66@galgotias.edu,Security,There are no proper lighting arrangements in the campus periphery.,2025-11-16 09:12:06
+Atharv Chopra,GU23BBA959,atharv.chopra13@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-10-09 09:12:06
+Riya Chopra,GU22BBA887,riya.chopra52@galgotias.edu,Administration,The form submission process is unclear and keeps getting rejected.,2025-08-02 09:12:06
+Karan Singh,GU22MCA505,karan.singh17@galgotias.edu,Examination,Online examination faced severe technical glitches during the test.,2025-09-08 09:12:06
+Arnav Nair,GU22CSE297,arnav.nair57@galgotias.edu,Security,CCTV cameras in the parking area are not functional.,2025-12-11 09:12:06
+Atharv Pillai,GU21BCA619,atharv.pillai60@galgotias.edu,Library,My library card was deactivated without any notification.,2025-12-29 09:12:06
+Arnav Sinha,GU22CE926,arnav.sinha49@galgotias.edu,Academic,My Web Development marks are showing as zero despite submitting the assignment on time.,2025-10-18 09:12:06
+Pari Sharma,GU21ECE963,pari.sharma28@galgotias.edu,Examination,Questions in Chemistry exam were out of syllabus and extremely difficult.,2025-09-30 09:12:06
+Aarav Mishra,GU21MBA175,aarav.mishra72@galgotias.edu,Transport,The college bus from Dadri is consistently late by 30 minutes.,2026-01-04 09:12:06
+Laksh Reddy,GU24ECE217,laksh.reddy94@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-09-24 09:12:06
+Om Saxena,GU22EE404,om.saxena86@galgotias.edu,Administration,I need bonafide certificate urgently but the admin office is delaying.,2026-01-08 09:12:06
+Kavya Rao,GU21CE641,kavya.rao18@galgotias.edu,IT Support,Campus WiFi does not work in B block.,2025-11-17 09:12:06
+Kavya Trivedi,GU21CSE534,kavya.trivedi75@galgotias.edu,Infrastructure,Poor lighting in the corridors makes it unsafe during evening hours.,2026-01-12 09:12:06
+Arnav Saxena,GU21BBA202,arnav.saxena98@galgotias.edu,Security,Guest entry process is too complicated and time-consuming.,2025-09-04 09:12:06
+Yash Joshi,GU22IT492,yash.joshi85@galgotias.edu,Library,Latest editions of textbooks are not available in the library.,2025-12-26 09:12:06
+Aadhya Kapoor,GU24CSE992,aadhya.kapoor54@galgotias.edu,Fees,My scholarship amount was supposed to be adjusted but full fee is being demanded.,2025-11-27 09:12:06
+Nisha Kumar,GU23ECE650,nisha.kumar55@galgotias.edu,IT Support,The attendance marking system shows technical error repeatedly.,2025-11-23 09:12:06
+Sara Bansal,GU21ECE356,sara.bansal87@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-12-19 09:12:06
+Om Iyer,GU24CE129,om.iyer70@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-10-15 09:12:06
+Diya Gupta,GU22BCA744,diya.gupta79@galgotias.edu,Security,There are no proper lighting arrangements in the campus periphery.,2025-10-24 09:12:06
+Rohan Mehta,GU23ME541,rohan.mehta22@galgotias.edu,Infrastructure,Laboratory equipment in Physics Lab is outdated and malfunctioning.,2025-09-25 09:12:06
+Vihaan Kumar,GU23CE505,vihaan.kumar71@galgotias.edu,IT Support,Online fee payment gateway frequently shows transaction failed error.,2025-10-24 09:12:06
+Aisha Sinha,GU23ME388,aisha.sinha35@galgotias.edu,Academic,I was marked absent in Microprocessors class despite being present on 16/9/2024.,2026-01-06 09:12:06
+Shanaya Gupta,GU21MBA705,shanaya.gupta61@galgotias.edu,Academic,Assignment deadlines for Artificial Intelligence are too short and unrealistic.,2025-09-18 09:12:06
+Parth Iyer,GU24IT835,parth.iyer75@galgotias.edu,Transport,Bus service was suspended during exam period without notice.,2026-01-04 09:12:06
+Om Saxena,GU22EE404,om.saxena86@galgotias.edu,Fees,I paid my semester fee on 1/11/2024 but the portal still shows it as pending.,2025-07-28 09:12:06
+Dev Menon,GU24CE422,dev.menon96@galgotias.edu,Hostel,Electricity supply is frequently interrupted in C block hostel.,2025-08-05 09:12:06
+Diya Kumar,GU23CE106,diya.kumar43@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-09-28 09:12:06
+Tara Arora,GU22ME108,tara.arora86@galgotias.edu,IT Support,The IT helpdesk phone number is always busy and unhelpful.,2025-09-11 09:12:06
+Riya Rao,GU24CE156,riya.rao54@galgotias.edu,Examination,Results show I failed in Networks but I'm confident about my performance.,2026-01-18 09:12:06
+Laksh Trivedi,GU23BCA831,laksh.trivedi21@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-12-10 09:12:06
+Aditi Pillai,GU24BBA530,aditi.pillai33@galgotias.edu,Fees,My scholarship amount was supposed to be adjusted but full fee is being demanded.,2025-10-04 09:12:06
+Shanaya Jain,GU23EE531,shanaya.jain10@galgotias.edu,Academic,I scored 63 in Algorithms but my grade sheet shows 59. There is a discrepancy.,2025-08-31 09:12:06
+Sara Kumar,GU21EE696,sara.kumar56@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-08-03 09:12:06
+Karan Rao,GU23BCA182,karan.rao66@galgotias.edu,Security,The security guards behavior towards students is unprofessional.,2025-08-31 09:12:06
+Krishna Shah,GU23EE770,krishna.shah65@galgotias.edu,Examination,The exam hall seating arrangement was chaotic and poorly managed.,2025-08-06 09:12:06
+Riya Menon,GU21BBA300,riya.menon36@galgotias.edu,IT Support,Mobile app for college services has constant bugs and errors.,2025-12-25 09:12:06
+Krishna Chopra,GU22ME485,krishna.chopra28@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-09-27 09:12:06
+Shaurya Bansal,GU22ECE942,shaurya.bansal62@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2025-08-14 09:12:06
+Ahana Saxena,GU22BBA339,ahana.saxena43@galgotias.edu,Transport,Bus service was suspended during exam period without notice.,2026-01-09 09:12:06
+Kiara Gupta,GU24BBA398,kiara.gupta97@galgotias.edu,Fees,Bank transaction was successful but college system shows payment failed.,2025-09-18 09:12:06
+Arnav Sharma,GU22MBA854,arnav.sharma36@galgotias.edu,Fees,The fee structure is not clearly communicated for my course.,2025-10-19 09:12:06
+Arjun Kumar,GU23MBA168,arjun.kumar63@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 4 weeks.,2025-10-24 09:12:06
+Laksh Bansal,GU21ECE681,laksh.bansal65@galgotias.edu,Transport,The bus conductor is charging extra fare without proper reason.,2025-08-16 09:12:06
+Ahana Mishra,GU23BBA642,ahana.mishra58@galgotias.edu,Library,Internet computers in the library are very slow and outdated.,2025-12-30 09:12:06
+Sia Gupta,GU24MCA762,sia.gupta96@galgotias.edu,Transport,The college bus from Sector 62 is consistently late by 30 minutes.,2026-01-03 09:12:06
+Arjun Verma,GU24ECE906,arjun.verma94@galgotias.edu,IT Support,My login credentials for library database are not working.,2025-12-01 09:12:06
+Navya Mehta,GU22EE956,navya.mehta91@galgotias.edu,Library,My library card was deactivated without any notification.,2025-09-15 09:12:06
+Aditya Shah,GU22ME452,aditya.shah29@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-11-02 09:12:06
+Aditya Pandey,GU22BCA757,aditya.pandey11@galgotias.edu,Examination,The exam hall seating arrangement was chaotic and poorly managed.,2026-01-07 09:12:06
+Sara Bansal,GU21ECE356,sara.bansal87@galgotias.edu,Fees,I paid my semester fee on 28/8/2024 but the portal still shows it as pending.,2025-09-10 09:12:06
+Zara Khan,GU21MBA920,zara.khan69@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-12-10 09:12:06
+Vedant Khan,GU24CE394,vedant.khan83@galgotias.edu,Transport,The buses are not well-maintained and have mechanical issues.,2025-11-13 09:12:06
+Rohan Nair,GU24BCA847,rohan.nair81@galgotias.edu,Infrastructure,The seminar hall sound system has technical issues.,2025-10-20 09:12:06
+Tara Sinha,GU22EE183,tara.sinha83@galgotias.edu,Library,E-journal access is not working for my department.,2025-12-08 09:12:06
+Om Jain,GU24CE989,om.jain74@galgotias.edu,Academic,My mid-semester exam answer sheet for Data Structures was not shown for review.,2025-08-08 09:12:06
+Sanya Kulkarni,GU22CSE324,sanya.kulkarni41@galgotias.edu,Security,I lost my belongings in the campus and there's no lost and found system.,2025-11-23 09:12:06
+Sanya Menon,GU23CE170,sanya.menon91@galgotias.edu,IT Support,I am unable to access online course materials on the LMS platform.,2025-12-01 09:12:06
+Riya Menon,GU21BBA300,riya.menon36@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-11-27 09:12:06
+Vivaan Verma,GU22CE773,vivaan.verma58@galgotias.edu,Infrastructure,Laboratory equipment in Physics Lab is outdated and malfunctioning.,2025-10-26 09:12:06
+Ananya Sinha,GU22MCA842,ananya.sinha74@galgotias.edu,Fees,The fee structure is not clearly communicated for my course.,2025-08-15 09:12:06
+Vedant Reddy,GU24CSE775,vedant.reddy71@galgotias.edu,Hostel,Electricity supply is frequently interrupted in C block hostel.,2025-11-25 09:12:06
+Priya Sharma,GU21MCA759,priya.sharma61@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2025-08-03 09:12:06
+Saanvi Gupta,GU21EE853,saanvi.gupta15@galgotias.edu,Security,The security office does not respond to emergency calls promptly.,2025-09-17 09:12:06
+Aarav Menon,GU24MBA417,aarav.menon50@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-08-23 09:12:06
+Kiara Mishra,GU23EE809,kiara.mishra65@galgotias.edu,Infrastructure,The air conditioning in classroom 101 has not been working for a month.,2025-11-09 09:12:06
+Saanvi Agarwal,GU21ECE441,saanvi.agarwal93@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2026-01-17 09:12:06
+Parth Nair,GU22MBA925,parth.nair11@galgotias.edu,IT Support,My login credentials for library database are not working.,2025-11-08 09:12:06
+Atharv Khan,GU23IT650,atharv.khan57@galgotias.edu,Transport,College bus broke down on 9/1/2024 leaving students stranded.,2025-11-07 09:12:06
+Vivaan Rao,GU21ECE640,vivaan.rao83@galgotias.edu,Administration,My transcript request submitted on 18/6/2024 has not been processed yet.,2025-07-30 09:12:06
+Aarohi Singh,GU22ME540,aarohi.singh13@galgotias.edu,Examination,I couldn't appear for exam due to medical emergency and need to apply for special exam.,2025-09-13 09:12:06
+Mishka Malhotra,GU23CE797,mishka.malhotra48@galgotias.edu,Infrastructure,The parking area is insufficient and poorly maintained.,2025-08-05 09:12:06
+Aditi Singh,GU22ECE749,aditi.singh25@galgotias.edu,Examination,Internal marks are not updated on the portal before final examination.,2026-01-17 09:12:06
+Anvi Mehta,GU21BCA924,anvi.mehta59@galgotias.edu,Transport,The bus is overcrowded making it uncomfortable and unsafe.,2025-12-09 09:12:06
+Aditya Arora,GU23IT110,aditya.arora52@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2025-10-19 09:12:06
+Rudra Sinha,GU23ECE148,rudra.sinha85@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2025-12-27 09:12:06
+Aditya Singh,GU22CE129,aditya.singh26@galgotias.edu,Academic,My attendance percentage is incorrectly calculated. I attended 23 classes but it shows 45%.,2025-08-20 09:12:06
+Kiara Gupta,GU24BBA398,kiara.gupta97@galgotias.edu,Hostel,There are insects and pests in the mess dining area.,2025-12-02 09:12:06
+Diya Patel,GU21ECE717,diya.patel99@galgotias.edu,Transport,Bus route should include additional pickup point at Dadri.,2025-12-01 09:12:06
+Yash Gupta,GU22BBA529,yash.gupta97@galgotias.edu,Transport,Bus service from Pari Chowk should start earlier in the morning.,2025-08-09 09:12:06
+Ayaan Sharma,GU22EE483,ayaan.sharma79@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-12-29 09:12:06
+Riya Patel,GU23CSE449,riya.patel23@galgotias.edu,Fees,I paid my semester fee on 12/12/2024 but the portal still shows it as pending.,2025-11-06 09:12:06
+Saanvi Patel,GU22BBA304,saanvi.patel91@galgotias.edu,Security,There is no security personnel at the back gate during evening hours.,2025-11-13 09:12:06
+Nisha Menon,GU24EE306,nisha.menon71@galgotias.edu,IT Support,My student email account is not working since 12/5/2024.,2025-09-27 09:12:06
+Myra Tiwari,GU21IT253,myra.tiwari97@galgotias.edu,Academic,I submitted my Mathematics project on 18/5/2024 but it's still marked as pending.,2026-01-10 09:12:06
+Rohan Sinha,GU24ME798,rohan.sinha99@galgotias.edu,Transport,The bus driver behavior is rude and drives rashly.,2025-12-20 09:12:06
+Arjun Mishra,GU21BBA473,arjun.mishra78@galgotias.edu,Infrastructure,There are no proper sports facilities available on campus.,2025-09-06 09:12:06
+Raghav Tiwari,GU22CSE288,raghav.tiwari69@galgotias.edu,Fees,Hostel fee was deducted twice from my account this semester.,2026-01-11 09:12:06
+Riya Chopra,GU22BBA590,riya.chopra74@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2026-01-11 09:12:06
+Shanaya Jain,GU22ECE453,shanaya.jain29@galgotias.edu,Fees,My installment payment plan request has not been processed for 4 days.,2025-10-20 09:12:06
+Aryan Saxena,GU21MCA729,aryan.saxena49@galgotias.edu,Administration,I need character certificate for job but it's taking too long to process.,2025-08-25 09:12:06
+Mishka Iyer,GU24MBA620,mishka.iyer26@galgotias.edu,Infrastructure,There is no drinking water facility on the first floor.,2025-11-04 09:12:06
+Aanya Khan,GU23MBA637,aanya.khan97@galgotias.edu,Infrastructure,The canteen infrastructure needs renovation and expansion.,2025-09-09 09:12:06
+Nisha Verma,GU22MCA735,nisha.verma51@galgotias.edu,Transport,Bus service was suspended during exam period without notice.,2025-11-05 09:12:06
+Aryan Malhotra,GU22EE830,aryan.malhotra61@galgotias.edu,Fees,I paid my semester fee on 1/6/2024 but the portal still shows it as pending.,2025-09-05 09:12:06
+Shanaya Saxena,GU21MBA314,shanaya.saxena43@galgotias.edu,Fees,My installment payment plan request has not been processed for 10 days.,2025-07-24 09:12:06
+Yash Tiwari,GU22IT643,yash.tiwari92@galgotias.edu,Administration,My course completion certificate request is pending for 3 months.,2025-08-31 09:12:06
+Pari Patel,GU24EE412,pari.patel93@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-08-20 09:12:06
+Khushi Kulkarni,GU22CE471,khushi.kulkarni41@galgotias.edu,Administration,Document verification process is taking longer than promised.,2025-08-22 09:12:06
+Dhruv Pillai,GU23EE857,dhruv.pillai94@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-09-06 09:12:06
+Riya Kulkarni,GU22MCA579,riya.kulkarni11@galgotias.edu,Fees,I paid my semester fee on 15/8/2024 but the portal still shows it as pending.,2026-01-04 09:12:06
+Karan Singh,GU22MCA505,karan.singh17@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2025-08-29 09:12:06
+Aadhya Singh,GU24ME961,aadhya.singh45@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2025-12-12 09:12:06
+Om Patel,GU24MBA430,om.patel17@galgotias.edu,Academic,I was marked absent in Mathematics class despite being present on 24/3/2024.,2025-12-02 09:12:06
+Aryan Joshi,GU21CE666,aryan.joshi49@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-11-19 09:12:06
+Krishna Desai,GU22CSE972,krishna.desai34@galgotias.edu,Library,Book return date system is not working properly on the portal.,2026-01-01 09:12:06
+Riya Mehta,GU24CSE325,riya.mehta17@galgotias.edu,Library,The library database search system is difficult to use.,2025-08-21 09:12:06
+Avni Patel,GU24BCA753,avni.patel70@galgotias.edu,Transport,Bus route should include additional pickup point at Pari Chowk.,2025-10-18 09:12:06
+Aadhya Mishra,GU24MBA569,aadhya.mishra84@galgotias.edu,IT Support,Online assignment submission portal is not accepting files.,2025-10-28 09:12:06
+Raghav Malhotra,GU21ME412,raghav.malhotra20@galgotias.edu,Examination,Photocopy of my answer sheet request is pending for over 7 weeks.,2025-07-30 09:12:06
+Sara Tiwari,GU23ECE325,sara.tiwari94@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-07-28 09:12:06
+Arnav Reddy,GU21IT211,arnav.reddy63@galgotias.edu,Administration,My request for official documents was lost and I have to resubmit.,2025-11-04 09:12:06
+Sai Saxena,GU21BBA254,sai.saxena33@galgotias.edu,IT Support,Online assignment submission portal is not accepting files.,2025-09-14 09:12:06
+Pari Patel,GU24EE412,pari.patel93@galgotias.edu,Transport,I applied for bus pass on 24/4/2024 but haven't received it yet.,2025-11-21 09:12:06
+Aanya Khan,GU23MBA637,aanya.khan97@galgotias.edu,Security,My ID card was stolen from the locker room and needs immediate replacement.,2025-09-13 09:12:06
+Kabir Joshi,GU22CSE660,kabir.joshi14@galgotias.edu,IT Support,The IT helpdesk phone number is always busy and unhelpful.,2025-12-08 09:12:06
+Ahana Chopra,GU22CSE962,ahana.chopra14@galgotias.edu,Examination,I was given wrong question paper during Digital Electronics examination.,2025-07-30 09:12:06
+Parth Kumar,GU22BCA407,parth.kumar94@galgotias.edu,Fees,Fee receipt was not generated after payment through online mode.,2025-12-09 09:12:06
+Arnav Saxena,GU21BBA202,arnav.saxena98@galgotias.edu,Hostel,Room maintenance request submitted on 22/5/2024 has not been addressed yet.,2026-01-01 09:12:06
+Reyansh Rao,GU24CSE958,reyansh.rao41@galgotias.edu,Library,The library timing should be extended during examination period.,2025-09-30 09:12:06
+Atharv Nair,GU21CE215,atharv.nair53@galgotias.edu,Transport,The bus seating capacity is insufficient for the number of students.,2025-10-17 09:12:06
+Khushi Agarwal,GU21ECE611,khushi.agarwal85@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2025-09-23 09:12:06
+Shaurya Trivedi,GU22MCA235,shaurya.trivedi39@galgotias.edu,Administration,No proper queue system exists at the administrative office.,2025-08-09 09:12:06
+Kavya Iyer,GU21EE221,kavya.iyer51@galgotias.edu,Library,E-journal access is not working for my department.,2025-09-12 09:12:06
+Sara Kulkarni,GU24MBA716,sara.kulkarni22@galgotias.edu,Hostel,Room maintenance request submitted on 4/5/2024 has not been addressed yet.,2025-11-04 09:12:06
+Vihaan Patel,GU24IT170,vihaan.patel65@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-11-15 09:12:06
+Ahana Singh,GU21IT674,ahana.singh65@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2025-11-25 09:12:06
+Shanaya Jain,GU21ECE245,shanaya.jain83@galgotias.edu,Academic,My mid-semester exam answer sheet for Software Engineering was not shown for review.,2025-11-10 09:12:06
+Anvi Menon,GU21CSE974,anvi.menon78@galgotias.edu,Hostel,The mess serves cold and undercooked food repeatedly.,2025-11-26 09:12:06
+Krishna Bhat,GU21CE533,krishna.bhat22@galgotias.edu,Infrastructure,Laboratory equipment in Electronics Lab is outdated and malfunctioning.,2025-08-28 09:12:06
+Arjun Patel,GU21CE809,arjun.patel33@galgotias.edu,Fees,I need a fee refund as I withdrew from a course in the first week.,2025-10-17 09:12:06
+Riya Chopra,GU22BBA887,riya.chopra52@galgotias.edu,Hostel,The hostel warden is not available during designated hours.,2025-10-08 09:12:06
+Rudra Joshi,GU24IT569,rudra.joshi82@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2025-10-21 09:12:06
+Om Mehta,GU23IT537,om.mehta41@galgotias.edu,IT Support,I cannot log into the student portal despite resetting password multiple times.,2025-12-31 09:12:06
+Ahana Singh,GU21IT674,ahana.singh65@galgotias.edu,Fees,The finance office is not responding to my fee-related queries.,2025-08-31 09:12:06
+Aarav Joshi,GU24IT312,aarav.joshi16@galgotias.edu,Hostel,Electricity supply is frequently interrupted in B block hostel.,2026-01-11 09:12:06
+Avni Sinha,GU24CSE551,avni.sinha99@galgotias.edu,Transport,The college bus from Greater Noida is consistently late by 30 minutes.,2025-11-20 09:12:06
+Atharv Shah,GU24ECE354,atharv.shah75@galgotias.edu,Examination,Internal marks are not updated on the portal before final examination.,2025-11-30 09:12:06
+Arjun Jain,GU24MCA811,arjun.jain25@galgotias.edu,IT Support,The college WiFi is extremely slow and keeps disconnecting.,2025-11-28 09:12:06
+Riya Kulkarni,GU22MCA579,riya.kulkarni11@galgotias.edu,Transport,There is no bus service on weekends when we have special classes.,2026-01-08 09:12:06
+Yash Arora,GU24EE498,yash.arora81@galgotias.edu,Security,Female students feel unsafe walking in the campus after evening.,2025-08-13 09:12:06
+Ananya Kumar,GU23IT927,ananya.kumar33@galgotias.edu,Infrastructure,Laboratory equipment in Physics Lab is outdated and malfunctioning.,2026-01-13 09:12:06
+Sara Patel,GU23ECE852,sara.patel34@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-07-30 09:12:06
+Reyansh Desai,GU23ECE959,reyansh.desai23@galgotias.edu,Transport,Bus service from Sector 62 should start earlier in the morning.,2025-09-01 09:12:06
+Rohan Malhotra,GU24IT216,rohan.malhotra57@galgotias.edu,Administration,My course completion certificate request is pending for 3 months.,2025-09-24 09:12:06
+Aditya Saxena,GU23EE695,aditya.saxena94@galgotias.edu,Fees,My installment payment plan request has not been processed for 15 days.,2025-07-27 09:12:06
+Ahana Mehta,GU22ME433,ahana.mehta84@galgotias.edu,Academic,Class schedule for Thermodynamics keeps changing without prior notice.,2025-08-20 09:12:06
+Rudra Gupta,GU21CE296,rudra.gupta17@galgotias.edu,Fees,My installment payment plan request has not been processed for 15 days.,2025-12-12 09:12:06
+Harsh Arora,GU21IT320,harsh.arora92@galgotias.edu,Infrastructure,The campus roads have potholes that need urgent repair.,2025-10-31 09:12:06
+Vivaan Singh,GU21EE725,vivaan.singh95@galgotias.edu,Hostel,My room furniture is broken and replacement has been delayed.,2025-12-03 09:12:06
+Sia Saxena,GU22CSE612,sia.saxena29@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-11-23 09:12:06
+Aisha Sinha,GU23ME388,aisha.sinha35@galgotias.edu,Examination,I was given wrong question paper during Mathematics examination.,2025-10-12 09:12:06
+Sara Trivedi,GU23ME292,sara.trivedi58@galgotias.edu,Fees,Fee challan shows different amount than what was communicated earlier.,2026-01-17 09:12:06
+Diya Kumar,GU23CE106,diya.kumar43@galgotias.edu,Hostel,The cleaning staff doesn't clean our floor regularly in B block.,2026-01-10 09:12:06
+Aryan Reddy,GU21BBA169,aryan.reddy14@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-11-28 09:12:06
+Laksh Sharma,GU22EE773,laksh.sharma12@galgotias.edu,Administration,Administrative staff is not responsive to emails and phone calls.,2025-11-07 09:12:06
+Zara Tiwari,GU21MBA933,zara.tiwari62@galgotias.edu,Hostel,The common area washrooms are in poor hygiene condition.,2025-08-02 09:12:06
+Atharv Nair,GU21ME702,atharv.nair55@galgotias.edu,Transport,Bus timing does not align with class schedule changes.,2025-08-15 09:12:06
+Yash Singh,GU24EE574,yash.singh79@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2025-07-26 09:12:06
+Diya Gupta,GU22BCA744,diya.gupta79@galgotias.edu,Administration,No proper queue system exists at the administrative office.,2025-10-07 09:12:06
+Sai Iyer,GU24MBA273,sai.iyer31@galgotias.edu,Fees,I am eligible for fee concession but it hasn't been applied to my account.,2026-01-19 09:12:06
+Aditi Trivedi,GU22CSE579,aditi.trivedi99@galgotias.edu,IT Support,Internet speed in computer lab is too slow for practical work.,2025-08-14 09:12:06
+Kavya Pillai,GU24CE868,kavya.pillai51@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-11-06 09:12:06
+Aarohi Nair,GU24BBA904,aarohi.nair28@galgotias.edu,Academic,The Prof. Singh is using outdated teaching methods for Thermodynamics course.,2025-09-22 09:12:06
+Parth Sinha,GU21CE939,parth.sinha52@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2026-01-07 09:12:06
+Harsh Mishra,GU23BBA869,harsh.mishra73@galgotias.edu,Security,There are no proper lighting arrangements in the campus periphery.,2025-12-08 09:12:06
+Khushi Saxena,GU22CSE583,khushi.saxena93@galgotias.edu,IT Support,My login credentials for library database are not working.,2025-08-23 09:12:06
+Rohan Tiwari,GU22CSE855,rohan.tiwari79@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2025-09-16 09:12:06
+Vedant Singh,GU21MBA621,vedant.singh14@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-08-05 09:12:06
+Neil Khan,GU21ECE685,neil.khan95@galgotias.edu,Administration,The administrative procedures are overly bureaucratic and complicated.,2025-12-26 09:12:06
+Laksh Joshi,GU22MBA970,laksh.joshi18@galgotias.edu,Security,Emergency exit routes in buildings are blocked and unsafe.,2025-10-26 09:12:06
+Ahana Reddy,GU24IT866,ahana.reddy88@galgotias.edu,Fees,Late fee penalty was added even though I paid before the deadline.,2025-10-24 09:12:06
+Vivaan Shah,GU24CE514,vivaan.shah68@galgotias.edu,Examination,Exam schedule was changed at the last moment without proper notice.,2025-11-30 09:12:06
+Krishna Bansal,GU21ECE269,krishna.bansal85@galgotias.edu,Library,My library card was deactivated without any notification.,2025-09-04 09:12:06
+Atharv Chopra,GU23BBA959,atharv.chopra13@galgotias.edu,Administration,The admin office working hours are not student-friendly.,2025-10-26 09:12:06
+Neil Desai,GU21ECE378,neil.desai19@galgotias.edu,IT Support,The attendance marking system shows technical error repeatedly.,2025-08-24 09:12:06
+Riya Chopra,GU22MBA605,riya.chopra80@galgotias.edu,IT Support,My student email account is not working since 27/11/2024.,2025-10-22 09:12:06
+Ayaan Khan,GU24EE445,ayaan.khan16@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-09-07 09:12:06
+Tara Sinha,GU22EE183,tara.sinha83@galgotias.edu,Administration,Document verification process is taking longer than promised.,2025-09-25 09:12:06
+Vihaan Verma,GU21CE665,vihaan.verma29@galgotias.edu,Security,Outsiders are entering campus premises without proper verification.,2025-12-10 09:12:06
+Dhruv Trivedi,GU24CE770,dhruv.trivedi77@galgotias.edu,Library,The librarian is not helpful when asked for book recommendations.,2025-11-30 09:12:06
+Harsh Patel,GU24BBA310,harsh.patel55@galgotias.edu,Administration,I need bonafide certificate urgently but the admin office is delaying.,2025-12-13 09:12:06
+Ahana Menon,GU22CE100,ahana.menon56@galgotias.edu,Hostel,There are insects and pests in the mess dining area.,2025-12-05 09:12:06
+Sia Gupta,GU24MCA762,sia.gupta96@galgotias.edu,Infrastructure,The canteen infrastructure needs renovation and expansion.,2025-12-20 09:12:06
+Nisha Shah,GU22CE124,nisha.shah16@galgotias.edu,Library,The library database search system is difficult to use.,2025-11-19 09:12:06
+Dev Patel,GU23MCA774,dev.patel73@galgotias.edu,Library,Book borrowing limit is too restrictive for research students.,2025-10-01 09:12:06
+Kavya Patel,GU24MBA504,kavya.patel60@galgotias.edu,Hostel,Food portions in the mess are insufficient for students.,2025-11-23 09:12:06
+Om Singh,GU24CSE442,om.singh45@galgotias.edu,Infrastructure,Laboratory equipment in Physics Lab is outdated and malfunctioning.,2026-01-08 09:12:06
+Ayaan Desai,GU24CSE564,ayaan.desai59@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-12-22 09:12:06
+Ananya Joshi,GU22MCA960,ananya.joshi35@galgotias.edu,Library,I returned a book on time but still received a late fee notice.,2025-10-06 09:12:06
+Laksh Joshi,GU24CE826,laksh.joshi64@galgotias.edu,Library,Book return date system is not working properly on the portal.,2025-12-25 09:12:06
+Ananya Reddy,GU21BCA786,ananya.reddy24@galgotias.edu,Library,The library reading room is overcrowded and lacks seating.,2025-12-15 09:12:06
+Aditya Pandey,GU22BCA757,aditya.pandey11@galgotias.edu,Examination,My answer sheet for Artificial Intelligence appears to be missing from evaluation.,2025-08-04 09:12:06
+Sanya Kulkarni,GU22CSE324,sanya.kulkarni41@galgotias.edu,Examination,My admit card for the exam was not generated due to system error.,2025-08-03 09:12:06
+Dhruv Joshi,GU21IT669,dhruv.joshi50@galgotias.edu,Infrastructure,The campus roads have potholes that need urgent repair.,2025-08-14 09:12:06
+Ishita Menon,GU23IT676,ishita.menon43@galgotias.edu,Administration,Staff at the counter is rude and unprofessional in behavior.,2025-08-27 09:12:06
+Atharv Gupta,GU24BBA649,atharv.gupta42@galgotias.edu,Academic,The faculty Dr. Verma behavior towards students in class is unprofessional.,2025-12-18 09:12:06
+Sanya Pandey,GU22CSE323,sanya.pandey18@galgotias.edu,Examination,Results show I failed in Chemistry but I'm confident about my performance.,2025-08-01 09:12:06
+Rudra Desai,GU24BCA841,rudra.desai29@galgotias.edu,IT Support,The college WiFi is extremely slow and keeps disconnecting.,2025-11-03 09:12:06
+Aarohi Gupta,GU23EE694,aarohi.gupta47@galgotias.edu,Transport,The bus is overcrowded making it uncomfortable and unsafe.,2025-10-29 09:12:06
+Yash Arora,GU24EE498,yash.arora81@galgotias.edu,Examination,Online examination faced severe technical glitches during the test.,2025-09-12 09:12:06
+Om Sharma,GU21EE417,om.sharma83@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-08-17 09:12:06
+Myra Bansal,GU21CE880,myra.bansal48@galgotias.edu,Infrastructure,Laboratory equipment in Electronics Lab is outdated and malfunctioning.,2026-01-04 09:12:06
+Anvi Mehta,GU21BCA924,anvi.mehta59@galgotias.edu,Administration,The migration certificate processing time is unreasonably long.,2025-10-17 09:12:06
+Shaurya Gupta,GU21IT722,shaurya.gupta79@galgotias.edu,Examination,My roll number was not included in the final exam hall list.,2025-08-08 09:12:06
+Shanaya Joshi,GU24MBA389,shanaya.joshi98@galgotias.edu,IT Support,The exam registration portal crashed during the registration period.,2025-12-01 09:12:06
+Raghav Verma,GU24EE999,raghav.verma15@galgotias.edu,Academic,The syllabus for Web Development was not completed within the semester.,2025-12-14 09:12:06
+Kiara Gupta,GU24BBA398,kiara.gupta97@galgotias.edu,Academic,Practical marks allocation in Machine Learning lab is inconsistent across students.,2025-11-27 09:12:06
+Anvi Arora,GU24EE152,anvi.arora91@galgotias.edu,Examination,The exam hall seating arrangement was chaotic and poorly managed.,2025-08-03 09:12:06
+Aditi Arora,GU24MBA821,aditi.arora58@galgotias.edu,Security,My vehicle was damaged in the college parking but no CCTV footage available.,2025-12-25 09:12:06
+Vihaan Iyer,GU22CSE801,vihaan.iyer34@galgotias.edu,Hostel,My roommate creates noise late at night and the warden is not taking action.,2025-08-31 09:12:06
+Aadhya Mehta,GU22IT473,aadhya.mehta45@galgotias.edu,Infrastructure,The auditorium seating is uncomfortable and in bad condition.,2025-09-06 09:12:06
+Om Agarwal,GU24CSE920,om.agarwal68@galgotias.edu,Examination,The invigilator behavior during exam was rude and intimidating.,2025-11-07 09:12:06
+Aditya Sharma,GU22IT215,aditya.sharma25@galgotias.edu,Fees,Fee receipt was not generated after payment through online mode.,2025-09-22 09:12:06
+Aisha Sinha,GU23ME388,aisha.sinha35@galgotias.edu,Administration,The student services office provides conflicting information.,2025-12-30 09:12:06
+Shaurya Bansal,GU24ME901,shaurya.bansal56@galgotias.edu,Administration,My request for official documents was lost and I have to resubmit.,2025-10-08 09:12:06
+Karan Reddy,GU22CSE544,karan.reddy87@galgotias.edu,Security,There is no security personnel at the back gate during evening hours.,2025-09-22 09:12:06
+Diya Mishra,GU23MCA151,diya.mishra36@galgotias.edu,IT Support,The attendance marking system shows technical error repeatedly.,2025-10-08 09:12:06
+Rohan Pandey,GU23EE551,rohan.pandey15@galgotias.edu,Security,There are no proper lighting arrangements in the campus periphery.,2025-11-12 09:12:06
+Karan Desai,GU24CSE695,karan.desai81@galgotias.edu,Fees,The finance office is not responding to my fee-related queries.,2025-09-11 09:12:06
+Vihaan Khan,GU21BBA690,vihaan.khan93@galgotias.edu,Examination,My answer sheet for Data Structures appears to be missing from evaluation.,2025-11-30 09:12:06
