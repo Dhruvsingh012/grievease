@@ -1,25 +1,30 @@
 """
 NLP Module - GrievEase v3.0
 TF-IDF + Logistic Regression for complaint category prediction.
-Falls back to keyword matching if model not trained yet.
+Falls back to keyword matching if sklearn/numpy not available.
 """
 import os
 import joblib
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.pipeline import Pipeline
 
-MODEL_PATH     = "app/ml/category_model.pkl"
-VECTORIZER_PATH= "app/ml/category_vectorizer.pkl"
+# Optional imports - fall back gracefully if not installed
+try:
+    import numpy as np
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.linear_model import LogisticRegression
+    SKLEARN_AVAILABLE = True
+except ImportError:
+    SKLEARN_AVAILABLE = False
+    print("⚠️  sklearn/numpy not available. Using keyword-based prediction.")
 
-model      = None
-vectorizer = None
+MODEL_PATH      = "app/ml/category_model.pkl"
+VECTORIZER_PATH = "app/ml/category_vectorizer.pkl"
+
+model        = None
+vectorizer   = None
 MODEL_LOADED = False
 
-# ── Training Data ────────────────────────────────────────────────────────────
+# ── Training Data ─────────────────────────────────────────────────────────────
 TRAINING_DATA = [
-    # Academic
     ("marks not updated in portal", "Academic"),
     ("attendance shortage problem", "Academic"),
     ("faculty not teaching properly", "Academic"),
@@ -34,8 +39,6 @@ TRAINING_DATA = [
     ("practical classes not conducted", "Academic"),
     ("course material not provided", "Academic"),
     ("mentor not available for guidance", "Academic"),
-
-    # Administration
     ("bonafide certificate not issued", "Administration"),
     ("migration certificate pending", "Administration"),
     ("documents not processed by office", "Administration"),
@@ -46,8 +49,6 @@ TRAINING_DATA = [
     ("transfer certificate delay", "Administration"),
     ("duplicate marksheet request", "Administration"),
     ("college leaving certificate pending", "Administration"),
-
-    # Examination
     ("result not declared yet", "Examination"),
     ("re-evaluation application pending", "Examination"),
     ("hall ticket not generated", "Examination"),
@@ -58,8 +59,6 @@ TRAINING_DATA = [
     ("answer sheet not returned", "Examination"),
     ("practical exam date conflict", "Examination"),
     ("backlog exam not scheduled", "Examination"),
-
-    # Fees
     ("fee receipt not generated", "Fees"),
     ("excess fee charged this semester", "Fees"),
     ("refund not processed", "Fees"),
@@ -70,8 +69,6 @@ TRAINING_DATA = [
     ("fine imposed incorrectly", "Fees"),
     ("tuition fee late fine issue", "Fees"),
     ("fee concession not applied", "Fees"),
-
-    # Hostel
     ("hostel room not allotted", "Hostel"),
     ("mess food quality very bad", "Hostel"),
     ("water supply problem in hostel", "Hostel"),
@@ -84,8 +81,6 @@ TRAINING_DATA = [
     ("pest infestation in hostel room", "Hostel"),
     ("hostel curfew timing problem", "Hostel"),
     ("roommate conflict resolution needed", "Hostel"),
-
-    # IT Support
     ("unable to login to student portal", "IT Support"),
     ("erp system not working", "IT Support"),
     ("college wifi very slow", "IT Support"),
@@ -98,8 +93,6 @@ TRAINING_DATA = [
     ("student id card not generated in portal", "IT Support"),
     ("website login issue", "IT Support"),
     ("internet connectivity problem", "IT Support"),
-
-    # Infrastructure
     ("classroom projector broken", "Infrastructure"),
     ("chairs and furniture damaged in room", "Infrastructure"),
     ("leaking roof in classroom", "Infrastructure"),
@@ -111,8 +104,6 @@ TRAINING_DATA = [
     ("street light broken in campus", "Infrastructure"),
     ("construction noise disrupting class", "Infrastructure"),
     ("building maintenance required", "Infrastructure"),
-
-    # Library
     ("required book not available in library", "Library"),
     ("library fine imposed wrongly", "Library"),
     ("digital library access not working", "Library"),
@@ -122,8 +113,6 @@ TRAINING_DATA = [
     ("reading room overcrowded", "Library"),
     ("reference book request pending", "Library"),
     ("library membership not activated", "Library"),
-
-    # Security
     ("laptop stolen from campus", "Security"),
     ("ragging incident reported", "Security"),
     ("outsiders entering campus without check", "Security"),
@@ -134,8 +123,6 @@ TRAINING_DATA = [
     ("lost item not found in lost and found", "Security"),
     ("security guard misbehaved", "Security"),
     ("suspicious activity on campus", "Security"),
-
-    # Transport
     ("college bus always late", "Transport"),
     ("bus route changed without information", "Transport"),
     ("bus overcrowded daily", "Transport"),
@@ -148,29 +135,28 @@ TRAINING_DATA = [
     ("bus breakdown frequently", "Transport"),
 ]
 
-
-# ── Keyword Fallback ─────────────────────────────────────────────────────────
+# ── Keyword Fallback ──────────────────────────────────────────────────────────
 KEYWORDS = {
-    "Academic":       ["marks", "grades", "attendance", "faculty", "professor", "teacher", "syllabus",
-                       "assignment", "lecture", "result", "study", "class", "academic", "course", "project"],
+    "Academic":       ["marks", "grades", "attendance", "faculty", "professor", "teacher",
+                       "syllabus", "assignment", "lecture", "result", "study", "class", "academic", "course"],
     "Administration": ["bonafide", "certificate", "documents", "office", "admin", "migration",
                        "character", "scholarship", "transfer", "staff"],
-    "Examination":    ["exam", "examination", "result", "re-evaluation", "hall ticket", "supplementary",
-                       "revaluation", "backlog", "grace", "paper"],
-    "Fees":           ["fee", "fees", "refund", "payment", "receipt", "fine", "dues", "challan",
-                       "scholarship amount", "concession"],
-    "Hostel":         ["hostel", "mess", "food", "room", "warden", "dormitory", "hostel wifi",
+    "Examination":    ["exam", "examination", "result", "re-evaluation", "hall ticket",
+                       "supplementary", "revaluation", "backlog", "grace", "paper"],
+    "Fees":           ["fee", "fees", "refund", "payment", "receipt", "fine", "dues",
+                       "challan", "concession"],
+    "Hostel":         ["hostel", "mess", "food", "room", "warden", "dormitory",
                        "water hostel", "electricity hostel", "roommate"],
-    "IT Support":     ["portal", "login", "wifi", "network", "internet", "erp", "website", "password",
-                       "computer", "software", "it", "server", "email account"],
+    "IT Support":     ["portal", "login", "wifi", "network", "internet", "erp", "website",
+                       "password", "computer", "software", "it", "server", "email account"],
     "Infrastructure": ["projector", "classroom", "furniture", "building", "lift", "parking",
                        "construction", "roof", "ac", "air condition", "light", "maintenance"],
-    "Library":        ["library", "book", "librarian", "fine library", "journal", "reading room",
+    "Library":        ["library", "book", "librarian", "journal", "reading room",
                        "digital library", "reference"],
-    "Security":       ["stolen", "theft", "ragging", "security", "cctv", "lost", "suspicious",
-                       "eve teasing", "gate", "harassment"],
-    "Transport":      ["bus", "transport", "route", "driver", "vehicle", "pickup", "drop",
-                       "bus pass", "timing bus"],
+    "Security":       ["stolen", "theft", "ragging", "security", "cctv", "lost",
+                       "suspicious", "eve teasing", "gate", "harassment"],
+    "Transport":      ["bus", "transport", "route", "driver", "vehicle", "pickup",
+                       "drop", "bus pass", "timing bus"],
 }
 
 
@@ -185,19 +171,18 @@ def keyword_predict(text: str) -> str:
     return best if scores[best] > 0 else "Administration"
 
 
-# ── Model Training ───────────────────────────────────────────────────────────
 def train_model():
     global model, vectorizer, MODEL_LOADED
+    if not SKLEARN_AVAILABLE:
+        print("⚠️  sklearn not available. Skipping model training.")
+        return
     os.makedirs("app/ml", exist_ok=True)
     texts  = [t for t, _ in TRAINING_DATA]
     labels = [l for _, l in TRAINING_DATA]
-
     vectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=3000, sublinear_tf=True)
     X = vectorizer.fit_transform(texts)
-
     model = LogisticRegression(max_iter=1000, C=2.0, class_weight="balanced")
     model.fit(X, labels)
-
     joblib.dump(model,      MODEL_PATH)
     joblib.dump(vectorizer, VECTORIZER_PATH)
     MODEL_LOADED = True
@@ -206,6 +191,9 @@ def train_model():
 
 def load_model():
     global model, vectorizer, MODEL_LOADED
+    if not SKLEARN_AVAILABLE:
+        print("⚠️  sklearn not available. Using keyword prediction.")
+        return
     if os.path.exists(MODEL_PATH) and os.path.exists(VECTORIZER_PATH):
         try:
             model      = joblib.load(MODEL_PATH)
@@ -213,10 +201,10 @@ def load_model():
             MODEL_LOADED = True
             print("✅ NLP model loaded from disk.")
         except Exception as e:
-            print(f"⚠️  Could not load model: {e}. Training fresh model.")
+            print(f"⚠️  Could not load model: {e}. Training fresh.")
             train_model()
     else:
-        print("📚 No saved model found. Training fresh model…")
+        print("📚 No saved model. Training fresh…")
         train_model()
 
 
@@ -233,5 +221,5 @@ def predict_category(text: str) -> str:
     return keyword_predict(text)
 
 
-# ── Auto-load on import ──────────────────────────────────────────────────────
+# Auto-load on import
 load_model()
