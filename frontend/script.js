@@ -6,8 +6,8 @@
              Audit Log, Escalation, SLA countdown, WebSocket
 ================================================================ */
 
-// API_BASE: set window.__API_BASE__ in index.html for production deployment
-// Falls back to localhost:8000 for local development
+// API_BASE: window.__API_BASE__ set karo HTML mein production ke liye
+// Local dev ke liye http://127.0.0.1:8000 use hoga
 const API_BASE = window.__API_BASE__ || "http://127.0.0.1:8000";
 
 const COLORS = ["#2563eb","#16a34a","#d97706","#dc2626","#7c3aed","#0891b2","#be185d","#15803d","#c2410c","#1d4ed8"];
@@ -1098,7 +1098,8 @@ async function submitStaffComment() {
 /* ── WebSocket ───────────────────────────────────────────────── */
 function initWebSocket(userType, userId) {
   try {
-    const ws = new WebSocket(`ws://127.0.0.1:8000/ws/${userType}/${userId}`);
+    const wsBase = (API_BASE || "http://127.0.0.1:8000").replace("https://","wss://").replace("http://","ws://");
+    const ws = new WebSocket(`${wsBase}/ws/${userType}/${userId}`);
     ws.onmessage = (e) => {
       try {
         const data = JSON.parse(e.data);
@@ -1126,33 +1127,6 @@ if (page.includes("student-dashboard")) {
 /* ── Login page helpers ─────────────────────────────────────── */
 document.addEventListener("DOMContentLoaded", () => {
 
-  /* ---------- SESSION GUARD ON LOGIN PAGES ---------- */
-  // Prevents old tokens from wrong portals causing redirect confusion
-  (function sessionGuard() {
-    const p   = window.location.pathname;
-    const tok = getToken();
-    const usr = getUser();
-    if (!p.includes("login")) return;
-    if (!tok || !usr) return;
-
-    // Same portal already logged in — redirect to dashboard
-    if (p.includes("student-login") && usr.type === "student") {
-      window.location.href = "student-dashboard.html"; return;
-    }
-    if (p.includes("staff-login") && usr.type === "staff") {
-      window.location.href = "staff-dashboard.html"; return;
-    }
-    if (p.includes("admin-login") && (usr.type === "admin" || usr.type === "super_admin")) {
-      window.location.href = "admin-dashboard.html"; return;
-    }
-
-    // Wrong portal token — clear it so login page works clean
-    sessionStorage.removeItem("grievease_token");
-    sessionStorage.removeItem("grievease_user");
-    localStorage.removeItem("grievease_token");
-    localStorage.removeItem("grievease_user");
-  })();
-
   /* ---------- STUDENT LOGIN ---------- */
   const sForm = document.getElementById("studentLoginForm");
   if (sForm) {
@@ -1170,7 +1144,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       if (btn) { btn.disabled = true; btn.textContent = "Logging in…"; }
       try {
-        const res = await fetch("http://127.0.0.1:8000/api/users/student/login", {
+        const res = await fetch(API.studentLogin, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ name, email, admission_number: admn }),
@@ -1180,7 +1154,7 @@ document.addEventListener("DOMContentLoaded", () => {
           throw new Error(typeof err.detail === "string" ? err.detail : "Login failed");
         }
         const data = await res.json();
-        const me = await fetch("http://127.0.0.1:8000/api/users/me", {
+        const me = await fetch(API.me, {
           headers: { "Authorization": "Bearer " + data.access_token }
         }).then(r => r.json()).catch(() => ({}));
         const user = { id: me.id, type: "student", name: me.name || name, email: me.email || email, admission_number: me.admission_number || admn };
@@ -1215,7 +1189,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       if (btn) { btn.disabled = true; btn.textContent = "Logging in…"; }
       try {
-        const res = await fetch("http://127.0.0.1:8000/api/users/admin/login", {
+        const res = await fetch(API.adminLogin, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ username, password }),
@@ -1254,14 +1228,14 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       if (btn) { btn.disabled = true; btn.textContent = "Logging in…"; }
       try {
-        const res = await fetch("http://127.0.0.1:8000/api/users/staff/login", {
+        const res = await fetch(API.staffLogin, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email, password }),
         });
         if (!res.ok) throw new Error("Invalid email or password");
         const data = await res.json();
-        const me = await fetch("http://127.0.0.1:8000/api/users/me", {
+        const me = await fetch(API.me, {
           headers: { "Authorization": "Bearer " + data.access_token }
         }).then(r => r.json()).catch(() => ({}));
         const user = { ...me, type: "staff" };
@@ -1284,7 +1258,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("guestAccess")?.addEventListener("click", async () => {
     const errEl = document.getElementById("studentLoginError");
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/users/student/login", {
+      const res = await fetch(API.studentLogin, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: "Guest User", email: "guest@demo.com", admission_number: "GUEST2024" }),
@@ -1306,7 +1280,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const landingTotal    = document.getElementById("landingTotal");
   const landingResolved = document.getElementById("landingResolved");
   if (landingTotal || landingResolved) {
-    fetch("http://127.0.0.1:8000/api/complaints/stats")
+    fetch(API.stats)
       .then(r => r.json())
       .then(d => {
         if (landingTotal)    landingTotal.textContent    = d.total    || 0;
